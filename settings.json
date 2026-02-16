@@ -1,0 +1,85 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(sed:*)",
+      "Bash(awk:*)",
+      "Bash(sort:*)",
+      "Bash(uniq:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*.pyc)",
+      "Bash(rm:*__pycache__*)",
+      "Bash(python:scripts/*)",
+      "Bash(python:-c *)",
+      "Bash(python:-m pytest*)",
+      "Bash(python:-m http.server*)",
+      "Bash(pip:install *)",
+      "Bash(pip:list*)",
+      "Bash(git:status*)",
+      "Bash(git:diff*)",
+      "Bash(git:add *)",
+      "Bash(git:commit *)",
+      "Bash(git:log*)",
+      "Bash(git:branch*)",
+      "Bash(npm:run *)",
+      "Bash(npm:install*)",
+      "Bash(echo:*)",
+      "Bash(touch:*)",
+      "Bash(chmod:*)",
+      "Read(*)",
+      "Write(paper/*)",
+      "Write(scripts/*)",
+      "Write(data/*)",
+      "Write(docs/*)",
+      "Write(.claude/*)",
+      "Write(README.md)",
+      "Write(*.py)",
+      "Write(*.md)",
+      "Write(*.json)",
+      "Write(*.html)",
+      "Write(*.css)",
+      "Write(*.js)"
+    ],
+    "deny": [
+      "Bash(rm:-rf *)",
+      "Bash(sudo:*)",
+      "Bash(chmod:777 *)",
+      "Write(/etc/*)",
+      "Write(/usr/*)",
+      "Write(~/.ssh/*)"
+    ]
+  },
+  "preferences": {
+    "autoAcceptEdits": true,
+    "compactMode": false,
+    "verboseToolCalls": false,
+    "maxTurnsWithoutConfirmation": 25
+  },
+  "context": {
+    "alwaysInclude": [
+      ".claude/CLAUDE.md"
+    ],
+    "ignorePatterns": [
+      "node_modules/**",
+      "__pycache__/**",
+      "*.pyc",
+      ".git/**",
+      "data/processed/**"
+    ]
+  },
+  "project": {
+    "name": "Cricket Anthropometric Research",
+    "type": "research-paper",
+    "primaryLanguage": "python",
+    "secondaryLanguages": ["markdown", "html", "javascript"],
+    "outputFormats": ["markdown", "pdf", "github-pages"]
+  }
+}

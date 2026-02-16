@@ -1,0 +1,874 @@
+{
+  "table2_descriptive": {
+    "by_category": {
+      "count": {
+        "BAT": 989,
+        "FAST": 580,
+        "SPIN": 231,
+        "WK": 180
+      },
+      "mean": {
+        "BAT": 178.87,
+        "FAST": 185.49,
+        "SPIN": 178.58,
+        "WK": 174.54
+      },
+      "std": {
+        "BAT": 6.42,
+        "FAST": 6.85,
+        "SPIN": 6.02,
+        "WK": 4.25
+      },
+      "min": {
+        "BAT": 160.0,
+        "FAST": 168.0,
+        "SPIN": 163.0,
+        "WK": 165.0
+      },
+      "max": {
+        "BAT": 201.0,
+        "FAST": 216.0,
+        "SPIN": 201.0,
+        "WK": 185.0
+      }
+    },
+    "by_era": {
+      "count": {
+        "1": 308,
+        "2": 264,
+        "3": 616,
+        "4": 792
+      },
+      "mean": {
+        "1": 177.86,
+        "2": 179.39,
+        "3": 181.36,
+        "4": 180.92
+      },
+      "std": {
+        "1": 7.42,
+        "2": 7.6,
+        "3": 6.59,
+        "4": 7.27
+      },
+      "min": {
+        "1": 160.0,
+        "2": 160.0,
+        "3": 165.0,
+        "4": 163.0
+      },
+      "max": {
+        "1": 203.0,
+        "2": 201.0,
+        "3": 201.0,
+        "4": 216.0
+      }
+    },
+    "excess_by_category": {
+      "count": {
+        "BAT": 989,
+        "FAST": 580,
+        "SPIN": 231,
+        "WK": 180
+      },
+      "mean": {
+        "BAT": 7.43,
+        "FAST": 13.59,
+        "SPIN": 7.88,
+        "WK": 3.12
+      },
+      "std": {
+        "BAT": 6.25,
+        "FAST": 6.74,
+        "SPIN": 5.94,
+        "WK": 4.19
+      },
+      "min": {
+        "BAT": -9.1,
+        "FAST": -3.4,
+        "SPIN": -3.4,
+        "WK": -8.2
+      },
+      "max": {
+        "BAT": 27.3,
+        "FAST": 49.0,
+        "SPIN": 27.8,
+        "WK": 14.5
+      }
+    },
+    "overall": {
+      "n": 1980,
+      "n_verified": 1363,
+      "mean_height": 180.38,
+      "std_height": 7.24,
+      "n_unique_players": 871,
+      "n_tournaments": 23
+    }
+  },
+  "table3_unadjusted": {
+    "WK": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 180,
+      "r_squared": 0.0173,
+      "adj_r_squared": 0.0118,
+      "f_statistic": 3.1323,
+      "f_pvalue": 0.078469,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 96.1545,
+          "std_err": 44.2937,
+          "t_value": 2.1708,
+          "p_value": 0.031267,
+          "ci_lower": 8.7461,
+          "ci_upper": 183.5628
+        },
+        "tournament_year": {
+          "estimate": 0.0391,
+          "std_err": 0.0221,
+          "t_value": 1.7698,
+          "p_value": 0.078469,
+          "ci_lower": -0.0045,
+          "ci_upper": 0.0826
+        }
+      }
+    },
+    "BAT": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 989,
+      "r_squared": 0.0429,
+      "adj_r_squared": 0.0419,
+      "f_statistic": 44.251,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": -4.8115,
+          "std_err": 27.6124,
+          "t_value": -0.1743,
+          "p_value": 0.861703,
+          "ci_lower": -58.9974,
+          "ci_upper": 49.3743
+        },
+        "tournament_year": {
+          "estimate": 0.0915,
+          "std_err": 0.0138,
+          "t_value": 6.6521,
+          "p_value": 0.0,
+          "ci_lower": 0.0645,
+          "ci_upper": 0.1186
+        }
+      }
+    },
+    "FAST": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 580,
+      "r_squared": 0.0181,
+      "adj_r_squared": 0.0164,
+      "f_statistic": 10.6357,
+      "f_pvalue": 0.001175,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 54.8363,
+          "std_err": 40.0639,
+          "t_value": 1.3687,
+          "p_value": 0.171619,
+          "ci_lower": -23.8523,
+          "ci_upper": 133.5249
+        },
+        "tournament_year": {
+          "estimate": 0.0651,
+          "std_err": 0.02,
+          "t_value": 3.2612,
+          "p_value": 0.001175,
+          "ci_lower": 0.0259,
+          "ci_upper": 0.1043
+        }
+      }
+    },
+    "SPIN": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 231,
+      "r_squared": 0.0271,
+      "adj_r_squared": 0.0228,
+      "f_statistic": 6.3729,
+      "f_pvalue": 0.012265,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 26.483,
+          "std_err": 60.2488,
+          "t_value": 0.4396,
+          "p_value": 0.66067,
+          "ci_lower": -92.2298,
+          "ci_upper": 145.1959
+        },
+        "tournament_year": {
+          "estimate": 0.0757,
+          "std_err": 0.03,
+          "t_value": 2.5245,
+          "p_value": 0.012265,
+          "ci_lower": 0.0166,
+          "ci_upper": 0.1347
+        }
+      }
+    },
+    "ALL": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 1980,
+      "r_squared": 0.0229,
+      "adj_r_squared": 0.0224,
+      "f_statistic": 46.3072,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 26.4239,
+          "std_err": 22.6247,
+          "t_value": 1.1679,
+          "p_value": 0.242978,
+          "ci_lower": -17.9468,
+          "ci_upper": 70.7947
+        },
+        "tournament_year": {
+          "estimate": 0.0767,
+          "std_err": 0.0113,
+          "t_value": 6.8049,
+          "p_value": 0.0,
+          "ci_lower": 0.0546,
+          "ci_upper": 0.0988
+        }
+      }
+    }
+  },
+  "table4_adjusted": {
+    "WK": {
+      "formula": "height_cm ~ tournament_year + pop_height_birth_cohort",
+      "n": 180,
+      "r_squared": 0.3522,
+      "adj_r_squared": 0.3448,
+      "f_statistic": 48.1082,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 82.7332,
+          "std_err": 36.0923,
+          "t_value": 2.2923,
+          "p_value": 0.023067,
+          "ci_lower": 11.5065,
+          "ci_upper": 153.9599
+        },
+        "tournament_year": {
+          "estimate": 0.0023,
+          "std_err": 0.0184,
+          "t_value": 0.1245,
+          "p_value": 0.901067,
+          "ci_lower": -0.034,
+          "ci_upper": 0.0385
+        },
+        "pop_height_birth_cohort": {
+          "estimate": 0.5088,
+          "std_err": 0.0532,
+          "t_value": 9.5651,
+          "p_value": 0.0,
+          "ci_lower": 0.4038,
+          "ci_upper": 0.6138
+        }
+      }
+    },
+    "BAT": {
+      "formula": "height_cm ~ tournament_year + pop_height_birth_cohort",
+      "n": 989,
+      "r_squared": 0.1899,
+      "adj_r_squared": 0.1882,
+      "f_statistic": 115.534,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": -18.4238,
+          "std_err": 25.4377,
+          "t_value": -0.7243,
+          "p_value": 0.469071,
+          "ci_lower": -68.342,
+          "ci_upper": 31.4944
+        },
+        "tournament_year": {
+          "estimate": 0.0549,
+          "std_err": 0.013,
+          "t_value": 4.2377,
+          "p_value": 2.5e-05,
+          "ci_lower": 0.0295,
+          "ci_upper": 0.0804
+        },
+        "pop_height_birth_cohort": {
+          "estimate": 0.508,
+          "std_err": 0.038,
+          "t_value": 13.3732,
+          "p_value": 0.0,
+          "ci_lower": 0.4335,
+          "ci_upper": 0.5826
+        }
+      }
+    },
+    "FAST": {
+      "formula": "height_cm ~ tournament_year + pop_height_birth_cohort",
+      "n": 580,
+      "r_squared": 0.1428,
+      "adj_r_squared": 0.1398,
+      "f_statistic": 48.0609,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 26.6063,
+          "std_err": 37.5918,
+          "t_value": 0.7078,
+          "p_value": 0.479375,
+          "ci_lower": -47.2272,
+          "ci_upper": 100.4397
+        },
+        "tournament_year": {
+          "estimate": 0.0352,
+          "std_err": 0.0189,
+          "t_value": 1.8571,
+          "p_value": 0.06381,
+          "ci_lower": -0.002,
+          "ci_upper": 0.0724
+        },
+        "pop_height_birth_cohort": {
+          "estimate": 0.5134,
+          "std_err": 0.056,
+          "t_value": 9.1629,
+          "p_value": 0.0,
+          "ci_lower": 0.4034,
+          "ci_upper": 0.6234
+        }
+      }
+    },
+    "SPIN": {
+      "formula": "height_cm ~ tournament_year + pop_height_birth_cohort",
+      "n": 231,
+      "r_squared": 0.1884,
+      "adj_r_squared": 0.1813,
+      "f_statistic": 26.4717,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 49.0282,
+          "std_err": 55.248,
+          "t_value": 0.8874,
+          "p_value": 0.375787,
+          "ci_lower": -59.8336,
+          "ci_upper": 157.8901
+        },
+        "tournament_year": {
+          "estimate": 0.0218,
+          "std_err": 0.0286,
+          "t_value": 0.7634,
+          "p_value": 0.445997,
+          "ci_lower": -0.0345,
+          "ci_upper": 0.0781
+        },
+        "pop_height_birth_cohort": {
+          "estimate": 0.502,
+          "std_err": 0.0746,
+          "t_value": 6.7333,
+          "p_value": 0.0,
+          "ci_lower": 0.3551,
+          "ci_upper": 0.649
+        }
+      }
+    },
+    "ALL": {
+      "formula": "height_cm ~ tournament_year + pop_height_birth_cohort",
+      "n": 1980,
+      "r_squared": 0.1537,
+      "adj_r_squared": 0.1529,
+      "f_statistic": 179.5598,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 9.2052,
+          "std_err": 21.0838,
+          "t_value": 0.4366,
+          "p_value": 0.662449,
+          "ci_lower": -32.1436,
+          "ci_upper": 50.5539
+        },
+        "tournament_year": {
+          "estimate": 0.0388,
+          "std_err": 0.0107,
+          "t_value": 3.6261,
+          "p_value": 0.000295,
+          "ci_lower": 0.0178,
+          "ci_upper": 0.0599
+        },
+        "pop_height_birth_cohort": {
+          "estimate": 0.5435,
+          "std_err": 0.0311,
+          "t_value": 17.4837,
+          "p_value": 0.0,
+          "ci_lower": 0.4825,
+          "ci_upper": 0.6045
+        }
+      }
+    }
+  },
+  "table5_country": {
+    "AUS": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 128,
+      "r_squared": 0.0169,
+      "adj_r_squared": 0.0091,
+      "f_statistic": 2.1666,
+      "f_pvalue": 0.14353,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 72.9364,
+          "std_err": 72.664,
+          "t_value": 1.0037,
+          "p_value": 0.317424,
+          "ci_lower": -70.8636,
+          "ci_upper": 216.7364
+        },
+        "tournament_year": {
+          "estimate": 0.0533,
+          "std_err": 0.0362,
+          "t_value": 1.4719,
+          "p_value": 0.14353,
+          "ci_lower": -0.0184,
+          "ci_upper": 0.125
+        }
+      }
+    },
+    "ENG": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 125,
+      "r_squared": 0.0069,
+      "adj_r_squared": -0.0012,
+      "f_statistic": 0.8484,
+      "f_pvalue": 0.358799,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 117.4418,
+          "std_err": 70.22,
+          "t_value": 1.6725,
+          "p_value": 0.096971,
+          "ci_lower": -21.5544,
+          "ci_upper": 256.438
+        },
+        "tournament_year": {
+          "estimate": 0.0323,
+          "std_err": 0.035,
+          "t_value": 0.9211,
+          "p_value": 0.358799,
+          "ci_lower": -0.0371,
+          "ci_upper": 0.1016
+        }
+      }
+    },
+    "IND": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 125,
+      "r_squared": 0.1225,
+      "adj_r_squared": 0.1154,
+      "f_statistic": 17.1736,
+      "f_pvalue": 6.3e-05,
+      "coefficients": {
+        "Intercept": {
+          "estimate": -94.5072,
+          "std_err": 65.1225,
+          "t_value": -1.4512,
+          "p_value": 0.149264,
+          "ci_lower": -223.4133,
+          "ci_upper": 34.3989
+        },
+        "tournament_year": {
+          "estimate": 0.1346,
+          "std_err": 0.0325,
+          "t_value": 4.1441,
+          "p_value": 6.3e-05,
+          "ci_lower": 0.0703,
+          "ci_upper": 0.1988
+        }
+      }
+    },
+    "PAK": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 126,
+      "r_squared": 0.0411,
+      "adj_r_squared": 0.0333,
+      "f_statistic": 5.3103,
+      "f_pvalue": 0.022863,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 65.9069,
+          "std_err": 48.8059,
+          "t_value": 1.3504,
+          "p_value": 0.179351,
+          "ci_lower": -30.6937,
+          "ci_upper": 162.5076
+        },
+        "tournament_year": {
+          "estimate": 0.0561,
+          "std_err": 0.0243,
+          "t_value": 2.3044,
+          "p_value": 0.022863,
+          "ci_lower": 0.0079,
+          "ci_upper": 0.1042
+        }
+      }
+    },
+    "WI": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 128,
+      "r_squared": 0.0302,
+      "adj_r_squared": 0.0225,
+      "f_statistic": 3.9251,
+      "f_pvalue": 0.049746,
+      "coefficients": {
+        "Intercept": {
+          "estimate": -4.2958,
+          "std_err": 92.5793,
+          "t_value": -0.0464,
+          "p_value": 0.963064,
+          "ci_lower": -187.5075,
+          "ci_upper": 178.9159
+        },
+        "tournament_year": {
+          "estimate": 0.0914,
+          "std_err": 0.0462,
+          "t_value": 1.9812,
+          "p_value": 0.049746,
+          "ci_lower": 0.0001,
+          "ci_upper": 0.1828
+        }
+      }
+    },
+    "NZL": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 130,
+      "r_squared": 0.0547,
+      "adj_r_squared": 0.0473,
+      "f_statistic": 7.4063,
+      "f_pvalue": 0.007405,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 34.956,
+          "std_err": 53.9341,
+          "t_value": 0.6481,
+          "p_value": 0.518065,
+          "ci_lower": -71.7618,
+          "ci_upper": 141.6739
+        },
+        "tournament_year": {
+          "estimate": 0.0732,
+          "std_err": 0.0269,
+          "t_value": 2.7214,
+          "p_value": 0.007405,
+          "ci_lower": 0.02,
+          "ci_upper": 0.1264
+        }
+      }
+    },
+    "SL": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 127,
+      "r_squared": 0.3192,
+      "adj_r_squared": 0.3137,
+      "f_statistic": 58.5967,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": -227.8822,
+          "std_err": 52.4277,
+          "t_value": -4.3466,
+          "p_value": 2.8e-05,
+          "ci_lower": -331.6432,
+          "ci_upper": -124.1212
+        },
+        "tournament_year": {
+          "estimate": 0.2001,
+          "std_err": 0.0261,
+          "t_value": 7.6548,
+          "p_value": 0.0,
+          "ci_lower": 0.1484,
+          "ci_upper": 0.2518
+        }
+      }
+    },
+    "RSA": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 100,
+      "r_squared": 0.0069,
+      "adj_r_squared": -0.0033,
+      "f_statistic": 0.6768,
+      "f_pvalue": 0.4127,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 274.7305,
+          "std_err": 113.5242,
+          "t_value": 2.42,
+          "p_value": 0.017362,
+          "ci_lower": 49.4455,
+          "ci_upper": 500.0155
+        },
+        "tournament_year": {
+          "estimate": -0.0464,
+          "std_err": 0.0564,
+          "t_value": -0.8227,
+          "p_value": 0.4127,
+          "ci_lower": -0.1584,
+          "ci_upper": 0.0656
+        }
+      }
+    }
+  },
+  "table6_regional": {
+    "overall_anova": {
+      "f_statistic": 75.3974,
+      "p_value": 0.0,
+      "regions": [
+        "African",
+        "Caribbean",
+        "European",
+        "Oceanian",
+        "South Asian"
+      ]
+    },
+    "region_descriptive": {
+      "count": {
+        "African": 209,
+        "Caribbean": 253,
+        "European": 253,
+        "Oceanian": 506,
+        "South Asian": 759
+      },
+      "mean": {
+        "African": 182.33,
+        "Caribbean": 181.55,
+        "European": 183.21,
+        "Oceanian": 182.52,
+        "South Asian": 177.08
+      },
+      "std": {
+        "African": 7.09,
+        "Caribbean": 8.58,
+        "European": 6.33,
+        "Oceanian": 6.15,
+        "South Asian": 6.47
+      }
+    }
+  },
+  "table7_breakpoint": {
+    "BAT": {
+      "best_breakpoint": 2012,
+      "f_statistic": 5.4065,
+      "p_value": 0.004621,
+      "significant": "True",
+      "pre_slope": 0.1436,
+      "post_slope": 0.0274
+    },
+    "FAST": {
+      "best_breakpoint": 2012,
+      "f_statistic": 1.2879,
+      "p_value": 0.276654,
+      "significant": "False",
+      "pre_slope": 0.0475,
+      "post_slope": -0.0767
+    },
+    "ALL": {
+      "best_breakpoint": 1999,
+      "f_statistic": 8.7583,
+      "p_value": 0.000163,
+      "significant": "True",
+      "pre_slope": 0.121,
+      "post_slope": -0.0299
+    }
+  },
+  "table8_two_way_anova": {
+    "anova_table": {
+      "C(category)": {
+        "sum_sq": 24163.7772,
+        "df": 3.0,
+        "F": 209.4017,
+        "PR(>F)": 0.0
+      },
+      "C(era)": {
+        "sum_sq": 2894.1659,
+        "df": 3.0,
+        "F": 25.0807,
+        "PR(>F)": 0.0
+      },
+      "C(category):C(era)": {
+        "sum_sq": 942.1443,
+        "df": 9.0,
+        "F": 2.7215,
+        "PR(>F)": 0.003732
+      },
+      "Residual": {
+        "sum_sq": 75544.8297,
+        "df": 1964.0,
+        "F": null,
+        "PR(>F)": null
+      }
+    }
+  },
+  "table9_mixed_effects": {
+    "model1": {
+      "converged": true,
+      "n": 1980,
+      "n_groups": 1,
+      "log_likelihood": -6242.5992,
+      "aic": NaN,
+      "bic": NaN,
+      "fixed_effects": {
+        "Intercept": {
+          "estimate": 33.4786,
+          "std_err": 17.9562
+        },
+        "tournament_year": {
+          "estimate": 0.0725,
+          "std_err": 0.0089
+        },
+        "category_FAST": {
+          "estimate": 6.3601,
+          "std_err": 0.2939
+        },
+        "category_SPIN": {
+          "estimate": -0.0359,
+          "std_err": 0.413
+        },
+        "category_WK": {
+          "estimate": -4.3741,
+          "std_err": 0.4549
+        }
+      }
+    },
+    "model2": {
+      "converged": true,
+      "n": 1980,
+      "log_likelihood": -6239.7528,
+      "aic": NaN,
+      "bic": NaN
+    }
+  },
+  "table10_sensitivity": {
+    "verified_only": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 1363,
+      "r_squared": 0.0008,
+      "adj_r_squared": 0.0001,
+      "f_statistic": 1.1503,
+      "f_pvalue": 0.283681,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 220.7219,
+          "std_err": 36.3706,
+          "t_value": 6.0687,
+          "p_value": 0.0,
+          "ci_lower": 149.3733,
+          "ci_upper": 292.0705
+        },
+        "tournament_year": {
+          "estimate": -0.0194,
+          "std_err": 0.0181,
+          "t_value": -1.0725,
+          "p_value": 0.283681,
+          "ci_lower": -0.0549,
+          "ci_upper": 0.0161
+        }
+      }
+    },
+    "unflagged_only": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 1215,
+      "r_squared": 0.001,
+      "adj_r_squared": 0.0001,
+      "f_statistic": 1.1621,
+      "f_pvalue": 0.281255,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 223.1924,
+          "std_err": 38.807,
+          "t_value": 5.7513,
+          "p_value": 0.0,
+          "ci_lower": 147.056,
+          "ci_upper": 299.3288
+        },
+        "tournament_year": {
+          "estimate": -0.0208,
+          "std_err": 0.0193,
+          "t_value": -1.078,
+          "p_value": 0.281255,
+          "ci_lower": -0.0587,
+          "ci_upper": 0.0171
+        }
+      }
+    },
+    "odi_only": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 1100,
+      "r_squared": 0.0336,
+      "adj_r_squared": 0.0327,
+      "f_statistic": 38.1365,
+      "f_pvalue": 0.0,
+      "coefficients": {
+        "Intercept": {
+          "estimate": -4.2149,
+          "std_err": 29.7991,
+          "t_value": -0.1414,
+          "p_value": 0.887546,
+          "ci_lower": -62.6844,
+          "ci_upper": 54.2547
+        },
+        "tournament_year": {
+          "estimate": 0.092,
+          "std_err": 0.0149,
+          "t_value": 6.1755,
+          "p_value": 0.0,
+          "ci_lower": 0.0628,
+          "ci_upper": 0.1213
+        }
+      }
+    },
+    "t20_only": {
+      "formula": "height_cm ~ tournament_year",
+      "n": 880,
+      "r_squared": 0.0011,
+      "adj_r_squared": -0.0001,
+      "f_statistic": 0.9445,
+      "f_pvalue": 0.331389,
+      "coefficients": {
+        "Intercept": {
+          "estimate": 252.9586,
+          "std_err": 73.9397,
+          "t_value": 3.4211,
+          "p_value": 0.000652,
+          "ci_lower": 107.8393,
+          "ci_upper": 398.0779
+        },
+        "tournament_year": {
+          "estimate": -0.0356,
+          "std_err": 0.0367,
+          "t_value": -0.9719,
+          "p_value": 0.331389,
+          "ci_lower": -0.1076,
+          "ci_upper": 0.0363
+        }
+      }
+    },
+    "format_comparison": {
+      "odi_mean": 181.1,
+      "odi_n": 440,
+      "t20_mean": 181.1,
+      "t20_n": 880,
+      "t_statistic": -0.0111,
+      "p_value": 0.991132,
+      "cohens_d": -0.0006
+    },
+    "fast_vs_bat": {
+      "fast_mean": 185.49,
+      "bat_mean": 178.87,
+      "difference": 6.63,
+      "cohens_d": 0.9986,
+      "t_statistic": 18.9336,
+      "p_value": 0.0
+    }
+  }
+}
