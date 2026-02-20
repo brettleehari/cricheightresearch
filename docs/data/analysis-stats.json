@@ -1,0 +1,94 @@
+{
+  "n_observations": 1980,
+  "n_players": 871,
+  "n_tournaments": 23,
+  "mean_excess": 8.9,
+  "mean_height": 180.38,
+  "category_means": {
+    "BAT": 178.87,
+    "FAST": 185.49,
+    "SPIN": 178.58,
+    "WK": 174.54
+  },
+  "category_counts": {
+    "BAT": 989,
+    "FAST": 580,
+    "SPIN": 231,
+    "WK": 180
+  },
+  "category_excess": {
+    "BAT": 7.43,
+    "FAST": 13.59,
+    "SPIN": 7.88,
+    "WK": 3.12
+  },
+  "breakpoint_bat": {
+    "best_breakpoint": 2012,
+    "f_statistic": 5.4065,
+    "p_value": 0.004621,
+    "significant": "True",
+    "pre_slope": 0.1436,
+    "post_slope": 0.0274
+  },
+  "format_comparison": {
+    "odi_mean": 181.1,
+    "odi_n": 440,
+    "t20_mean": 181.1,
+    "t20_n": 880,
+    "t_statistic": -0.0111,
+    "p_value": 0.991132,
+    "cohens_d": -0.0006
+  },
+  "fast_vs_bat": {
+    "fast_mean": 185.49,
+    "bat_mean": 178.87,
+    "difference": 6.63,
+    "cohens_d": 0.9986,
+    "t_statistic": 18.9336,
+    "p_value": 0.0
+  },
+  "bat_unadjusted_slope": 0.0915,
+  "bat_adjusted_slope": 0.0549,
+  "country_slopes": {
+    "AUS": {
+      "slope": 0.0533,
+      "p_value": 0.14353,
+      "n": 128
+    },
+    "ENG": {
+      "slope": 0.0323,
+      "p_value": 0.358799,
+      "n": 125
+    },
+    "IND": {
+      "slope": 0.1346,
+      "p_value": 6.3e-05,
+      "n": 125
+    },
+    "PAK": {
+      "slope": 0.0561,
+      "p_value": 0.022863,
+      "n": 126
+    },
+    "WI": {
+      "slope": 0.0914,
+      "p_value": 0.049746,
+      "n": 128
+    },
+    "NZL": {
+      "slope": 0.0732,
+      "p_value": 0.007405,
+      "n": 130
+    },
+    "SL": {
+      "slope": 0.2001,
+      "p_value": 0.0,
+      "n": 127
+    },
+    "RSA": {
+      "slope": -0.0464,
+      "p_value": 0.4127,
+      "n": 100
+    }
+  }
+}

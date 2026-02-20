@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Height Dashboard | Anthropometric Trends in International Cricket</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">Cricket Heights</a>
+    <ul class="nav-links">
+      <li><a href="#hero">Overview</a></li>
+      <li><a href="#temporal">Temporal Trends</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#countries">Countries</a></li>
+      <li><a href="#formats">ODI vs T20</a></li>
+      <li><a href="#players">Player Explorer</a></li>
+      <li><a href="#gallery">Figures</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- 1. Hero / Overview -->
+<section id="hero" class="hero">
+  <div class="container">
+    <h1>Height Selection in International Cricket</h1>
+    <p>An interactive exploration of anthropometric trends across 23 ICC World Cups (1975&ndash;2026), testing whether cricket shows sport-specific height selection beyond population demographics.</p>
+    <div class="stat-cards" id="stat-cards">
+      <div class="stat-card">
+        <div class="stat-value" data-target="1980">0</div>
+        <div class="stat-label">Player-Tournament Records</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-target="871">0</div>
+        <div class="stat-label">Unique Players</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-target="23">0</div>
+        <div class="stat-label">World Cups</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value" data-prefix="+" data-suffix=" cm" data-target="8.9" data-decimals="1">0</div>
+        <div class="stat-label">Mean Pop. Excess</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2. Temporal Trends -->
+<section id="temporal">
+  <div class="container">
+    <h2 class="section-title">Temporal Trends</h2>
+    <p class="section-subtitle">How have cricket player heights changed over 50 years?</p>
+
+    <div class="filter-bar" id="temporal-filters">
+      <label>Category:</label>
+      <span class="chip active" data-cat="ALL">All</span>
+      <span class="chip active" data-cat="BAT" style="--c:var(--bat)">BAT</span>
+      <span class="chip active" data-cat="FAST" style="--c:var(--fast)">FAST</span>
+      <span class="chip active" data-cat="SPIN" style="--c:var(--spin)">SPIN</span>
+      <span class="chip active" data-cat="WK" style="--c:var(--wk)">WK</span>
+      <label style="margin-left:1rem">Format:</label>
+      <select id="format-filter">
+        <option value="ALL">All Formats</option>
+        <option value="ODI">ODI Only</option>
+        <option value="T20">T20 Only</option>
+      </select>
+    </div>
+
+    <div class="chart-row">
+      <div class="chart-container">
+        <canvas id="chart-temporal"></canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="chart-pop-excess"></canvas>
+      </div>
+    </div>
+
+    <div class="callout" id="breakpoint-callout">
+      <strong>Breakpoint detected at 2012:</strong> Batsman heights rose at +0.14 cm/year before 2012, slowing to +0.03 cm/year after (Chow test <em>p</em> = .005).
+    </div>
+  </div>
+</section>
+
+<!-- 3. Category Comparison -->
+<section id="categories">
+  <div class="container">
+    <h2 class="section-title">Category Comparison</h2>
+    <p class="section-subtitle">Fast bowlers tower over other roles &mdash; a consistent finding across eras.</p>
+
+    <div class="chart-row">
+      <div class="chart-container">
+        <canvas id="chart-category-bar"></canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="chart-category-excess"></canvas>
+      </div>
+    </div>
+
+    <h3 style="margin: 1.5rem 0 1rem; font-size: 1.1rem;">Evolution by Era</h3>
+    <div class="small-multiples" id="era-multiples">
+      <div class="chart-container"><h4>Era 1 (1975&ndash;1987)</h4><canvas id="chart-era1"></canvas></div>
+      <div class="chart-container"><h4>Era 2 (1992&ndash;1999)</h4><canvas id="chart-era2"></canvas></div>
+      <div class="chart-container"><h4>Era 3 (2003&ndash;2014)</h4><canvas id="chart-era3"></canvas></div>
+      <div class="chart-container"><h4>Era 4 (2015&ndash;2026)</h4><canvas id="chart-era4"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. Country Analysis -->
+<section id="countries">
+  <div class="container">
+    <h2 class="section-title">Country Analysis</h2>
+    <p class="section-subtitle">Height selection varies dramatically across nations.</p>
+
+    <div class="filter-bar" id="country-filters">
+      <label>Category:</label>
+      <select id="country-cat-filter">
+        <option value="ALL">All Categories</option>
+        <option value="BAT">Batsmen</option>
+        <option value="FAST">Fast Bowlers</option>
+        <option value="SPIN">Spinners</option>
+        <option value="WK">Wicketkeepers</option>
+      </select>
+    </div>
+
+    <div class="chart-row">
+      <div class="chart-container">
+        <canvas id="chart-country-bar"></canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="chart-country-slope"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. ODI vs T20 -->
+<section id="formats">
+  <div class="container">
+    <h2 class="section-title">ODI vs T20</h2>
+    <p class="section-subtitle">Does the T20 format select for taller players?</p>
+
+    <div class="chart-row">
+      <div class="chart-container">
+        <canvas id="chart-format-comparison"></canvas>
+      </div>
+      <div class="chart-container" style="display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:2rem;">
+        <div style="font-size:3rem;font-weight:700;color:var(--text-muted);font-family:'Merriweather',serif;">p = .99</div>
+        <div style="font-size:1.1rem;color:var(--text-muted);margin-top:0.5rem;">No significant difference</div>
+        <div style="margin-top:1.5rem;font-size:0.9rem;color:var(--text-muted);max-width:350px;">
+          ODI mean: <strong id="odi-mean">181.1</strong> cm &nbsp;|&nbsp;
+          T20 mean: <strong id="t20-mean">181.1</strong> cm<br>
+          Cohen's <em>d</em> = <span id="format-d">0.001</span> (negligible)
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>Null finding:</strong> The T20 format does not appear to select for taller players compared to ODI cricket (<em>t</em> = &minus;0.01, <em>p</em> = .99, Cohen's <em>d</em> &lt; 0.01).
+    </div>
+  </div>
+</section>
+
+<!-- 6. Player Explorer -->
+<section id="players">
+  <div class="container">
+    <h2 class="section-title">Player Explorer</h2>
+    <p class="section-subtitle">Search, filter, and sort all 1,980 player-tournament records.</p>
+
+    <div class="table-controls">
+      <input type="text" class="table-search" id="table-search" placeholder="Search by player name...">
+      <select id="table-country">
+        <option value="">All Countries</option>
+        <option value="AUS">Australia</option>
+        <option value="ENG">England</option>
+        <option value="IND">India</option>
+        <option value="NZL">New Zealand</option>
+        <option value="PAK">Pakistan</option>
+        <option value="RSA">South Africa</option>
+        <option value="SL">Sri Lanka</option>
+        <option value="WI">West Indies</option>
+      </select>
+      <select id="table-category">
+        <option value="">All Categories</option>
+        <option value="BAT">BAT</option>
+        <option value="FAST">FAST</option>
+        <option value="SPIN">SPIN</option>
+        <option value="WK">WK</option>
+      </select>
+      <select id="table-format">
+        <option value="">All Formats</option>
+        <option value="ODI">ODI</option>
+        <option value="T20">T20</option>
+      </select>
+    </div>
+
+    <div class="table-wrap">
+      <table id="player-table">
+        <thead>
+          <tr>
+            <th data-col="full_name">Player</th>
+            <th data-col="country">Country</th>
+            <th data-col="category">Category</th>
+            <th data-col="height_cm" data-type="num">Height (cm)</th>
+            <th data-col="height_excess" data-type="num">Pop. Excess</th>
+            <th data-col="tournament_id">Tournament</th>
+            <th data-col="tournament_year" data-type="num">Year</th>
+            <th data-col="format">Format</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div class="table-info" id="table-info"></div>
+      <div class="pagination" id="table-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Figure Gallery -->
+<section id="gallery">
+  <div class="container">
+    <h2 class="section-title">Research Figures</h2>
+    <p class="section-subtitle">All 32 publication figures from the study. Click to enlarge.</p>
+
+    <div class="gallery-filter" id="gallery-filter">
+      <button class="active" data-topic="all">All (32)</button>
+      <button data-topic="distribution">Distributions</button>
+      <button data-topic="temporal">Temporal</button>
+      <button data-topic="country">Country</button>
+      <button data-topic="comparison">Comparisons</button>
+      <button data-topic="other">Other</button>
+    </div>
+
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <button class="lightbox-nav lightbox-prev" aria-label="Previous">&lsaquo;</button>
+  <button class="lightbox-nav lightbox-next" aria-label="Next">&rsaquo;</button>
+  <img id="lightbox-img" src="" alt="">
+  <div class="lightbox-caption" id="lightbox-caption"></div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    Cricket Anthropometric Research &mdash; Data from 23 ICC World Cups (1975&ndash;2026)
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="js/data-loader.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/table.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
