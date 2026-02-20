@@ -827,6 +827,266 @@ def fig8_main_figure(df: pd.DataFrame):
     print(f"  Saved: {path}")
 
 
+COUNTRY_COLORS = {
+    "AUS": "#FFD700",  # gold
+    "ENG": "#003478",  # navy
+    "IND": "#FF9933",  # saffron
+    "PAK": "#01411C",  # dark green
+    "WI": "#7B0041",   # maroon
+    "NZL": "#000000",  # black
+    "SL": "#0000FF",   # blue
+    "RSA": "#007749",  # green
+}
+
+COUNTRY_NAMES = {
+    "AUS": "Australia", "ENG": "England", "IND": "India", "PAK": "Pakistan",
+    "WI": "West Indies", "NZL": "New Zealand", "SL": "Sri Lanka", "RSA": "South Africa",
+}
+
+
+def fig9_country_bat_vs_population(df: pd.DataFrame):
+    """Per-country BAT heights vs population baseline (2x4 grid)."""
+    bat = df[df["category"] == "BAT"].dropna(
+        subset=["height_cm", "tournament_year", "pop_height_birth_cohort"]
+    )
+    if len(bat) == 0:
+        print("  Skipping fig9: no BAT population-matched data.")
+        return
+
+    fig, axes = plt.subplots(2, 4, figsize=(20, 10), sharey=True)
+    axes = axes.flatten()
+
+    for idx, country in enumerate(NATION_ORDER):
+        ax = axes[idx]
+        sub = bat[bat["country"] == country]
+        if len(sub) < 3:
+            ax.text(0.5, 0.5, f"{COUNTRY_NAMES[country]}\nInsufficient data",
+                    transform=ax.transAxes, ha="center", va="center", fontsize=11)
+            ax.set_title(COUNTRY_NAMES[country], fontsize=11, fontweight="bold")
+            continue
+
+        # Group by tournament year
+        yearly = sub.groupby("tournament_year").agg(
+            cricket_mean=("height_cm", "mean"),
+            cricket_sem=("height_cm", lambda x: x.std() / np.sqrt(len(x)) if len(x) > 1 else 0),
+            pop_mean=("pop_height_birth_cohort", "mean"),
+            n=("height_cm", "count"),
+        ).reset_index()
+
+        # Cricket heights with error bars
+        ax.errorbar(
+            yearly["tournament_year"], yearly["cricket_mean"],
+            yerr=yearly["cricket_sem"] * 1.96,
+            fmt="o-", color=COUNTRY_COLORS.get(country, "#0072B2"),
+            linewidth=1.5, markersize=4, capsize=2, label="BAT mean", zorder=3,
+        )
+
+        # Population baseline
+        ax.plot(
+            yearly["tournament_year"], yearly["pop_mean"],
+            "s--", color="#D55E00", linewidth=1.5, markersize=3,
+            label="Population", zorder=3,
+        )
+
+        # Fill between
+        ax.fill_between(
+            yearly["tournament_year"],
+            yearly["pop_mean"],
+            yearly["cricket_mean"],
+            alpha=0.15, color=COUNTRY_COLORS.get(country, "#0072B2"),
+        )
+
+        # Regression lines
+        if HAS_STATSMODELS and len(sub) >= 10:
+            try:
+                model_unadj = smf.ols("height_cm ~ tournament_year", data=sub).fit()
+                x_range = np.linspace(sub["tournament_year"].min(), sub["tournament_year"].max(), 50)
+                y_unadj = model_unadj.predict(pd.DataFrame({"tournament_year": x_range}))
+                slope_u = model_unadj.params["tournament_year"]
+                p_u = model_unadj.pvalues["tournament_year"]
+                sig_u = "*" if p_u < 0.05 else ""
+
+                model_adj = smf.ols(
+                    "height_cm ~ tournament_year + pop_height_birth_cohort", data=sub
+                ).fit()
+                slope_a = model_adj.params["tournament_year"]
+                p_a = model_adj.pvalues["tournament_year"]
+                sig_a = "*" if p_a < 0.05 else ""
+
+                ax.plot(x_range, y_unadj, "--", color=COUNTRY_COLORS.get(country, "#0072B2"),
+                        linewidth=1, alpha=0.5)
+
+                # Annotation box
+                ax.text(
+                    0.05, 0.95,
+                    f"\u03B2={slope_u:+.3f}{sig_u}\n\u03B2_adj={slope_a:+.3f}{sig_a}\nn={len(sub)}",
+                    transform=ax.transAxes, fontsize=8, va="top",
+                    bbox=dict(boxstyle="round,pad=0.3", fc="white", alpha=0.8, ec="gray"),
+                )
+            except Exception:
+                ax.text(0.05, 0.95, f"n={len(sub)}", transform=ax.transAxes, fontsize=8, va="top",
+                        bbox=dict(boxstyle="round,pad=0.3", fc="white", alpha=0.8, ec="gray"))
+        else:
+            ax.text(0.05, 0.95, f"n={len(sub)}", transform=ax.transAxes, fontsize=8, va="top",
+                    bbox=dict(boxstyle="round,pad=0.3", fc="white", alpha=0.8, ec="gray"))
+
+        ax.set_title(COUNTRY_NAMES[country], fontsize=11, fontweight="bold")
+        ax.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=5))
+
+        if idx % 4 == 0:
+            ax.set_ylabel("Height (cm)")
+        if idx >= 4:
+            ax.set_xlabel("Tournament Year")
+
+    # Common legend
+    handles, labels = axes[0].get_legend_handles_labels()
+    if handles:
+        fig.legend(handles, labels, loc="lower center", ncol=3, fontsize=10,
+                   bbox_to_anchor=(0.5, -0.02), frameon=True)
+
+    fig.suptitle("Top-Order Batsman Heights vs Population Baseline by Country",
+                 fontsize=14, fontweight="bold", y=1.02)
+    plt.tight_layout()
+    path = FIGURES_DIR / "fig9_country_bat_vs_population.png"
+    fig.savefig(path, dpi=DPI, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  Saved: {path}")
+
+
+def _country_segmented_regression(df: pd.DataFrame, category: str, cat_label: str, fig_name: str):
+    """Per-country segmented regression for a given category (2x4 grid)."""
+    cat_data = df[df["category"] == category].dropna(subset=["height_cm", "tournament_year"])
+    if len(cat_data) == 0:
+        print(f"  Skipping {fig_name}: no {category} data.")
+        return
+
+    fig, axes = plt.subplots(2, 4, figsize=(20, 10), sharey=True)
+    axes = axes.flatten()
+
+    candidate_years = [1996, 1999, 2003, 2007, 2010, 2012]
+
+    for idx, country in enumerate(NATION_ORDER):
+        ax = axes[idx]
+        sub = cat_data[cat_data["country"] == country]
+        color = COUNTRY_COLORS.get(country, "#0072B2")
+
+        if len(sub) < 10:
+            ax.text(0.5, 0.5, f"{COUNTRY_NAMES[country]}\nInsufficient data\n(n={len(sub)})",
+                    transform=ax.transAxes, ha="center", va="center", fontsize=11)
+            ax.set_title(COUNTRY_NAMES[country], fontsize=11, fontweight="bold")
+            continue
+
+        # Scatter
+        ax.scatter(
+            sub["tournament_year"], sub["height_cm"],
+            c=color, alpha=0.35, s=20, edgecolors="none",
+        )
+
+        # Find best breakpoint via Chow test
+        best_bp = None
+        best_f = -1
+        best_p = 1.0
+
+        if HAS_STATSMODELS:
+            for bp in candidate_years:
+                pre = sub[sub["tournament_year"] <= bp]
+                post = sub[sub["tournament_year"] > bp]
+                if len(pre) < 5 or len(post) < 5:
+                    continue
+                try:
+                    model_full = smf.ols("height_cm ~ tournament_year", data=sub).fit()
+                    model_pre = smf.ols("height_cm ~ tournament_year", data=pre).fit()
+                    model_post = smf.ols("height_cm ~ tournament_year", data=post).fit()
+                    rss_full = model_full.ssr
+                    rss_rest = model_pre.ssr + model_post.ssr
+                    k = 2
+                    n = len(sub)
+                    f_stat = ((rss_full - rss_rest) / k) / (rss_rest / (n - 2 * k))
+                    if f_stat > best_f:
+                        best_f = f_stat
+                        best_bp = bp
+                        from scipy.stats import f as f_dist
+                        best_p = 1 - f_dist.cdf(f_stat, k, n - 2 * k)
+                except Exception:
+                    continue
+
+        if best_bp is None:
+            # No valid breakpoint found; draw single regression
+            z = np.polyfit(sub["tournament_year"], sub["height_cm"], 1)
+            p_line = np.poly1d(z)
+            x_range = np.linspace(sub["tournament_year"].min(), sub["tournament_year"].max(), 50)
+            ax.plot(x_range, p_line(x_range), color=color, linewidth=2)
+            ax.text(
+                0.05, 0.95,
+                f"\u03B2={z[0]:+.3f}\nn={len(sub)}\nNo valid BP",
+                transform=ax.transAxes, fontsize=8, va="top",
+                bbox=dict(boxstyle="round,pad=0.3", fc="white", alpha=0.8, ec="gray"),
+            )
+        else:
+            # Segmented regression
+            pre = sub[sub["tournament_year"] <= best_bp]
+            post = sub[sub["tournament_year"] > best_bp]
+
+            for seg, seg_label in [(pre, "Pre"), (post, "Post")]:
+                if len(seg) < 3:
+                    continue
+                z = np.polyfit(seg["tournament_year"], seg["height_cm"], 1)
+                p_line = np.poly1d(z)
+                x_range = np.linspace(seg["tournament_year"].min(), seg["tournament_year"].max(), 50)
+                ax.plot(x_range, p_line(x_range), color=color, linewidth=2.5)
+
+                # Annotate slope on the line
+                mid_x = seg["tournament_year"].median()
+                mid_y = p_line(mid_x)
+                offset_y = 3 if seg_label == "Pre" else -4
+                ax.annotate(
+                    f"\u03B2={z[0]:+.3f}", xy=(mid_x, mid_y),
+                    xytext=(0, offset_y), textcoords="offset points",
+                    fontsize=8, fontweight="bold", color=color,
+                    ha="center", va="bottom" if offset_y > 0 else "top",
+                    bbox=dict(boxstyle="round,pad=0.2", fc="white", alpha=0.8, ec="none"),
+                )
+
+            # Breakpoint vertical line
+            ax.axvline(x=best_bp, color="gray", linestyle="--", linewidth=1, alpha=0.7)
+
+            # Breakpoint info box
+            sig_str = f"p={best_p:.3f}" if best_p >= 0.001 else "p<.001"
+            bp_sig = "*" if best_p < 0.05 else ""
+            ax.text(
+                0.05, 0.95,
+                f"BP={best_bp}{bp_sig}\nF={best_f:.1f}, {sig_str}\nn={len(sub)}",
+                transform=ax.transAxes, fontsize=8, va="top",
+                bbox=dict(boxstyle="round,pad=0.3", fc="lightyellow", alpha=0.9, ec="gray"),
+            )
+
+        ax.set_title(COUNTRY_NAMES[country], fontsize=11, fontweight="bold")
+        ax.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=5))
+
+        if idx % 4 == 0:
+            ax.set_ylabel("Height (cm)")
+        if idx >= 4:
+            ax.set_xlabel("Tournament Year")
+
+    fig.suptitle(f"{cat_label} — Segmented Regression by Country",
+                 fontsize=14, fontweight="bold", y=1.02)
+    plt.tight_layout()
+    path = FIGURES_DIR / fig_name
+    fig.savefig(path, dpi=DPI, bbox_inches="tight")
+    plt.close(fig)
+    print(f"  Saved: {path}")
+
+
+def fig10_country_bat_segmented(df: pd.DataFrame):
+    """Per-country segmented regression for top-order batsmen."""
+    _country_segmented_regression(df, "BAT", "Top-Order Batsmen", "fig10_country_bat_segmented.png")
+
+
+def fig11_country_fast_segmented(df: pd.DataFrame):
+    """Per-country segmented regression for fast bowlers."""
+    _country_segmented_regression(df, "FAST", "Fast Bowlers", "fig11_country_fast_segmented.png")
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -866,6 +1126,9 @@ def main():
     fig6_breakpoint(df_valid)
     fig7_format_comparison(df_valid)
     fig8_main_figure(df_valid)
+    fig9_country_bat_vs_population(df_valid)
+    fig10_country_bat_segmented(df_valid)
+    fig11_country_fast_segmented(df_valid)
 
     print(f"\nAll figures saved to: {FIGURES_DIR}")
     print("Done.")

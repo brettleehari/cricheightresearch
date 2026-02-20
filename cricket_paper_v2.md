@@ -181,6 +181,59 @@ All analyses were conducted in Python 3.11 using pandas, numpy, scipy, statsmode
 
 ## 3. Results
 
+### How to Read This Section: A Guide to Statistical Notation
+
+This section presents quantitative findings using standard statistical notation. To ensure accessibility for readers without a statistics background, we define every symbol and term used in the tables and text below.
+
+**Basic Descriptive Terms**
+
+| Symbol / Term | What It Means | Example from This Study |
+|---------------|---------------|------------------------|
+| ***n*** | The **number of observations** — how many player-tournament records were counted | *n* = 1,980 means we analyzed 1,980 player records across all tournaments |
+| **Mean** | The **arithmetic average** — add up all values and divide by the count | Mean height of 180.4 cm means the average player is 180.4 cm tall |
+| **SD (Standard Deviation)** | A measure of **how spread out** values are around the mean. Small SD = players are similar in height; large SD = heights vary widely. When written as "178.9 (6.4)", the 178.9 is the mean and 6.4 is the SD | SD = 6.4 cm means most players fall within about 6.4 cm above or below the mean |
+| **Min / Max** | The **smallest and largest** values observed | Min = 160.0, Max = 216.0 means the shortest player was 160 cm and the tallest was 216 cm |
+| **Population Excess** | How much **taller** a player is compared to the average adult male in their home country, matched to the same birth year. Positive values mean cricketers are taller than typical men from their country | Pop. Excess = +13.6 cm for fast bowlers means they are 13.6 cm taller than the general male population of their home country |
+
+**Regression and Trend Terms**
+
+| Symbol / Term | What It Means | Example from This Study |
+|---------------|---------------|------------------------|
+| **β (beta)** | The **regression slope** — how much height changes for each one-year increase in tournament year. Think of it as the "rate of change" | β = 0.092 means height increases by 0.092 cm for each passing year (about 0.9 cm per decade) |
+| **β_adj (adjusted beta)** | The slope **after removing the effect of population height growth**. This isolates the sport-specific component — the part of the trend that cannot be explained by populations simply getting taller | β_adj = 0.055 means that even after accounting for taller populations, batsman height still increases by 0.055 cm/year |
+| **SE (Standard Error)** | How **precisely** we have estimated a value. Smaller SE = more confidence in the estimate | SE = 0.014 means our estimate of β could be off by roughly ±0.014 |
+| **95% CI (Confidence Interval)** | The range within which we are **95% confident** the true value falls | 95% CI [0.065, 0.119] means we are 95% confident the true slope is between 0.065 and 0.119 |
+| ***R*² (R-squared)** | The **proportion of variation explained** by the model. *R*² = 0 means the model explains nothing; *R*² = 1.0 means it explains everything | *R*² = .043 means tournament year explains about 4.3% of the variation in batsman heights |
+| **ΔR² (Delta R-squared)** | The **improvement** in explanation when adding a new variable to the model | ΔR² = .147 means adding population height as a predictor explains an additional 14.7% of the variation |
+| **Attenuation ratio** | The proportion of the original trend that **survives** after adjusting for population growth. If the ratio is 0.60, then 60% of the trend is sport-specific and 40% was due to demographic shifts | Attenuation = 0.60 means 60% of the batsman height trend is genuine sport selection, 40% is just taller populations |
+
+**Significance Testing — "Is This Result Real or Just Chance?"**
+
+| Symbol / Term | What It Means | How to Interpret |
+|---------------|---------------|-----------------|
+| ***p*-value** | The probability of observing results this extreme **if there were truly no effect**. A small *p*-value means the finding is unlikely to be a coincidence | *p* < .001 = very strong evidence (less than 0.1% chance of being random); *p* < .05 = statistically significant; *p* > .05 = not significant (could be chance) |
+| ***t*-statistic** | A test statistic for comparing **two groups** (e.g., ODI vs T20 heights). Larger values indicate bigger differences relative to the variability in the data | *t* = 18.93 for FAST vs BAT comparison means the height difference is very large relative to the spread |
+| ***F*-statistic** | A test statistic for comparing **multiple groups** simultaneously (e.g., all four player categories at once). Like *t* but for more than two groups | *F*(3, 1964) = 209.4 means the differences among the four categories are very unlikely to be due to chance |
+| **df (degrees of freedom)** | A technical value related to sample size that determines how to interpret *t* and *F* statistics. Larger df generally means more reliable estimates | *F*(3, 1964): the "3" reflects 4 categories minus 1; the "1964" reflects the sample size minus the number of parameters |
+
+**Effect Size Measures — "How Big Is the Difference?"**
+
+| Symbol / Term | What It Means | Interpretation Scale |
+|---------------|---------------|---------------------|
+| **Cohen's *d*** | A standardized measure of the **difference between two groups**, expressed in standard deviation units. It tells you not just whether a difference is real, but whether it is *practically meaningful* | *d* = 0.2 (small), *d* = 0.5 (medium), *d* = 0.8 (large). The FAST vs BAT gap of *d* = 1.00 is a large, practically meaningful difference |
+| **η²p (partial eta-squared)** | The proportion of variance in the outcome **explained by each factor** in an ANOVA, after accounting for other factors | η²p = .01 (small), η²p = .06 (medium), η²p = .14 (large). Category η²p = .242 means player position explains about 24% of height variation — a large effect |
+
+**ANOVA Table Terms**
+
+| Symbol / Term | What It Means |
+|---------------|---------------|
+| **SS (Sum of Squares)** | A measure of total variation attributable to each factor. Larger SS = more variation explained |
+| **MS (Mean Square)** | SS divided by df. Used to calculate the *F*-statistic |
+| **Source** | The factor being tested (e.g., "Category" tests whether player positions differ in height; "Era" tests whether heights changed across time periods) |
+| **Category × Era** | The **interaction** effect — tests whether height trends across eras differ depending on player category (e.g., fast bowlers might show different era trends than batsmen) |
+
+---
+
 ### 3.1 Sample Characteristics
 
 The final sample comprised 1,980 player-tournament observations from 871 unique players across 23 World Cups (13 ODI, 10 T20) and 8 nations.
@@ -197,19 +250,41 @@ The final sample comprised 1,980 player-tournament observations from 871 unique 
 
 Nation representation: Australia (n = 253), England (n = 253), India (n = 253), New Zealand (n = 253), Pakistan (n = 253), West Indies (n = 253), Sri Lanka (n = 253), South Africa (n = 209; excluded 1975–1991 due to apartheid ban).
 
+**Figure 8.** Composite overview of the dataset's key patterns. Panel A shows the height distribution by player category (violin plot), Panel B shows temporal trends for batsmen and fast bowlers with both unadjusted and population-adjusted slopes, Panel C shows height excess over population baseline by category, and Panel D shows mean batsman height by country. This single figure captures the study's four central themes: positional hierarchy, temporal trends, population adjustment, and cross-national variation.
+
+![Figure 8](figures/fig8_main_figure.png)
+
 ### 3.2 Descriptive Statistics
 
 **Table 2. Descriptive Statistics by Category (Height in cm)**
 
-| Category | *n* | Mean (SD) | Min | Max | Pop. Excess (SD) |
-|----------|-----|-----------|-----|-----|-------------------|
+| Category | *n* | Mean Height (SD) | Min | Max | Mean Pop. Excess† (SD) |
+|----------|-----|-----------------|-----|-----|----------------------|
 | WK | 180 | 174.5 (4.3) | 165.0 | 185.0 | +3.1 (4.2) |
 | BAT | 989 | 178.9 (6.4) | 160.0 | 201.0 | +7.4 (6.3) |
 | FAST | 580 | 185.5 (6.9) | 168.0 | 216.0 | +13.6 (6.7) |
 | SPIN | 231 | 178.6 (6.0) | 163.0 | 201.0 | +7.9 (5.9) |
 | **Overall** | **1,980** | **180.4 (7.2)** | **160.0** | **216.0** | — |
 
-The positional height hierarchy is clear: FAST > BAT ≈ SPIN > WK. Fast bowlers stand 6.63 cm taller than top-order batsmen on average (Cohen's *d* = 1.00, *t* = 18.93, *p* < .001), consistent with biomechanical advantages of height in pace bowling. Wicketkeepers are the shortest category, likely reflecting the agility and low-centre-of-gravity advantages for keeping.
+> **† How to read "Mean Pop. Excess (SD)":** This column shows how much taller cricketers are compared to typical men from their home country born in the same year. The first number is the average excess (e.g., +13.6 cm for FAST means fast bowlers are, on average, 13.6 cm taller than the general male population of their home country). The number in parentheses is the standard deviation of that excess across players. For example, "+7.4 (6.3)" for BAT means top-order batsmen are on average 7.4 cm taller than their national population norms, with a spread (SD) of 6.3 cm — meaning some batsmen are much taller than their population average while others are only slightly taller.
+
+The positional height hierarchy is clear and can be summarized as: FAST > BAT ≈ SPIN > WK (fast bowlers are tallest, wicketkeepers shortest). Fast bowlers stand 6.63 cm taller than top-order batsmen on average (Cohen's *d* = 1.00 — a large effect; *t* = 18.93, *p* < .001), consistent with biomechanical advantages of height in pace bowling. Wicketkeepers are the shortest category, likely reflecting the agility and low-centre-of-gravity advantages for keeping.
+
+**Figure 1.** Violin plots showing the full height distribution for each player category. The width of each "violin" shows how common a particular height is — wider sections mean more players at that height. The horizontal lines within each violin mark the 25th percentile, median, and 75th percentile. Individual data points are overlaid as dots. The clear separation between FAST bowlers (mean 185.5 cm) and all other categories is the most visually striking pattern.
+
+![Figure 1](figures/fig1_category_distributions.png)
+
+**Figure 22.** Ridge-line density plots showing how the overall height distribution has shifted across decades. Each "ridge" shows the distribution of player heights for that decade, with the mean marked. The rightward shift from the 1970s (mean 177.0 cm) to the 2000s–2010s (mean ~181 cm) is visible, but the distribution appears to stabilize in recent decades.
+
+![Figure 22](figures/fig22_ridgeline_decades.png)
+
+**Figure 14.** Height profile by batting position (1–11), revealing the height gradient within a typical Playing XI. Positions 1–6 (top-order batsmen) tend to be shorter than positions 7–11 (bowlers), with the exception of position 7 which often features all-rounders.
+
+![Figure 14](figures/fig14_batting_position_profile.png)
+
+**Figure 25.** Proportion of players exceeding key height benchmarks (180 cm, 185 cm, 190 cm) by category and era. This threshold analysis shows how the "tall player" composition has changed — for example, the percentage of batsmen over 180 cm has increased substantially since the 1970s.
+
+![Figure 25](figures/fig25_height_thresholds.png)
 
 **Table 2b. Height by Category and Era**
 
@@ -221,6 +296,18 @@ The positional height hierarchy is clear: FAST > BAT ≈ SPIN > WK. Fast bowlers
 | SPIN | 174.5 (6.8) | 176.9 (6.9) | 181.0 (6.0) | 178.2 (5.0) |
 
 Notable patterns: BAT heights increased from 176.0 cm (Era 1) to 180.0 cm (Era 3) but plateaued at 179.6 cm in Era 4. FAST heights show a steadier increase. SPIN heights peaked in Era 3 and declined in Era 4. WK heights remain relatively stable.
+
+**Figure 4.** Box plots of height distributions by category across the four eras, visualizing the Category × Era patterns from Table 2b. Each box shows the interquartile range (middle 50% of players), with the line inside marking the median. Whiskers extend to 1.5× the interquartile range, and dots beyond are outliers.
+
+![Figure 4](figures/fig4_era_boxplot.png)
+
+**Figure 13.** The tallest and shortest Playing XIs ever fielded by each nation across all 23 World Cups. For each country, the red bar shows the tournament where that nation fielded its tallest average XI, and the blue bar shows its shortest. This reveals substantial within-nation variation — for instance, Sri Lanka's tallest XI (177.5 cm in ODI 2011) is nearly 9 cm taller than its shortest (168.5 cm in ODI 1975).
+
+![Figure 13](figures/fig13_tallest_vs_shortest_xi.png)
+
+**Figure 23.** The all-rounder classification effect — examining how players who straddle the BAT/FAST boundary (all-rounders with significant contributions in both batting and bowling) compare in height to pure batsmen and pure bowlers. This validates the four-category classification system used in this study.
+
+![Figure 23](figures/fig23_allrounder_effect.png)
 
 ### 3.3 Temporal Trend Analysis
 
@@ -235,6 +322,10 @@ Notable patterns: BAT heights increased from 176.0 cm (Era 1) to 180.0 cm (Era 3
 | ALL | 1,980 | 0.077 (0.011) | [0.055, 0.099] | .023 | 46.31 (1, 1978) | < .001 |
 
 All categories except WK show significant unadjusted positive temporal trends. BAT shows the strongest trend relative to its variance (highest F-statistic among individual categories).
+
+**Figure 2.** Temporal trends in player height by category across all World Cup tournaments (1975–2026). Each dot represents a player-tournament observation, and the regression lines show the unadjusted temporal trend for each category. The legend reports both the unadjusted slope (β) and the population-adjusted slope (adj) — asterisks (*) indicate statistical significance. Batsmen (blue) show the steepest upward trend that survives population adjustment, while wicketkeepers (gold) show the weakest trend.
+
+![Figure 2](figures/fig2_temporal_trends.png)
 
 **Table 4. Population-Adjusted Regression Results**
 
@@ -260,6 +351,26 @@ All categories except WK show significant unadjusted positive temporal trends. B
 3. **SPIN bowlers** and **wicketkeepers** show no significant adjusted trends (p = .446 and p = .901, respectively), indicating their heights fully reflect population demographics.
 
 4. **Population height** is a strong predictor across all categories (β ≈ 0.50–0.54, all p < .001), confirming that birth-cohort demographics explain a substantial portion of height variation.
+
+**Figure 5.** The central finding visualized: top-order batsman heights vs population baseline over time. The dark blue line shows actual mean batsman heights per tournament (with 95% confidence interval error bars). The dashed blue line shows the unadjusted trend (β = 0.092 cm/year). The green line shows the population-adjusted trend (β_adj = 0.055 cm/year). The brown dashed line shows the birth-cohort population baseline. The light blue bars show the height excess — the gap between player heights and population norms. The widening gap confirms that 60% of the batsman height increase is sport-specific selection, not just taller populations.
+
+![Figure 5](figures/fig5_population_adjusted.png)
+
+**Figure 15.** The fast bowler–batsman height gap over time. This tracks the difference between mean FAST and mean BAT heights at each tournament. A stable or narrowing gap would suggest batsmen are "catching up" to fast bowlers in height; a widening gap would suggest divergent selection pressures.
+
+![Figure 15](figures/fig15_fast_bat_gap.png)
+
+**Figure 19.** Direct comparison of spin bowler and fast bowler height distributions, illustrating the stark divergence in height selection between the two bowling styles. Despite both being classified as "bowlers," fast bowlers are dramatically taller than spin bowlers (mean difference ~7 cm), reflecting the biomechanical advantage of height for pace bowling vs. the finger/wrist dexterity demands of spin.
+
+![Figure 19](figures/fig19_spin_vs_fast.png)
+
+**Figure 17.** The wicketkeeper height paradox. Despite population heights increasing across all nations, wicketkeepers have remained the shortest category with no significant temporal trend (β_adj = 0.002, *p* = .901). This suggests persistent functional selection — keeping demands agility, quick reflexes, and a low centre of gravity that may actively select against taller players.
+
+![Figure 17](figures/fig17_wicketkeeper_paradox.png)
+
+**Figure 28.** Effect size dashboard summarizing the magnitude of all primary comparisons. Cohen's *d* values are shown for pairwise category comparisons, and η²p values are shown for ANOVA effects. This provides a visual "at-a-glance" summary of which effects are large, medium, or small.
+
+![Figure 28](figures/fig28_effect_size_dashboard.png)
 
 ### 3.4 Country-Wise Analysis
 
@@ -288,6 +399,34 @@ All categories except WK show significant unadjusted positive temporal trends. B
 
 5. **Pattern reversal from expectations:** Contrary to the hypothesis that Western nations would show the strongest selection trends, South Asian nations show the steepest temporal slopes—driven largely by rapid population height increases rather than sport-specific selection.
 
+**Figure 3.** Cross-national comparison of mean player heights for all eight nations, with error bars showing the standard deviation. England (183.2 cm) and Australia (182.7 cm) field the tallest squads on average, while Sri Lanka (174.7 cm) and India (176.8 cm) field the shortest — a gap of approximately 8.5 cm between the tallest and shortest nation averages.
+
+![Figure 3](figures/fig3_country_comparison.png)
+
+**Figure 9.** Country-level batsman heights plotted against national population height norms. Each nation's batsman height trend (solid line) is shown alongside its population height trend (dashed line). The vertical gap between the two lines represents the population excess — the sport-specific height selection. Nations where the gap is widening show increasing selection; where it is stable, batsman heights are merely tracking population growth.
+
+![Figure 9](figures/fig9_country_bat_vs_population.png)
+
+**Figure 10.** Country-level segmented regression for batsman heights. For each nation, the trend line is split at the detected breakpoint, revealing whether batsman height increases accelerated, decelerated, or reversed in the later period. Most nations show deceleration or plateauing.
+
+![Figure 10](figures/fig10_country_bat_segmented.png)
+
+**Figure 11.** Country-level segmented regression for fast bowler heights. Compared to batsmen (Figure 10), fast bowler trends are generally flatter, reflecting the "ceiling effect" — fast bowler height selection was already near-maximal in earlier tournaments.
+
+![Figure 11](figures/fig11_country_fast_segmented.png)
+
+**Figure 18.** Within-team height diversity (measured by the standard deviation of heights within each Playing XI) across nations and eras. Higher diversity means a wider range of body types within the same team. West Indies shows the highest diversity, reflecting their tradition of combining very tall fast bowlers with compact batsmen.
+
+![Figure 18](figures/fig18_team_height_diversity.png)
+
+**Figure 24.** Team height "silhouettes" — the positional height profile for each nation, showing how the WK-BAT-FAST-SPIN height hierarchy varies by country. This reveals nation-specific selection patterns: some countries (e.g., Australia) show large positional differentiation, while others (e.g., Sri Lanka) show more compressed profiles.
+
+![Figure 24](figures/fig24_team_silhouettes.png)
+
+**Figure 31.** Team composition profiles showing the proportion of players falling into different height bands (<175 cm, 175–180 cm, 180–185 cm, 185–190 cm, >190 cm) by nation and era. This reveals how the "height mix" of teams has shifted — for example, the proportion of players over 185 cm has increased in most nations.
+
+![Figure 31](figures/fig31_team_composition.png)
+
 ### 3.5 Regional Analysis
 
 **Table 6. Regional Height Statistics**
@@ -303,6 +442,18 @@ All categories except WK show significant unadjusted positive temporal trends. B
 **Regional ANOVA:** Significant main effect of Region on mean height (*F* = 75.40, *p* < .001). Post-hoc comparisons confirmed that European, Oceanian, and African regions are significantly taller than South Asian nations (all pairwise *p* < .001). The Caribbean region falls between these groups.
 
 **Critical observation:** South Asian cricketers are substantially shorter than their Western counterparts in absolute terms, but show the steepest temporal increases. This pattern is consistent with South Asian populations undergoing more rapid secular height growth, with cricket squads reflecting this demographic shift.
+
+**Figure 21.** The South Asian height catch-up trend. This figure tracks how players from India, Pakistan, and Sri Lanka have narrowed the height gap with Western nations (Australia, England, New Zealand) over the 51-year study period. While a substantial gap remains, the convergence is clearly visible — driven primarily by rapid population height growth in South Asia rather than intensifying sport-specific selection.
+
+![Figure 21](figures/fig21_south_asian_catchup.png)
+
+**Figure 26.** Hierarchical clustering of nations based on their height profiles across all four player categories. Nations that cluster together share similar positional height patterns. The dendrogram reveals natural groupings that correspond broadly to cricket's regional structure: Western/Oceanian nations cluster together, as do South Asian nations.
+
+![Figure 26](figures/fig26_nation_clustering.png)
+
+**Figure 29.** Height inequality across nations and eras, using a Gini-style analysis to measure how concentrated height advantages are within each national squad. Higher inequality means greater disparity between the tallest and shortest players on the team.
+
+![Figure 29](figures/fig29_height_inequality.png)
 
 ### 3.6 Segmented Regression and Breakpoint Detection
 
@@ -323,6 +474,18 @@ All categories except WK show significant unadjusted positive temporal trends. B
 3. **FAST no significant breakpoint:** Fast bowler heights show no significant structural change across the study period (p = .277).
 
 **Interpretation:** The breakpoint results do not support the hypothesis that T20's emergence (2007) or powerplay introduction (2003) accelerated height selection. Instead, the data suggest that height increases in cricket were most pronounced in the pre-2012 period and have subsequently plateaued or slightly reversed.
+
+**Figure 6.** Segmented regression with structural breakpoint detection. Left panel: top-order batsmen show a significant breakpoint at 2012 (Chow test: *F* = 5.41, *p* = .005), with the pre-2012 slope (β = +0.144 cm/year) approximately five times steeper than the post-2012 slope (β = +0.027 cm/year). Right panel: fast bowlers show no significant breakpoint (*p* = .277), with relatively flat trends in both segments. The dashed vertical line marks the 2012 breakpoint.
+
+![Figure 6](figures/fig6_breakpoint.png)
+
+**Figure 12.** The height "arms race" — tracking whether nations have progressively recruited taller athletes over time. This shows the maximum player height selected by each nation at each tournament, revealing whether teams are pushing the upper boundary of height in their squads.
+
+![Figure 12](figures/fig12_height_arms_race.png)
+
+**Figure 30.** The "generation game" — comparing successive cohorts of players from the same nation to track intergenerational height changes. Players are grouped by birth decade, and the figure shows how each nation's player heights have evolved across generational cohorts, separating demographic growth from selection effects.
+
+![Figure 30](figures/fig30_generation_game.png)
 
 ### 3.7 Two-Way ANOVA: Category × Era
 
@@ -351,6 +514,10 @@ The Category × Era interaction was statistically significant (p = .004, η²p =
 
 The mixed-effects model confirms the positional hierarchy: fast bowlers are 6.36 cm taller than top-order batsmen (the largest fixed effect), while wicketkeepers are 4.37 cm shorter. Spin bowlers show no significant difference from batsmen. The temporal trend of 0.073 cm/year is consistent with the unadjusted overall regression.
 
+**Figure 16.** Relationship between player age at tournament and height, controlling for birth-cohort effects. This explores whether older or younger players within the same tournament tend to be taller, and whether age-related selection patterns differ across categories.
+
+![Figure 16](figures/fig16_age_height_demographics.png)
+
 ### 3.9 Format Comparison: ODI vs T20
 
 To test whether T20 cricket selects for taller players, we compared heights in ODI and T20 World Cups during the overlapping period (2007 onward).
@@ -363,6 +530,10 @@ To test whether T20 cricket selects for taller players, we compared heights in O
 | T20 | 880 | 181.1 (7.0) | | | |
 
 **Result:** No significant difference in height between ODI and T20 World Cup squads (*t* = −0.01, *p* = .991, *d* = −0.001). This provides strong evidence against the hypothesis that T20 cricket selects for taller players. Nations appear to select similar physical profiles regardless of format.
+
+**Figure 7.** Format comparison visualized. Panel A shows violin plots comparing the overall height distributions for ODI and T20 World Cup squads (2007 onward) — the distributions are virtually identical (both mean = 181.1 cm). Panel B breaks this down by player category, showing that the format non-effect holds across all four positions: wicketkeepers, batsmen, fast bowlers, and spin bowlers all show near-identical height profiles in ODI and T20 squads.
+
+![Figure 7](figures/fig7_format_comparison.png)
 
 ### 3.10 Sensitivity Analyses
 
@@ -385,6 +556,14 @@ To test whether T20 cricket selects for taller players, we compared heights in O
 3. **T20-only analysis** shows no significant trend (β = −0.036, p = .331), consistent with the relatively narrow time window (2007–2026) and the format comparison finding.
 
 4. **FAST vs BAT height gap** is robust (6.63 cm, d = 1.00), representing the most consistent finding across all sensitivity specifications.
+
+**Figure 27.** Data quality mosaic showing the distribution of height verification levels (Level 1: ICC official, Level 2: ESPN verified, Level 3: single source, Level 4: estimated) across eras and nations. Earlier eras have higher proportions of Level 3–4 data, which is relevant to interpreting the sensitivity analysis results above — the temporal trend's disappearance in the verified-only subset may partly reflect differential data quality across eras rather than the absence of a genuine trend.
+
+![Figure 27](figures/fig27_data_quality_mosaic.png)
+
+**Figure 32.** Gallery of statistical outliers — players whose heights deviate most from their category and nation norms. These include exceptionally tall batsmen, unusually short fast bowlers, and other players who defy the typical positional height expectations. Outliers are identified by their standardized residuals from the category × nation height model.
+
+![Figure 32](figures/fig32_outlier_gallery.png)
 
 ---
 
@@ -419,6 +598,10 @@ The finding that top-order batsmen show the only clearly significant population-
 ### 4.3 The Fast Bowler Paradox
 
 One of the most striking findings is that fast bowlers—despite being dramatically taller than all other categories—show only a borderline temporal trend after population adjustment. This "ceiling effect" interpretation suggests that cricket identified height as a bowling advantage from the sport's earliest professional era. The West Indian pace batteries of the 1970s–80s (Garner, Holding, Marshall, Ambrose) established a template that has been maintained but not substantially intensified. Height selection for fast bowling appears to have been nearly maximal from the start of our study period.
+
+**Figure 20.** Career spans of the tallest players (≥195 cm) in the dataset. This examines whether exceptional height is associated with longer or shorter international careers, testing the hypothesis that very tall players may face higher injury rates (particularly fast bowlers) that limit career longevity.
+
+![Figure 20](figures/fig20_career_span_giants.png)
 
 ### 4.4 The T20 Non-Effect
 
@@ -554,21 +737,15 @@ World Health Organization. (2023). Global Health Observatory: Height data. https
 
 **Table S5.** Format comparison detailed statistics (ODI vs T20).
 
-**Figure S1.** Violin plots of height distributions by category and era.
+**Figure S1.** Residual diagnostic plots for all regression models.
 
-**Figure S2.** Nation-specific temporal trend lines with 95% confidence bands.
-
-**Figure S3.** Regional comparison box plots.
-
-**Figure S4.** Residual diagnostic plots.
-
-**Figure S5.** Format comparison (ODI vs T20) by category.
+*Note: All 32 analytical figures are presented in the main text (Figures 1–32).*
 
 *Code and data are available at: [GitHub repository URL]*
 
 ---
 
-*Word Count: ~8,200*
+*Word Count: ~12,500*
 
 *Data Availability:* Dataset and analysis code available in supplementary materials.
 
