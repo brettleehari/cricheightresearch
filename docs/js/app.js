@@ -29,6 +29,17 @@
     requestAnimationFrame(tick);
   }
 
+  // === Abstract Tab Switching ===
+  document.querySelectorAll('.abstract-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.abstract-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const target = tab.dataset.tab;
+      document.getElementById('abstract-fan').classList.toggle('hidden', target !== 'fan');
+      document.getElementById('abstract-researcher').classList.toggle('hidden', target !== 'researcher');
+    });
+  });
+
   // === Section 2: Temporal Trends ===
   let activeCategories = ['ALL', 'BAT', 'FAST', 'SPIN', 'WK'];
   let activeFormat = 'ALL';

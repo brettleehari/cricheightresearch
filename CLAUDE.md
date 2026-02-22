@@ -2,7 +2,7 @@
 
 ## Project Goal
 
-Build a comprehensive dataset of cricket player heights across all 23 ICC World Cups (1975-2026), analyze temporal trends, and test whether cricket shows sport-specific height selection pressure beyond population demographics.
+Build  comprehensive dataset of cricket player heights across all 23 ICC World Cups (1975-2026), analyze temporal trends, and test whether cricket shows sport-specific height trends as it becomes global professional sport, power era beyond population demographics.
 
 ## Core Deliverables
 
@@ -12,6 +12,7 @@ Create JSON files for each of 23 World Cups containing Playing XI for 8 nations 
 - Height data with verification flags
 - Date of birth for birth-cohort matching
 - Notes explaining any data quality issues
+- Go out to multiple source double check every height data of each of the player. Create a catalog of height source link for each player. 
 
 ### 2. Analysis Pipeline
 Python scripts to:
@@ -22,7 +23,7 @@ Python scripts to:
 
 ### 3. Research Paper
 Updated manuscript incorporating findings with country-wise and regional analysis.
-
+Figure out any inference that is novel, anything multi factor just based on height trend analysis. 
 ---
 
 ## Player Categories (4 Types)
@@ -113,10 +114,8 @@ def classify_player(player):
 
 **T20 World Cups (10):** 2007, 2009, 2010, 2012, 2014, 2016, 2021, 2022, 2024, 2026
 
-### 8 Nations
-`AUS`, `ENG`, `IND`, `PAK`, `WI`, `NZL`, `SL`, `RSA`
-
-*Note: South Africa excluded 1975-1991 (apartheid ban)*
+### 7 Nations
+`AUS`, `ENG`, `IND`, `PAK`, `WI`, `NZL`, `SL`
 
 ---
 
@@ -127,7 +126,7 @@ def classify_player(player):
 1. Identify most common Playing XI for each nation
 2. For each of 11 players:
    a. Look up height on ESPN Cricinfo
-   b. Cross-validate with secondary source (ICC, Wisden)
+   b. Cross-validate with secondary source (ICC, Wisden or any credible source)
    c. Look up DOB
    d. Determine category based on batting position + bowling style
    e. Set height_verified = True if 2+ sources agree
@@ -151,18 +150,20 @@ python scripts/run_analysis.py
 
 1. **Do cricket heights exceed population trends?**
    - Compare player heights vs birth-cohort-matched population norms
+   - Mention which countries are going thfough growing heights in the last 50 years and which countries are having a flatter trends.
+   2. **Is there an era effect?**
+   - Compare the 4 era mentioned in the research paper heights in overlapping years
 
-2. **Is there a T20 effect?**
-   - Compare T20 WC vs ODI WC heights in overlapping years
-
-3. **Which categories show strongest selection?**
+3. **Which categories show strongest height trends?**
    - Expected: FAST > BAT > WK ≈ SPIN
 
 4. **Which countries show strongest selection?**
    - Expected: AUS/ENG > IND/SL
+5. Are asian players growing taller along with birth cohorts and changing profile of taller players in asian teams.
+   - Asian teams are growing taller
+6. Non asian teams are already taller and there is a ceiling and they are hitting a ceiling but asian players are actching up by birth cohorts. 
 
-5. **Is there a 2007 breakpoint?**
-   - Test if selection accelerated after T20 emergence
+Do not dive deep into more world wide anlaysis as different countries were going through different cohorts with respect their birth height rates.
 
 ---
 
@@ -172,8 +173,7 @@ python scripts/run_analysis.py
 
 **Prediction:** As cricket evolves toward power hitting, TOP_ORDER_BATSMAN heights will:
 1. Exceed population trends (✓ if adjusted β > 0)
-2. Accelerate post-2007 (✓ if breakpoint detected)
-3. Be higher in T20 than ODI (✓ if format effect significant)
+2. identify a height breakpoint detected in each countries trend.
 
 ---
 
@@ -229,7 +229,10 @@ python scripts/validate_data.py data/raw/*.json --strict
 ### Generate a Visualization
 ```
 Prompt: "Create a violin plot showing height distribution by category 
-(WK, BAT, FAST, SPIN) across all tournaments."
+(WK, BAT, FAST, SPIN) across all tournaments.
+Ensure country specific visuals and each visuals have explanations that dumbs down requirements for experienced statiscians to infer the details:
+
+"
 ```
 
 ### Run Statistical Analysis

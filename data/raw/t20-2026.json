@@ -234,12 +234,12 @@
           "date_of_birth": "1988-10-14",
           "birth_year": 1988,
           "age_at_tournament": 37.3,
-          "height_cm": 180.0,
+          "height_cm": 182.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 178.3,
           "flag": null,
-          "notes": "PROJECTED; explosive 360-degree batsman; part-time off-spin"
+          "notes": "PROJECTED; explosive 360-degree batsman; part-time off-spin; VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0\")"
         },
         {
           "player_id": "m-marsh-1",
@@ -249,12 +249,12 @@
           "date_of_birth": "1991-10-20",
           "birth_year": 1991,
           "age_at_tournament": 34.3,
-          "height_cm": 196.0,
+          "height_cm": 193.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 178.4,
           "flag": "CATEGORY_AMBIGUOUS",
-          "notes": "PROJECTED; captain; all-rounder; bowls medium-fast; bats top order so classified BAT"
+          "notes": "PROJECTED; captain; all-rounder; bowls medium-fast; bats top order so classified BAT; VERIFIED: Corrected from 195; sources: Wikipedia 193cm, SportsYaari 193cm (6'4\")"
         },
         {
           "player_id": "m-stoinis-1",
@@ -649,12 +649,12 @@
           "date_of_birth": "2000-04-06",
           "birth_year": 2000,
           "age_at_tournament": 25.8,
-          "height_cm": 196.0,
+          "height_cm": 198.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 168.0,
           "flag": null,
-          "notes": "PROJECTED; left-arm fast; express pace; leading pacer"
+          "notes": "PROJECTED; left-arm fast; express pace; leading pacer; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, StarsUnfolded 198cm (6'6\")"
         },
         {
           "player_id": "n-shah-1",

@@ -1,0 +1,858 @@
+[
+  {
+    "file": "odi-1975.json",
+    "player": "Clive Lloyd",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 196.0,
+    "delta": 5.0
+  },
+  {
+    "file": "odi-1975.json",
+    "player": "Richard Hadlee",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 185.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-1979.json",
+    "player": "Clive Lloyd",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 196.0,
+    "delta": 5.0
+  },
+  {
+    "file": "odi-1979.json",
+    "player": "Michael Holding",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 192.0,
+    "delta": 1.0
+  },
+  {
+    "file": "odi-1979.json",
+    "player": "Richard Hadlee",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 185.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-1983.json",
+    "player": "Clive Lloyd",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 196.0,
+    "delta": 5.0
+  },
+  {
+    "file": "odi-1983.json",
+    "player": "Malcolm Marshall",
+    "nation": "WI",
+    "old": 175.0,
+    "new": 180.0,
+    "delta": 5.0
+  },
+  {
+    "file": "odi-1983.json",
+    "player": "Michael Holding",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 192.0,
+    "delta": 1.0
+  },
+  {
+    "file": "odi-1983.json",
+    "player": "Richard Hadlee",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 185.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-1987.json",
+    "player": "Malcolm Marshall",
+    "nation": "WI",
+    "old": 175.0,
+    "new": 180.0,
+    "delta": 5.0
+  },
+  {
+    "file": "odi-1987.json",
+    "player": "Courtney Walsh",
+    "nation": "WI",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-1987.json",
+    "player": "Richard Hadlee",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 185.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-1992.json",
+    "player": "Imran Khan",
+    "nation": "PAK",
+    "old": 185.0,
+    "new": 183.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-1992.json",
+    "player": "Malcolm Marshall",
+    "nation": "WI",
+    "old": 175.0,
+    "new": 180.0,
+    "delta": 5.0
+  },
+  {
+    "file": "odi-1996.json",
+    "player": "Courtney Walsh",
+    "nation": "WI",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-1996.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "odi-1999.json",
+    "player": "Shoaib Akhtar",
+    "nation": "PAK",
+    "old": 185.0,
+    "new": 183.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-1999.json",
+    "player": "Courtney Walsh",
+    "nation": "WI",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-1999.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "odi-2003.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2003.json",
+    "player": "Shoaib Akhtar",
+    "nation": "PAK",
+    "old": 188.0,
+    "new": 183.0,
+    "delta": -5.0
+  },
+  {
+    "file": "odi-2003.json",
+    "player": "Chris Gayle",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 188.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2003.json",
+    "player": "Brian Lara",
+    "nation": "WI",
+    "old": 175.0,
+    "new": 173.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2003.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "odi-2007.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2007.json",
+    "player": "Chris Gayle",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 188.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2007.json",
+    "player": "Brian Lara",
+    "nation": "WI",
+    "old": 175.0,
+    "new": 173.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2007.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "odi-2007.json",
+    "player": "Lasith Malinga",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 173.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2011.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2011.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "odi-2011.json",
+    "player": "Lasith Malinga",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 173.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2011.json",
+    "player": "Chris Gayle",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 188.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Mohammed Shami",
+    "nation": "IND",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Chris Gayle",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 188.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Kane Williamson",
+    "nation": "NZL",
+    "old": 176.0,
+    "new": 173.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Trent Boult",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2015.json",
+    "player": "Lasith Malinga",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 173.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Jasprit Bumrah",
+    "nation": "IND",
+    "old": 175.0,
+    "new": 178.0,
+    "delta": 3.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Shaheen Shah Afridi",
+    "nation": "PAK",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Chris Gayle",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 188.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Kane Williamson",
+    "nation": "NZL",
+    "old": 176.0,
+    "new": 173.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Trent Boult",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2019.json",
+    "player": "Lasith Malinga",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 173.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Shubman Gill",
+    "nation": "IND",
+    "old": 175.0,
+    "new": 178.0,
+    "delta": 3.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Jasprit Bumrah",
+    "nation": "IND",
+    "old": 175.0,
+    "new": 178.0,
+    "delta": 3.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Mohammed Shami",
+    "nation": "IND",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Travis Head",
+    "nation": "AUS",
+    "old": 182.0,
+    "new": 179.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Marnus Labuschagne",
+    "nation": "AUS",
+    "old": 177.0,
+    "new": 180.0,
+    "delta": 3.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Mitchell Marsh",
+    "nation": "AUS",
+    "old": 195.0,
+    "new": 193.0,
+    "delta": -2.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Shaheen Shah Afridi",
+    "nation": "PAK",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Kane Williamson",
+    "nation": "NZL",
+    "old": 176.0,
+    "new": 173.0,
+    "delta": -3.0
+  },
+  {
+    "file": "odi-2023.json",
+    "player": "Trent Boult",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2007.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2007.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2007.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "t20-2009.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2009.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "t20-2009.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2010.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2010.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2010.json",
+    "player": "Muttiah Muralitharan",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 170.0,
+    "delta": -5.0
+  },
+  {
+    "file": "t20-2012.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2012.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2014.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2014.json",
+    "player": "Mohammed Shami",
+    "nation": "IND",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "t20-2014.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2014.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2016.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2016.json",
+    "player": "Jasprit Bumrah",
+    "nation": "IND",
+    "old": 175.0,
+    "new": 178.0,
+    "delta": 3.0
+  },
+  {
+    "file": "t20-2016.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2016.json",
+    "player": "Shahid Afridi",
+    "nation": "PAK",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2016.json",
+    "player": "Chris Gayle",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 188.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2016.json",
+    "player": "Kane Williamson",
+    "nation": "NZL",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "t20-2016.json",
+    "player": "Lasith Malinga",
+    "nation": "SL",
+    "old": 175.0,
+    "new": 173.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Mitchell Marsh",
+    "nation": "AUS",
+    "old": 196.0,
+    "new": 193.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Jasprit Bumrah",
+    "nation": "IND",
+    "old": 175.0,
+    "new": 178.0,
+    "delta": 3.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Shaheen Shah Afridi",
+    "nation": "PAK",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Chris Gayle",
+    "nation": "WI",
+    "old": 191.0,
+    "new": 188.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Kane Williamson",
+    "nation": "NZL",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "t20-2021.json",
+    "player": "Trent Boult",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2022.json",
+    "player": "Mitchell Marsh",
+    "nation": "AUS",
+    "old": 196.0,
+    "new": 193.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2022.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2022.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2022.json",
+    "player": "Mohammed Shami",
+    "nation": "IND",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "t20-2022.json",
+    "player": "Shaheen Shah Afridi",
+    "nation": "PAK",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2022.json",
+    "player": "Kane Williamson",
+    "nation": "NZL",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "t20-2022.json",
+    "player": "Trent Boult",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2024.json",
+    "player": "Rohit Sharma",
+    "nation": "IND",
+    "old": 177.0,
+    "new": 175.0,
+    "delta": -2.0
+  },
+  {
+    "file": "t20-2024.json",
+    "player": "Travis Head",
+    "nation": "AUS",
+    "old": 178.0,
+    "new": 179.0,
+    "delta": 1.0
+  },
+  {
+    "file": "t20-2024.json",
+    "player": "Mitchell Marsh",
+    "nation": "AUS",
+    "old": 196.0,
+    "new": 193.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2024.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2024.json",
+    "player": "Shaheen Shah Afridi",
+    "nation": "PAK",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2024.json",
+    "player": "Kane Williamson",
+    "nation": "NZL",
+    "old": 180.0,
+    "new": 173.0,
+    "delta": -7.0
+  },
+  {
+    "file": "t20-2024.json",
+    "player": "Trent Boult",
+    "nation": "NZL",
+    "old": 183.0,
+    "new": 180.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2026.json",
+    "player": "Glenn Maxwell",
+    "nation": "AUS",
+    "old": 180.0,
+    "new": 182.0,
+    "delta": 2.0
+  },
+  {
+    "file": "t20-2026.json",
+    "player": "Mitchell Marsh",
+    "nation": "AUS",
+    "old": 196.0,
+    "new": 193.0,
+    "delta": -3.0
+  },
+  {
+    "file": "t20-2026.json",
+    "player": "Shaheen Shah Afridi",
+    "nation": "PAK",
+    "old": 196.0,
+    "new": 198.0,
+    "delta": 2.0
+  }
+]

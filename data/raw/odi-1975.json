@@ -79,12 +79,12 @@
           "date_of_birth": "1944-08-31",
           "birth_year": 1944,
           "age_at_tournament": 30.8,
-          "height_cm": 191.0,
+          "height_cm": 196.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 170.0,
-          "flag": null,
-          "notes": "Captain; famously tall at 6'3\"; Man of the Match in final with 102 off 85 balls"
+          "flag": "HEIGHT_CONFLICTING",
+          "notes": "Captain; famously tall at 6'3\"; Man of the Match in final with 102 off 85 balls; VERIFIED: Corrected from 191; sources: Wikipedia 196cm (6'5\"), ESPN 193-196cm"
         },
         {
           "player_id": "i-richards-1",
@@ -989,12 +989,12 @@
           "date_of_birth": "1951-07-03",
           "birth_year": 1951,
           "age_at_tournament": 23.9,
-          "height_cm": 183.0,
+          "height_cm": 185.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 175.5,
           "flag": null,
-          "notes": "6'0\" widely documented; young fast bowler early in career"
+          "notes": "6'0\" widely documented; young fast bowler early in career; VERIFIED: Corrected from 183; sources: Wikipedia 185cm (6'1\")"
         },
         {
           "player_id": "d-hadlee-1",

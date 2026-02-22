@@ -79,12 +79,12 @@
           "date_of_birth": "1944-08-31",
           "birth_year": 1944,
           "age_at_tournament": 34.8,
-          "height_cm": 191.0,
+          "height_cm": 196.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 170.0,
-          "flag": null,
-          "notes": "Captain; 6'3\" widely documented"
+          "flag": "HEIGHT_CONFLICTING",
+          "notes": "Captain; 6'3\" widely documented; VERIFIED: Corrected from 191; sources: Wikipedia 196cm (6'5\"), ESPN 193-196cm"
         },
         {
           "player_id": "c-king-1",
@@ -154,12 +154,12 @@
           "date_of_birth": "1954-02-16",
           "birth_year": 1954,
           "age_at_tournament": 25.3,
-          "height_cm": 191.0,
+          "height_cm": 192.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 171.0,
           "flag": null,
-          "notes": "6'3\" widely documented; nicknamed 'Whispering Death'"
+          "notes": "6'3\" widely documented; nicknamed 'Whispering Death'; VERIFIED: Corrected from 191; sources: Wikipedia 192cm (6'4\")"
         },
         {
           "player_id": "c-croft-1",
@@ -974,12 +974,12 @@
           "date_of_birth": "1951-07-03",
           "birth_year": 1951,
           "age_at_tournament": 27.9,
-          "height_cm": 183.0,
+          "height_cm": 185.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 175.5,
           "flag": null,
-          "notes": "6'0\" widely documented; New Zealand's greatest cricketer"
+          "notes": "6'0\" widely documented; New Zealand's greatest cricketer; VERIFIED: Corrected from 183; sources: Wikipedia 185cm (6'1\")"
         },
         {
           "player_id": "b-cairns-1",

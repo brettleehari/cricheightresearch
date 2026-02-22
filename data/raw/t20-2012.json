@@ -589,12 +589,12 @@
           "date_of_birth": "1987-04-30",
           "birth_year": 1987,
           "age_at_tournament": 25.4,
-          "height_cm": 177.0,
+          "height_cm": 175.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 166.7,
           "flag": null,
-          "notes": ""
+          "notes": "VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9\")"
         },
         {
           "player_id": "ms-dhoni-1",
@@ -789,12 +789,12 @@
           "date_of_birth": "1980-03-01",
           "birth_year": 1980,
           "age_at_tournament": 32.6,
-          "height_cm": 183.0,
+          "height_cm": 180.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 167.0,
           "flag": "CATEGORY_AMBIGUOUS",
-          "notes": "All-rounder; batted at 7 so classified SPIN (leg-spin bowler); also a power hitter"
+          "notes": "All-rounder; batted at 7 so classified SPIN (leg-spin bowler); also a power hitter; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11\") - Shahid Afridi"
         },
         {
           "player_id": "u-gul-1",

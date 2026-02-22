@@ -559,12 +559,12 @@
           "date_of_birth": "1952-11-25",
           "birth_year": 1952,
           "age_at_tournament": 39.2,
-          "height_cm": 185.0,
+          "height_cm": 183.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 165.0,
           "flag": "CATEGORY_AMBIGUOUS",
-          "notes": "Legendary all-rounder and captain. Fast bowler by trade but batted at 3 in 1992 WC. Classified BAT due to batting position."
+          "notes": "Legendary all-rounder and captain. Fast bowler by trade but batted at 3 in 1992 WC. Classified BAT due to batting position.; VERIFIED: Standardized to 183cm; sources: Wikipedia 183cm, StarsUnfolded 183cm (6'0\")"
         },
         {
           "player_id": "j-miandad-1",
@@ -804,12 +804,12 @@
           "date_of_birth": "1958-04-18",
           "birth_year": 1958,
           "age_at_tournament": 33.8,
-          "height_cm": 175.0,
+          "height_cm": 180.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 171.0,
-          "flag": null,
-          "notes": ""
+          "flag": "HEIGHT_CONFLICTING",
+          "notes": "VERIFIED: Corrected from 175; sources: Wikipedia 180cm, Sportskeeda 180cm (5'11\")"
         },
         {
           "player_id": "c-ambrose-1",

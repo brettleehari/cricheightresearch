@@ -482,6 +482,7 @@ section:last-child { border-bottom: none; }
 @media (max-width: 1024px) {
   .chart-row { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+  .finding-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
@@ -490,11 +491,164 @@ section:last-child { border-bottom: none; }
   .hero h1 { font-size: 1.6rem; }
   .nav-links { display: none; }
   .section-title { font-size: 1.3rem; }
+  .finding-grid { grid-template-columns: 1fr; }
+  .abstract-card { padding: 1.25rem; }
+  .key-finding { padding: 1rem; }
 }
 
 @media (max-width: 480px) {
   .stat-cards { grid-template-columns: 1fr 1fr; }
   .gallery-grid { grid-template-columns: 1fr; }
+}
+
+/* === Hero Subtitle === */
+.hero-subtitle {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+/* === Abstract Tabs === */
+.abstract-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.abstract-tab {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  background: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.abstract-tab:hover {
+  color: var(--accent);
+}
+
+.abstract-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.abstract-content.hidden {
+  display: none;
+}
+
+.abstract-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+}
+
+.abstract-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--accent);
+}
+
+.abstract-card p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.abstract-card p:last-child {
+  margin-bottom: 0;
+}
+
+/* === Finding Grid (inside abstract) === */
+.finding-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.finding-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.finding-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.finding-card h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.finding-card p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* === Key Findings List === */
+.findings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.key-finding {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: box-shadow 0.2s;
+}
+
+.key-finding:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.finding-number {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: 'Merriweather', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.finding-detail h4 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.finding-detail p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
 }
 
 /* === Animations === */

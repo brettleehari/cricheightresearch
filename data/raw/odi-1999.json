@@ -679,12 +679,12 @@
           "date_of_birth": "1975-08-13",
           "birth_year": 1975,
           "age_at_tournament": 23.8,
-          "height_cm": 185.0,
+          "height_cm": 183.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 167.0,
           "flag": null,
-          "notes": "Express fast bowler. Rawalpindi Express."
+          "notes": "Express fast bowler. Rawalpindi Express.; VERIFIED: Corrected from 185/188; sources: Wikipedia 183cm, BodySize 183cm (6'0\")"
         }
       ]
     },
@@ -834,12 +834,12 @@
           "date_of_birth": "1962-10-30",
           "birth_year": 1962,
           "age_at_tournament": 36.5,
-          "height_cm": 196.0,
+          "height_cm": 198.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 171.0,
           "flag": null,
-          "notes": ""
+          "notes": "VERIFIED: Corrected from 196; sources: Wikipedia 198cm, Cricket Hall of Fame 198cm (6'6\")"
         },
         {
           "player_id": "f-rose-1",
@@ -1159,12 +1159,12 @@
           "date_of_birth": "1972-04-17",
           "birth_year": 1972,
           "age_at_tournament": 27.0,
-          "height_cm": 175.0,
+          "height_cm": 170.0,
           "height_verified": true,
-          "height_source": "ESPN_verified",
+          "height_source": "multi_source_verified",
           "pop_height_birth_cohort": 164.0,
-          "flag": null,
-          "notes": "Off-spin bowler."
+          "flag": "HEIGHT_CONFLICTING",
+          "notes": "Off-spin bowler.; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7\")"
         },
         {
           "player_id": "p-wickramasinghe-1",

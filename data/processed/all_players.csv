@@ -3,7 +3,7 @@ r-fredericks-1,Roy Fredericks,WI,BAT,1,1942-11-11,1942,32.6,170.0,False,estimate
 g-greenidge-1,Gordon Greenidge,WI,BAT,2,1951-05-01,1951,24.1,180.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from photos; known to be tall and well-built opener,odi-1975,ODI,1975,1,9.0,Caribbean
 a-kallicharran-1,Alvin Kallicharran,WI,BAT,3,1949-03-21,1949,26.2,163.0,False,estimated,170.5,HEIGHT_ESTIMATED,Known to be short and compact batsman; estimated from photos,odi-1975,ODI,1975,1,-7.5,Caribbean
 r-kanhai-1,Rohan Kanhai,WI,BAT,4,1935-12-26,1935,39.5,170.0,False,estimated,170.0,HEIGHT_ESTIMATED,Height estimated from photos; medium build,odi-1975,ODI,1975,1,0.0,Caribbean
-c-lloyd-1,Clive Lloyd,WI,BAT,5,1944-08-31,1944,30.8,191.0,True,ESPN_verified,170.0,,"Captain; famously tall at 6'3""; Man of the Match in final with 102 off 85 balls",odi-1975,ODI,1975,1,21.0,Caribbean
+c-lloyd-1,Clive Lloyd,WI,BAT,5,1944-08-31,1944,30.8,196.0,True,multi_source_verified,170.0,HEIGHT_CONFLICTING,"Captain; famously tall at 6'3""; Man of the Match in final with 102 off 85 balls; VERIFIED: Corrected from 191; sources: Wikipedia 196cm (6'5""), ESPN 193-196cm",odi-1975,ODI,1975,1,26.0,Caribbean
 i-richards-1,Viv Richards,WI,BAT,6,1952-03-07,1952,23.3,178.0,True,ESPN_verified,171.0,,"Famous run out of 3 batsmen in final; 5'10"" widely reported",odi-1975,ODI,1975,1,7.0,Caribbean
 d-murray-1,Deryck Murray,WI,WK,7,1943-05-20,1943,32.1,175.0,False,estimated,170.0,HEIGHT_ESTIMATED,Height estimated from photos; appeared medium height,odi-1975,ODI,1975,1,5.0,Caribbean
 b-julien-1,Bernard Julien,WI,FAST,8,1950-03-13,1950,25.2,183.0,False,estimated,170.5,HEIGHT_ESTIMATED,Left-arm fast-medium all-rounder; estimated from photos as tall build,odi-1975,ODI,1975,1,12.5,Caribbean
@@ -62,7 +62,7 @@ j-parker-1,John Parker,NZL,BAT,5,1951-02-21,1951,24.3,178.0,False,estimated,175.
 b-hastings-1,Brian Hastings,NZL,BAT,6,1940-03-23,1940,35.2,175.0,False,estimated,174.5,HEIGHT_ESTIMATED,Height estimated from photos; medium build,odi-1975,ODI,1975,1,0.5,Oceanian
 k-wadsworth-1,Ken Wadsworth,NZL,WK,7,1946-11-30,1946,28.5,175.0,False,estimated,175.0,HEIGHT_ESTIMATED,Wicketkeeper; height estimated from photos,odi-1975,ODI,1975,1,0.0,Oceanian
 b-mckechnie-1,Brian McKechnie,NZL,FAST,8,1953-12-13,1953,21.5,183.0,False,estimated,175.5,HEIGHT_ESTIMATED,Medium-fast bowler; also played rugby for All Blacks; estimated tall build,odi-1975,ODI,1975,1,7.5,Oceanian
-r-hadlee-1,Richard Hadlee,NZL,FAST,9,1951-07-03,1951,23.9,183.0,True,ESPN_verified,175.5,,"6'0"" widely documented; young fast bowler early in career",odi-1975,ODI,1975,1,7.5,Oceanian
+r-hadlee-1,Richard Hadlee,NZL,FAST,9,1951-07-03,1951,23.9,185.0,True,multi_source_verified,175.5,,"6'0"" widely documented; young fast bowler early in career; VERIFIED: Corrected from 183; sources: Wikipedia 185cm (6'1"")",odi-1975,ODI,1975,1,9.5,Oceanian
 d-hadlee-1,Dayle Hadlee,NZL,FAST,10,1948-01-06,1948,27.4,183.0,False,estimated,175.0,HEIGHT_ESTIMATED,Richard Hadlee's older brother; fast-medium bowler; estimated similar height,odi-1975,ODI,1975,1,8.0,Oceanian
 h-howarth-1,Hedley Howarth,NZL,SPIN,11,1943-12-25,1943,31.5,178.0,False,estimated,174.5,HEIGHT_ESTIMATED,Left-arm orthodox spinner; Geoff Howarth's older brother; estimated from photos,odi-1975,ODI,1975,1,3.5,Oceanian
 b-warnapura-1,Bandula Warnapura,SL,BAT,1,1953-03-01,1953,22.3,170.0,False,estimated,163.0,HEIGHT_ESTIMATED,Height estimated from photos; opening batsman,odi-1975,ODI,1975,1,7.0,South Asian
@@ -80,12 +80,12 @@ g-greenidge-1,Gordon Greenidge,WI,BAT,1,1951-05-01,1951,28.1,180.0,False,estimat
 d-haynes-1,Desmond Haynes,WI,BAT,2,1956-02-15,1956,23.3,175.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from photos; compact build,odi-1979,ODI,1979,1,4.0,Caribbean
 i-richards-1,Viv Richards,WI,BAT,3,1952-03-07,1952,27.3,178.0,True,ESPN_verified,171.0,,"5'10"" widely documented; Man of the Match in final with 138*",odi-1979,ODI,1979,1,7.0,Caribbean
 a-kallicharran-1,Alvin Kallicharran,WI,BAT,4,1949-03-21,1949,30.2,163.0,False,estimated,170.5,HEIGHT_ESTIMATED,Known to be short and compact batsman,odi-1979,ODI,1979,1,-7.5,Caribbean
-c-lloyd-1,Clive Lloyd,WI,BAT,5,1944-08-31,1944,34.8,191.0,True,ESPN_verified,170.0,,"Captain; 6'3"" widely documented",odi-1979,ODI,1979,1,21.0,Caribbean
+c-lloyd-1,Clive Lloyd,WI,BAT,5,1944-08-31,1944,34.8,196.0,True,multi_source_verified,170.0,HEIGHT_CONFLICTING,"Captain; 6'3"" widely documented; VERIFIED: Corrected from 191; sources: Wikipedia 196cm (6'5""), ESPN 193-196cm",odi-1979,ODI,1979,1,26.0,Caribbean
 c-king-1,Collis King,WI,BAT,6,1951-06-11,1951,28.0,180.0,False,estimated,171.0,CATEGORY_AMBIGUOUS,Medium-pace all-rounder; scored crucial 86 in final; classified as BAT due to batting position; height estimated,odi-1979,ODI,1979,1,9.0,Caribbean
 d-murray-1,Deryck Murray,WI,WK,7,1943-05-20,1943,36.1,175.0,False,estimated,170.0,HEIGHT_ESTIMATED,Height estimated from photos; medium height,odi-1979,ODI,1979,1,5.0,Caribbean
 a-roberts-1,Andy Roberts,WI,FAST,8,1951-01-29,1951,28.4,183.0,True,ESPN_verified,171.0,,"6'0"" widely documented",odi-1979,ODI,1979,1,12.0,Caribbean
 j-garner-1,Joel Garner,WI,FAST,9,1952-12-16,1952,26.5,203.0,True,ESPN_verified,171.0,,"6'8"" widely documented; nicknamed 'Big Bird'; took 5/38 in final",odi-1979,ODI,1979,1,32.0,Caribbean
-m-holding-1,Michael Holding,WI,FAST,10,1954-02-16,1954,25.3,191.0,True,ESPN_verified,171.0,,"6'3"" widely documented; nicknamed 'Whispering Death'",odi-1979,ODI,1979,1,20.0,Caribbean
+m-holding-1,Michael Holding,WI,FAST,10,1954-02-16,1954,25.3,192.0,True,multi_source_verified,171.0,,"6'3"" widely documented; nicknamed 'Whispering Death'; VERIFIED: Corrected from 191; sources: Wikipedia 192cm (6'4"")",odi-1979,ODI,1979,1,21.0,Caribbean
 c-croft-1,Colin Croft,WI,FAST,11,1953-03-15,1953,26.3,196.0,True,ESPN_verified,171.0,,"6'5"" widely documented; fearsome fast bowler",odi-1979,ODI,1979,1,25.0,Caribbean
 a-hilditch-1,Andrew Hilditch,AUS,BAT,1,1956-05-20,1956,23.1,178.0,False,estimated,175.5,HEIGHT_ESTIMATED,Height estimated from photos; weakened squad due to World Series Cricket,odi-1979,ODI,1979,1,2.5,Oceanian
 g-darling-1,Rick Darling,AUS,BAT,2,1957-06-01,1957,22.0,175.0,False,estimated,175.5,HEIGHT_ESTIMATED,Height estimated from photos,odi-1979,ODI,1979,1,-0.5,Oceanian
@@ -138,7 +138,7 @@ m-burgess-1,Mark Burgess,NZL,BAT,4,1944-07-17,1944,34.9,178.0,False,estimated,17
 g-turner-1,Glenn Turner,NZL,BAT,5,1947-05-26,1947,32.1,175.0,False,estimated,175.0,HEIGHT_ESTIMATED,Dropped down the order from 1975; height estimated from photos,odi-1979,ODI,1979,1,0.0,Oceanian
 j-coney-1,Jeremy Coney,NZL,BAT,6,1952-06-21,1952,27.0,180.0,False,estimated,175.0,HEIGHT_ESTIMATED,Height estimated from photos; all-rounder,odi-1979,ODI,1979,1,5.0,Oceanian
 w-lees-1,Warren Lees,NZL,WK,7,1952-03-19,1952,27.3,175.0,False,estimated,175.0,HEIGHT_ESTIMATED,Wicketkeeper; height estimated from photos,odi-1979,ODI,1979,1,0.0,Oceanian
-r-hadlee-1,Richard Hadlee,NZL,FAST,8,1951-07-03,1951,27.9,183.0,True,ESPN_verified,175.5,,"6'0"" widely documented; New Zealand's greatest cricketer",odi-1979,ODI,1979,1,7.5,Oceanian
+r-hadlee-1,Richard Hadlee,NZL,FAST,8,1951-07-03,1951,27.9,185.0,True,multi_source_verified,175.5,,"6'0"" widely documented; New Zealand's greatest cricketer; VERIFIED: Corrected from 183; sources: Wikipedia 185cm (6'1"")",odi-1979,ODI,1979,1,9.5,Oceanian
 b-cairns-1,Lance Cairns,NZL,FAST,9,1949-10-10,1949,29.7,185.0,False,estimated,175.5,HEIGHT_ESTIMATED,Fast-medium bowler and big-hitting lower order; height estimated from photos,odi-1979,ODI,1979,1,9.5,Oceanian
 g-troup-1,Gary Troup,NZL,FAST,10,1952-10-03,1952,26.7,183.0,False,estimated,175.0,HEIGHT_ESTIMATED,Right-arm fast-medium; height estimated from photos,odi-1979,ODI,1979,1,8.0,Oceanian
 s-boock-1,Stephen Boock,NZL,SPIN,11,1951-09-20,1951,27.8,175.0,False,estimated,175.5,HEIGHT_ESTIMATED,Left-arm orthodox spinner; height estimated from photos,odi-1979,ODI,1979,1,-0.5,Oceanian
@@ -167,14 +167,14 @@ s-shastri-1,Ravi Shastri,IND,SPIN,11,1962-05-27,1962,21.1,188.0,True,ESPN_verifi
 g-greenidge-1,Gordon Greenidge,WI,BAT,1,1951-05-01,1951,32.1,180.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from photos,odi-1983,ODI,1983,1,9.0,Caribbean
 d-haynes-1,Desmond Haynes,WI,BAT,2,1956-02-15,1956,27.3,175.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from photos; compact build,odi-1983,ODI,1983,1,4.0,Caribbean
 i-richards-1,Viv Richards,WI,BAT,3,1952-03-07,1952,31.3,178.0,True,ESPN_verified,171.0,,"5'10"" widely documented; scored 33 in final before famous caught-and-bowled by Madan Lal",odi-1983,ODI,1983,1,7.0,Caribbean
-c-lloyd-1,Clive Lloyd,WI,BAT,4,1944-08-31,1944,38.8,191.0,True,ESPN_verified,170.0,,"Captain; 6'3"" widely documented; final World Cup as player",odi-1983,ODI,1983,1,21.0,Caribbean
+c-lloyd-1,Clive Lloyd,WI,BAT,4,1944-08-31,1944,38.8,196.0,True,multi_source_verified,170.0,HEIGHT_CONFLICTING,"Captain; 6'3"" widely documented; final World Cup as player; VERIFIED: Corrected from 191; sources: Wikipedia 196cm (6'5""), ESPN 193-196cm",odi-1983,ODI,1983,1,26.0,Caribbean
 l-gomes-1,Larry Gomes,WI,BAT,5,1953-10-13,1953,29.7,175.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from photos; medium build batsman,odi-1983,ODI,1983,1,4.0,Caribbean
 s-bacchus-1,Faoud Bacchus,WI,BAT,6,1954-01-31,1954,29.4,175.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from photos,odi-1983,ODI,1983,1,4.0,Caribbean
 j-dujon-1,Jeff Dujon,WI,WK,7,1956-05-28,1956,27.1,178.0,False,estimated,171.0,HEIGHT_ESTIMATED,Wicketkeeper; athletic build; height estimated from photos,odi-1983,ODI,1983,1,7.0,Caribbean
-m-marshall-1,Malcolm Marshall,WI,FAST,8,1958-04-18,1958,25.2,175.0,True,ESPN_verified,171.0,,"5'9"" widely documented; shortest of the great WI fast bowlers but arguably the best",odi-1983,ODI,1983,1,4.0,Caribbean
+m-marshall-1,Malcolm Marshall,WI,FAST,8,1958-04-18,1958,25.2,180.0,True,multi_source_verified,171.0,HEIGHT_CONFLICTING,"5'9"" widely documented; shortest of the great WI fast bowlers but arguably the best; VERIFIED: Corrected from 175; sources: Wikipedia 180cm, Sportskeeda 180cm (5'11"")",odi-1983,ODI,1983,1,9.0,Caribbean
 a-roberts-1,Andy Roberts,WI,FAST,9,1951-01-29,1951,32.4,183.0,True,ESPN_verified,171.0,,"6'0"" widely documented; veteran fast bowler",odi-1983,ODI,1983,1,12.0,Caribbean
 j-garner-1,Joel Garner,WI,FAST,10,1952-12-16,1952,30.5,203.0,True,ESPN_verified,171.0,,"6'8"" widely documented; 'Big Bird'",odi-1983,ODI,1983,1,32.0,Caribbean
-m-holding-1,Michael Holding,WI,FAST,11,1954-02-16,1954,29.3,191.0,True,ESPN_verified,171.0,,"6'3"" widely documented",odi-1983,ODI,1983,1,20.0,Caribbean
+m-holding-1,Michael Holding,WI,FAST,11,1954-02-16,1954,29.3,192.0,True,multi_source_verified,171.0,,"6'3"" widely documented; VERIFIED: Corrected from 191; sources: Wikipedia 192cm (6'4"")",odi-1983,ODI,1983,1,21.0,Caribbean
 g-wood-1,Graeme Wood,AUS,BAT,1,1956-11-06,1956,26.6,175.0,False,estimated,175.5,HEIGHT_ESTIMATED,Left-handed opener; height estimated from photos,odi-1983,ODI,1983,1,-0.5,Oceanian
 k-wessels-1,Kepler Wessels,AUS,BAT,2,1957-09-14,1957,25.8,183.0,False,estimated,175.5,HEIGHT_ESTIMATED,South African-born; tall opener; later played for South Africa; estimated from photos,odi-1983,ODI,1983,1,7.5,Oceanian
 k-hughes-1,Kim Hughes,AUS,BAT,3,1954-01-26,1954,29.4,180.0,False,estimated,175.5,HEIGHT_ESTIMATED,Captain; height estimated from photos,odi-1983,ODI,1983,1,4.5,Oceanian
@@ -215,7 +215,7 @@ j-crowe-m-1,Martin Crowe,NZL,BAT,4,1962-09-22,1962,20.8,183.0,True,ESPN_verified
 j-coney-1,Jeremy Coney,NZL,BAT,5,1952-06-21,1952,31.0,180.0,False,estimated,175.0,HEIGHT_ESTIMATED,Height estimated from photos,odi-1983,ODI,1983,1,5.0,Oceanian
 j-crowe-j-1,Jeff Crowe,NZL,BAT,6,1958-09-14,1958,24.8,180.0,False,estimated,175.5,HEIGHT_ESTIMATED,Martin Crowe's older brother; height estimated from photos,odi-1983,ODI,1983,1,4.5,Oceanian
 w-lees-1,Warren Lees,NZL,WK,7,1952-03-19,1952,31.3,175.0,False,estimated,175.0,HEIGHT_ESTIMATED,Wicketkeeper; height estimated from photos,odi-1983,ODI,1983,1,0.0,Oceanian
-r-hadlee-1,Richard Hadlee,NZL,FAST,8,1951-07-03,1951,31.9,183.0,True,ESPN_verified,175.5,,"6'0"" widely documented; at peak of career",odi-1983,ODI,1983,1,7.5,Oceanian
+r-hadlee-1,Richard Hadlee,NZL,FAST,8,1951-07-03,1951,31.9,185.0,True,multi_source_verified,175.5,,"6'0"" widely documented; at peak of career; VERIFIED: Corrected from 183; sources: Wikipedia 185cm (6'1"")",odi-1983,ODI,1983,1,9.5,Oceanian
 l-cairns-1,Lance Cairns,NZL,FAST,9,1949-10-10,1949,33.7,185.0,False,estimated,175.5,HEIGHT_ESTIMATED,Fast-medium bowler; height estimated from photos,odi-1983,ODI,1983,1,9.5,Oceanian
 e-chatfield-1,Ewen Chatfield,NZL,FAST,10,1950-07-03,1950,32.9,183.0,False,estimated,175.0,HEIGHT_ESTIMATED,Right-arm medium-fast; estimated from photos,odi-1983,ODI,1983,1,8.0,Oceanian
 m-snedden-1,Martin Snedden,NZL,FAST,11,1958-11-23,1958,24.6,188.0,False,estimated,175.5,HEIGHT_ESTIMATED,Right-arm fast-medium; tall bowler; estimated from photos,odi-1983,ODI,1983,1,12.5,Oceanian
@@ -281,10 +281,10 @@ i-richards-1,Viv Richards,WI,BAT,4,1952-03-07,1952,35.6,178.0,True,ESPN_verified
 l-gomes-1,Larry Gomes,WI,BAT,5,1953-10-13,1953,33.9,175.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from photos,odi-1987,ODI,1987,1,4.0,Caribbean
 c-logie-1,Gus Logie,WI,BAT,6,1960-09-28,1960,27.0,170.0,False,estimated,171.5,HEIGHT_ESTIMATED,Known as compact and agile; height estimated from photos,odi-1987,ODI,1987,1,-1.5,Caribbean
 j-dujon-1,Jeff Dujon,WI,WK,7,1956-05-28,1956,31.4,178.0,False,estimated,171.0,HEIGHT_ESTIMATED,Wicketkeeper; athletic build; estimated from photos,odi-1987,ODI,1987,1,7.0,Caribbean
-m-marshall-1,Malcolm Marshall,WI,FAST,8,1958-04-18,1958,29.5,175.0,True,ESPN_verified,171.0,,"5'9"" widely documented; at peak; shortest of great WI pacers",odi-1987,ODI,1987,1,4.0,Caribbean
-c-ambrose-1,Courtney Walsh,WI,FAST,9,1962-10-30,1962,25.0,196.0,True,ESPN_verified,171.5,,"6'5"" widely documented; tall fast bowler who would later become WI's leading wicket-taker",odi-1987,ODI,1987,1,24.5,Caribbean
+m-marshall-1,Malcolm Marshall,WI,FAST,8,1958-04-18,1958,29.5,180.0,True,multi_source_verified,171.0,HEIGHT_CONFLICTING,"5'9"" widely documented; at peak; shortest of great WI pacers; VERIFIED: Corrected from 175; sources: Wikipedia 180cm, Sportskeeda 180cm (5'11"")",odi-1987,ODI,1987,1,9.0,Caribbean
+c-walsh-1,Courtney Walsh,WI,FAST,9,1962-10-30,1962,25.0,198.0,True,multi_source_verified,171.5,,"6'5"" widely documented; tall fast bowler who would later become WI's leading wicket-taker; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, Cricket Hall of Fame 198cm (6'6"")",odi-1987,ODI,1987,1,26.5,Caribbean
 p-patterson-1,Patrick Patterson,WI,FAST,10,1961-09-15,1961,26.0,185.0,False,estimated,171.5,HEIGHT_ESTIMATED,Right-arm fast; fearsome pace; height estimated from photos,odi-1987,ODI,1987,1,13.5,Caribbean
-c-walsh-1,Courtney Ambrose,WI,FAST,11,1963-09-21,1963,24.1,201.0,True,ESPN_verified,171.5,,"6'7"" widely documented; early career; would become one of the greatest fast bowlers",odi-1987,ODI,1987,1,29.5,Caribbean
+c-ambrose-1,Curtly Ambrose,WI,FAST,11,1963-09-21,1963,24.1,201.0,True,ESPN_verified,171.5,,"6'7"" widely documented; early career; would become one of the greatest fast bowlers",odi-1987,ODI,1987,1,29.5,Caribbean
 j-wright-1,John Wright,NZL,BAT,1,1954-07-05,1954,33.2,183.0,True,ESPN_verified,175.5,,"6'0"" widely documented; veteran opener",odi-1987,ODI,1987,1,7.5,Oceanian
 m-crowe-1,Martin Crowe,NZL,BAT,2,1962-09-22,1962,25.0,183.0,True,ESPN_verified,176.0,,"6'0"" widely documented; NZ's premier batsman",odi-1987,ODI,1987,1,7.0,Oceanian
 a-jones-1,Andrew Jones,NZL,BAT,3,1959-05-09,1959,28.4,175.0,False,estimated,176.0,HEIGHT_ESTIMATED,Height estimated from photos,odi-1987,ODI,1987,1,-1.0,Oceanian
@@ -292,7 +292,7 @@ j-crowe-j-1,Jeff Crowe,NZL,BAT,4,1958-09-14,1958,29.1,180.0,False,estimated,175.
 j-coney-1,Jeremy Coney,NZL,BAT,5,1952-06-21,1952,35.3,180.0,False,estimated,175.0,HEIGHT_ESTIMATED,Veteran all-rounder; height estimated from photos,odi-1987,ODI,1987,1,5.0,Oceanian
 e-gray-1,Evan Gray,NZL,BAT,6,1954-11-18,1954,32.9,178.0,False,estimated,175.5,HEIGHT_ESTIMATED,Height estimated from photos,odi-1987,ODI,1987,1,2.5,Oceanian
 i-smith-1,Ian Smith,NZL,WK,7,1957-02-28,1957,30.6,178.0,False,estimated,175.5,HEIGHT_ESTIMATED,Wicketkeeper; hard-hitting lower-order bat; estimated from photos,odi-1987,ODI,1987,1,2.5,Oceanian
-r-hadlee-1,Richard Hadlee,NZL,FAST,8,1951-07-03,1951,36.2,183.0,True,ESPN_verified,175.5,,"6'0"" widely documented; at peak of career",odi-1987,ODI,1987,1,7.5,Oceanian
+r-hadlee-1,Richard Hadlee,NZL,FAST,8,1951-07-03,1951,36.2,185.0,True,multi_source_verified,175.5,,"6'0"" widely documented; at peak of career; VERIFIED: Corrected from 183; sources: Wikipedia 185cm (6'1"")",odi-1987,ODI,1987,1,9.5,Oceanian
 e-chatfield-1,Ewen Chatfield,NZL,FAST,9,1950-07-03,1950,37.2,183.0,False,estimated,175.0,HEIGHT_ESTIMATED,Right-arm medium-fast; veteran; estimated from photos,odi-1987,ODI,1987,1,8.0,Oceanian
 w-watson-1,Willie Watson,NZL,FAST,10,1965-08-31,1965,22.0,185.0,False,estimated,176.5,HEIGHT_ESTIMATED,Right-arm fast; young pace bowler; height estimated from photos,odi-1987,ODI,1987,1,8.5,Oceanian
 j-bracewell-1,John Bracewell,NZL,SPIN,11,1958-04-15,1958,29.5,178.0,False,estimated,175.5,HEIGHT_ESTIMATED,Off-spin bowler; height estimated from photos,odi-1987,ODI,1987,1,2.5,Oceanian
@@ -342,7 +342,7 @@ v-raju-1,Venkatapathy Raju,IND,SPIN,10,1969-07-26,1969,22.5,175.0,False,estimate
 s-tendulkar-spin-1,Subroto Banerjee,IND,FAST,11,1966-01-13,1966,26.1,175.0,False,estimated,165.0,HEIGHT_ESTIMATED,Height estimated. Medium-fast bowler. Player ID legacy artifact.,odi-1992,ODI,1992,2,10.0,South Asian
 r-raja-1,Ramiz Raja,PAK,BAT,1,1962-08-14,1962,29.5,183.0,True,ESPN_verified,166.0,,,odi-1992,ODI,1992,2,17.0,South Asian
 a-sohail-1,Aamir Sohail,PAK,BAT,2,1966-09-14,1966,25.4,178.0,False,estimated,166.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1992,ODI,1992,2,12.0,South Asian
-i-khan-1,Imran Khan,PAK,BAT,3,1952-11-25,1952,39.2,185.0,True,ESPN_verified,165.0,CATEGORY_AMBIGUOUS,Legendary all-rounder and captain. Fast bowler by trade but batted at 3 in 1992 WC. Classified BAT due to batting position.,odi-1992,ODI,1992,2,20.0,South Asian
+i-khan-1,Imran Khan,PAK,BAT,3,1952-11-25,1952,39.2,183.0,True,multi_source_verified,165.0,CATEGORY_AMBIGUOUS,"Legendary all-rounder and captain. Fast bowler by trade but batted at 3 in 1992 WC. Classified BAT due to batting position.; VERIFIED: Standardized to 183cm; sources: Wikipedia 183cm, StarsUnfolded 183cm (6'0"")",odi-1992,ODI,1992,2,18.0,South Asian
 j-miandad-1,Javed Miandad,PAK,BAT,4,1957-06-12,1957,34.7,175.0,True,ESPN_verified,165.0,,,odi-1992,ODI,1992,2,10.0,South Asian
 s-malik-1,Salim Malik,PAK,BAT,5,1963-04-16,1963,28.8,175.0,False,estimated,166.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1992,ODI,1992,2,9.0,South Asian
 i-ahmed-1,Inzamam-ul-Haq,PAK,BAT,6,1970-03-03,1970,21.9,183.0,True,ESPN_verified,166.0,,,odi-1992,ODI,1992,2,17.0,South Asian
@@ -358,7 +358,7 @@ c-hooper-1,Carl Hooper,WI,BAT,4,1966-12-15,1966,25.2,185.0,True,ESPN_verified,17
 k-arthurton-1,Keith Arthurton,WI,BAT,5,1965-02-21,1965,26.9,185.0,False,estimated,172.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1992,ODI,1992,2,13.0,Caribbean
 g-logie-1,Gus Logie,WI,BAT,6,1960-09-28,1960,31.3,173.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1992,ODI,1992,2,2.0,Caribbean
 j-dujon-1,Jeff Dujon,WI,WK,7,1956-05-28,1956,35.7,175.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1992,ODI,1992,2,4.0,Caribbean
-m-marshall-1,Malcolm Marshall,WI,FAST,8,1958-04-18,1958,33.8,175.0,True,ESPN_verified,171.0,,,odi-1992,ODI,1992,2,4.0,Caribbean
+m-marshall-1,Malcolm Marshall,WI,FAST,8,1958-04-18,1958,33.8,180.0,True,multi_source_verified,171.0,HEIGHT_CONFLICTING,"VERIFIED: Corrected from 175; sources: Wikipedia 180cm, Sportskeeda 180cm (5'11"")",odi-1992,ODI,1992,2,9.0,Caribbean
 c-ambrose-1,Curtly Ambrose,WI,FAST,9,1963-09-21,1963,28.4,201.0,True,ESPN_verified,172.0,,,odi-1992,ODI,1992,2,29.0,Caribbean
 a-cummins-1,Anderson Cummins,WI,FAST,10,1966-05-07,1966,25.8,188.0,False,estimated,172.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1992,ODI,1992,2,16.0,Caribbean
 b-patterson-1,Patrick Patterson,WI,FAST,11,1961-09-15,1961,30.4,188.0,False,estimated,171.0,HEIGHT_ESTIMATED,Height estimated from match footage. Express fast bowler.,odi-1992,ODI,1992,2,17.0,Caribbean
@@ -448,7 +448,7 @@ r-harper-1,Roger Harper,WI,BAT,6,1963-03-17,1963,32.9,191.0,False,estimated,172.
 j-murray-1,Junior Murray,WI,WK,7,1968-01-20,1968,28.1,175.0,False,estimated,172.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1996,ODI,1996,2,3.0,Caribbean
 i-bishop-1,Ian Bishop,WI,FAST,8,1967-10-24,1967,28.3,191.0,True,ESPN_verified,172.0,,,odi-1996,ODI,1996,2,19.0,Caribbean
 c-ambrose-1,Curtly Ambrose,WI,FAST,9,1963-09-21,1963,32.4,201.0,True,ESPN_verified,172.0,,,odi-1996,ODI,1996,2,29.0,Caribbean
-c-walsh-1,Courtney Walsh,WI,FAST,10,1962-10-30,1962,33.3,196.0,True,ESPN_verified,171.0,,,odi-1996,ODI,1996,2,25.0,Caribbean
+c-walsh-1,Courtney Walsh,WI,FAST,10,1962-10-30,1962,33.3,198.0,True,multi_source_verified,171.0,,"VERIFIED: Corrected from 196; sources: Wikipedia 198cm, Cricket Hall of Fame 198cm (6'6"")",odi-1996,ODI,1996,2,27.0,Caribbean
 k-benjamin-1,Kenny Benjamin,WI,FAST,11,1967-04-08,1967,28.9,185.0,False,estimated,172.0,HEIGHT_ESTIMATED,Fast bowler. Height estimated from match footage.,odi-1996,ODI,1996,2,13.0,Caribbean
 c-spearman-1,Craig Spearman,NZL,BAT,1,1972-07-04,1972,23.6,175.0,False,estimated,177.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1996,ODI,1996,2,-2.0,Oceanian
 n-astle-1,Nathan Astle,NZL,BAT,2,1971-09-15,1971,24.4,180.0,True,ESPN_verified,177.0,,,odi-1996,ODI,1996,2,3.0,Oceanian
@@ -470,7 +470,7 @@ r-mahanama-1,Roshan Mahanama,SL,BAT,6,1966-05-31,1966,29.7,175.0,False,estimated
 h-tillakaratne-1,Hashan Tillakaratne,SL,WK,7,1967-07-14,1967,28.6,170.0,False,estimated,164.0,HEIGHT_ESTIMATED,Kept wicket when Kaluwitharana opened the batting. Height estimated.,odi-1996,ODI,1996,2,6.0,South Asian
 c-vaas-1,Chaminda Vaas,SL,FAST,8,1974-01-27,1974,22.1,175.0,True,ESPN_verified,164.0,,Left-arm fast-medium bowler.,odi-1996,ODI,1996,2,11.0,South Asian
 k-dharmasena-1,Kumar Dharmasena,SL,SPIN,9,1971-04-24,1971,24.8,175.0,False,estimated,164.0,HEIGHT_ESTIMATED,Off-spin bowler. Height estimated from match footage.,odi-1996,ODI,1996,2,11.0,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,10,1972-04-17,1972,23.8,175.0,True,ESPN_verified,164.0,,Off-spin bowler. Greatest wicket-taker in cricket history.,odi-1996,ODI,1996,2,11.0,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,10,1972-04-17,1972,23.8,170.0,True,multi_source_verified,164.0,HEIGHT_CONFLICTING,"Off-spin bowler. Greatest wicket-taker in cricket history.; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",odi-1996,ODI,1996,2,6.0,South Asian
 r-pushpakumara-1,Ravindra Pushpakumara,SL,FAST,11,1975-07-21,1975,20.6,178.0,False,estimated,165.0,HEIGHT_ESTIMATED,Left-arm fast bowler. Height estimated from match footage.,odi-1996,ODI,1996,2,13.0,South Asian
 a-hudson-1,Andrew Hudson,RSA,BAT,1,1965-03-17,1965,30.9,180.0,False,estimated,170.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1996,ODI,1996,2,10.0,African
 g-kirsten-1,Gary Kirsten,RSA,BAT,2,1967-11-23,1967,28.2,180.0,True,ESPN_verified,170.0,,,odi-1996,ODI,1996,2,10.0,African
@@ -526,7 +526,7 @@ m-khan-1,Moin Khan,PAK,WK,7,1971-09-23,1971,27.7,170.0,False,estimated,166.0,HEI
 w-akram-2,Wasim Akram,PAK,FAST,8,1966-06-03,1966,32.9,185.0,True,ESPN_verified,166.0,,Captain.,odi-1999,ODI,1999,2,19.0,South Asian
 s-mushtaq-1,Saqlain Mushtaq,PAK,SPIN,9,1976-12-29,1976,22.5,178.0,True,ESPN_verified,167.0,,Off-spin bowler. Inventor of the doosra.,odi-1999,ODI,1999,2,11.0,South Asian
 w-younis-1,Waqar Younis,PAK,FAST,10,1969-11-16,1969,29.5,180.0,True,ESPN_verified,166.0,,,odi-1999,ODI,1999,2,14.0,South Asian
-s-akhtar-1,Shoaib Akhtar,PAK,FAST,11,1975-08-13,1975,23.8,185.0,True,ESPN_verified,167.0,,Express fast bowler. Rawalpindi Express.,odi-1999,ODI,1999,2,18.0,South Asian
+s-akhtar-1,Shoaib Akhtar,PAK,FAST,11,1975-08-13,1975,23.8,183.0,True,multi_source_verified,167.0,,"Express fast bowler. Rawalpindi Express.; VERIFIED: Corrected from 185/188; sources: Wikipedia 183cm, BodySize 183cm (6'0"")",odi-1999,ODI,1999,2,16.0,South Asian
 s-campbell-1,Sherwin Campbell,WI,BAT,1,1970-11-01,1970,28.5,175.0,False,estimated,172.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1999,ODI,1999,2,3.0,Caribbean
 r-jacobs-1,Ridley Jacobs,WI,BAT,2,1967-11-26,1967,31.5,175.0,False,estimated,172.0,CATEGORY_AMBIGUOUS,Wicketkeeper-batsman who sometimes opened. Classified BAT due to batting position 2. WK role assigned separately. Height estimated.,odi-1999,ODI,1999,2,3.0,Caribbean
 b-lara-1,Brian Lara,WI,BAT,3,1969-05-02,1969,30.1,173.0,True,ESPN_verified,172.0,,Captain.,odi-1999,ODI,1999,2,1.0,Caribbean
@@ -536,7 +536,7 @@ s-chanderpaul-1,Shivnarine Chanderpaul,WI,BAT,6,1974-08-16,1974,24.8,168.0,True,
 r-jacobs-wk-1,Ridley Jacobs,WI,WK,7,1967-11-26,1967,31.5,175.0,False,estimated,172.0,HEIGHT_ESTIMATED,Primary wicketkeeper. Listed at position 7 for WK role; actual batting position was 2. Height estimated.,odi-1999,ODI,1999,2,3.0,Caribbean
 n-perry-1,Nehemiah Perry,WI,SPIN,8,1968-02-04,1968,31.3,183.0,False,estimated,172.0,HEIGHT_ESTIMATED,Off-spin bowler. Height estimated from match footage.,odi-1999,ODI,1999,2,11.0,Caribbean
 c-ambrose-1,Curtly Ambrose,WI,FAST,9,1963-09-21,1963,35.7,201.0,True,ESPN_verified,172.0,,Final World Cup.,odi-1999,ODI,1999,2,29.0,Caribbean
-c-walsh-1,Courtney Walsh,WI,FAST,10,1962-10-30,1962,36.5,196.0,True,ESPN_verified,171.0,,,odi-1999,ODI,1999,2,25.0,Caribbean
+c-walsh-1,Courtney Walsh,WI,FAST,10,1962-10-30,1962,36.5,198.0,True,multi_source_verified,171.0,,"VERIFIED: Corrected from 196; sources: Wikipedia 198cm, Cricket Hall of Fame 198cm (6'6"")",odi-1999,ODI,1999,2,27.0,Caribbean
 f-rose-1,Franklyn Rose,WI,FAST,11,1972-02-01,1972,27.3,191.0,False,estimated,173.0,HEIGHT_ESTIMATED,Fast bowler. Height estimated from match footage.,odi-1999,ODI,1999,2,18.0,Caribbean
 m-horne-1,Matthew Horne,NZL,BAT,1,1970-12-05,1970,28.4,178.0,False,estimated,177.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1999,ODI,1999,2,1.0,Oceanian
 n-astle-1,Nathan Astle,NZL,BAT,2,1971-09-15,1971,27.7,180.0,True,ESPN_verified,177.0,,,odi-1999,ODI,1999,2,3.0,Oceanian
@@ -557,7 +557,7 @@ a-ranatunga-1,Arjuna Ranatunga,SL,BAT,5,1963-12-01,1963,35.4,170.0,True,ESPN_ver
 r-mahanama-1,Roshan Mahanama,SL,BAT,6,1966-05-31,1966,32.9,175.0,False,estimated,164.0,HEIGHT_ESTIMATED,Height estimated from match footage.,odi-1999,ODI,1999,2,11.0,South Asian
 h-tillakaratne-1,Hashan Tillakaratne,SL,WK,7,1967-07-14,1967,31.8,170.0,False,estimated,164.0,HEIGHT_ESTIMATED,Kept wicket. Height estimated.,odi-1999,ODI,1999,2,6.0,South Asian
 c-vaas-1,Chaminda Vaas,SL,FAST,8,1974-01-27,1974,25.3,175.0,True,ESPN_verified,164.0,,Left-arm fast-medium bowler.,odi-1999,ODI,1999,2,11.0,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,9,1972-04-17,1972,27.0,175.0,True,ESPN_verified,164.0,,Off-spin bowler.,odi-1999,ODI,1999,2,11.0,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,9,1972-04-17,1972,27.0,170.0,True,multi_source_verified,164.0,HEIGHT_CONFLICTING,"Off-spin bowler.; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",odi-1999,ODI,1999,2,6.0,South Asian
 p-wickramasinghe-1,Pramodya Wickramasinghe,SL,FAST,10,1971-08-14,1971,27.8,180.0,False,estimated,164.0,HEIGHT_ESTIMATED,Fast-medium bowler. Height estimated from match footage.,odi-1999,ODI,1999,2,16.0,South Asian
 k-dharmasena-1,Kumar Dharmasena,SL,SPIN,11,1971-04-24,1971,28.1,175.0,False,estimated,164.0,HEIGHT_ESTIMATED,Off-spin bowler. Height estimated from match footage.,odi-1999,ODI,1999,2,11.0,South Asian
 g-kirsten-1,Gary Kirsten,RSA,BAT,1,1967-11-23,1967,31.5,180.0,True,ESPN_verified,170.0,,,odi-1999,ODI,1999,2,10.0,African
@@ -610,14 +610,14 @@ a-razzaq-1,Abdul Razzaq,PAK,BAT,3,1979-12-02,1979,23.2,180.0,False,ESPN_estimate
 i-ul-haq-1,Inzamam-ul-Haq,PAK,BAT,4,1970-03-03,1970,32.9,183.0,True,ESPN_verified,166.0,,Captain,odi-2003,ODI,2003,3,17.0,South Asian
 y-youhana-1,Yousuf Youhana,PAK,BAT,5,1974-08-27,1974,28.5,178.0,True,ESPN_verified,166.2,,Later known as Mohammad Yousuf,odi-2003,ODI,2003,3,11.800000000000011,South Asian
 r-latif-1,Rashid Latif,PAK,WK,6,1968-10-14,1968,34.4,173.0,True,ESPN_verified,166.2,,Wicketkeeper,odi-2003,ODI,2003,3,6.800000000000011,South Asian
-s-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,23.0,183.0,True,ESPN_verified,166.4,CATEGORY_AMBIGUOUS,Leg-spin all-rounder; batted 7 and bowled leg-spin. Classified as SPIN,odi-2003,ODI,2003,3,16.599999999999994,South Asian
+s-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,23.0,180.0,True,multi_source_verified,166.4,CATEGORY_AMBIGUOUS,"Leg-spin all-rounder; batted 7 and bowled leg-spin. Classified as SPIN; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",odi-2003,ODI,2003,3,13.599999999999994,South Asian
 w-akram-1,Wasim Akram,PAK,FAST,8,1966-06-03,1966,36.7,188.0,True,ESPN_verified,166.0,,Left-arm fast; final World Cup,odi-2003,ODI,2003,3,22.0,South Asian
 w-younis-1,Waqar Younis,PAK,FAST,9,1969-11-16,1969,33.3,180.0,True,ESPN_verified,166.0,,Right-arm fast,odi-2003,ODI,2003,3,14.0,South Asian
-s-akhtar-1,Shoaib Akhtar,PAK,FAST,10,1975-08-13,1975,27.5,188.0,True,ESPN_verified,166.3,,Right-arm fast; 'Rawalpindi Express',odi-2003,ODI,2003,3,21.69999999999999,South Asian
+s-akhtar-1,Shoaib Akhtar,PAK,FAST,10,1975-08-13,1975,27.5,183.0,True,multi_source_verified,166.3,HEIGHT_CONFLICTING,"Right-arm fast; 'Rawalpindi Express'; VERIFIED: Corrected from 185/188; sources: Wikipedia 183cm, BodySize 183cm (6'0"")",odi-2003,ODI,2003,3,16.69999999999999,South Asian
 s-mushtaq-1,Saqlain Mushtaq,PAK,SPIN,11,1976-12-29,1976,26.1,175.0,True,ESPN_verified,166.3,,Off-spin; inventor of the doosra,odi-2003,ODI,2003,3,8.699999999999989,South Asian
-c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,23.4,191.0,True,ESPN_verified,173.0,,Left-hand opener,odi-2003,ODI,2003,3,18.0,Caribbean
+c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,23.4,188.0,True,multi_source_verified,173.0,,"Left-hand opener; VERIFIED: Corrected from 191; sources: Wikipedia 188cm, BodySize 188cm (6'2"")",odi-2003,ODI,2003,3,15.0,Caribbean
 w-hinds-1,Wavell Hinds,WI,BAT,2,1976-09-07,1976,26.4,175.0,False,ESPN_estimated,172.5,HEIGHT_ESTIMATED,Height estimated from photos,odi-2003,ODI,2003,3,2.5,Caribbean
-b-lara-1,Brian Lara,WI,BAT,3,1969-05-02,1969,33.8,175.0,True,ESPN_verified,172.2,,Captain,odi-2003,ODI,2003,3,2.8000000000000114,Caribbean
+b-lara-1,Brian Lara,WI,BAT,3,1969-05-02,1969,33.8,173.0,True,multi_source_verified,172.2,,"Captain; VERIFIED: Corrected from 175 (some entries); sources: Wikipedia 173cm, CelebHeights 173cm (5'8"")",odi-2003,ODI,2003,3,0.8000000000000114,Caribbean
 r-sarwan-1,Ramnaresh Sarwan,WI,BAT,4,1980-06-23,1980,22.7,175.0,True,ESPN_verified,173.1,,,odi-2003,ODI,2003,3,1.9000000000000057,Caribbean
 s-chanderpaul-1,Shivnarine Chanderpaul,WI,BAT,5,1974-08-16,1974,28.5,170.0,True,ESPN_verified,172.4,,,odi-2003,ODI,2003,3,-2.4000000000000057,Caribbean
 r-jacobs-1,Ridley Jacobs,WI,WK,6,1967-11-26,1967,35.3,175.0,False,ESPN_estimated,172.0,HEIGHT_ESTIMATED,Wicketkeeper; height estimated from photos,odi-2003,ODI,2003,3,3.0,Caribbean
@@ -644,7 +644,7 @@ d-jayawardene-1,Mahela Jayawardene,SL,BAT,4,1977-05-27,1977,25.8,175.0,True,ESPN
 a-desilva-1,Aravinda de Silva,SL,BAT,5,1965-10-17,1965,37.4,170.0,True,ESPN_verified,164.0,,Veteran; final World Cup,odi-2003,ODI,2003,3,6.0,South Asian
 r-arnold-1,Russel Arnold,SL,BAT,6,1973-10-25,1973,29.3,170.0,False,ESPN_estimated,164.6,HEIGHT_ESTIMATED,Height estimated from photos,odi-2003,ODI,2003,3,5.400000000000006,South Asian
 r-kaluwitharana-1,Romesh Kaluwitharana,SL,WK,7,1969-11-24,1969,33.3,165.0,True,ESPN_verified,164.3,,Wicketkeeper,odi-2003,ODI,2003,3,0.6999999999999886,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,8,1972-04-17,1972,30.9,175.0,True,ESPN_verified,164.5,,Off-spin; legendary spinner,odi-2003,ODI,2003,3,10.5,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,8,1972-04-17,1972,30.9,170.0,True,multi_source_verified,164.5,HEIGHT_CONFLICTING,"Off-spin; legendary spinner; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",odi-2003,ODI,2003,3,5.5,South Asian
 w-vaas-1,Chaminda Vaas,SL,FAST,9,1974-01-27,1974,29.0,180.0,True,ESPN_verified,164.7,,Left-arm fast-medium,odi-2003,ODI,2003,3,15.300000000000011,South Asian
 d-fernando-1,Dilhara Fernando,SL,FAST,10,1979-07-19,1979,23.5,185.0,False,ESPN_estimated,165.1,HEIGHT_ESTIMATED,Right-arm fast; height estimated,odi-2003,ODI,2003,3,19.900000000000006,South Asian
 n-zoysa-1,Nuwan Zoysa,SL,FAST,11,1978-05-13,1978,24.7,183.0,False,ESPN_estimated,165.0,HEIGHT_ESTIMATED,Left-arm fast-medium; height estimated from photos,odi-2003,ODI,2003,3,18.0,South Asian
@@ -696,16 +696,16 @@ i-nazir-1,Imran Nazir,PAK,BAT,1,1981-12-16,1981,25.2,178.0,False,ESPN_estimated,
 m-hafeez-1,Mohammad Hafeez,PAK,BAT,2,1980-10-17,1980,26.4,183.0,True,ESPN_verified,166.4,,Right-hand opener; off-spin bowler,odi-2007,ODI,2007,3,16.599999999999994,South Asian
 y-youhana-1,Mohammad Yousuf,PAK,BAT,3,1974-08-27,1974,32.6,178.0,True,ESPN_verified,166.2,,Formerly Yousuf Youhana,odi-2007,ODI,2007,3,11.800000000000011,South Asian
 i-ul-haq-1,Inzamam-ul-Haq,PAK,BAT,4,1970-03-03,1970,37.0,183.0,True,ESPN_verified,166.0,,Captain; final World Cup,odi-2007,ODI,2007,3,17.0,South Asian
-s-afridi-1,Shahid Afridi,PAK,BAT,5,1980-03-01,1980,27.0,183.0,True,ESPN_verified,166.4,CATEGORY_AMBIGUOUS,Leg-spin all-rounder; batted at 5 so classified BAT,odi-2007,ODI,2007,3,16.599999999999994,South Asian
+s-afridi-1,Shahid Afridi,PAK,BAT,5,1980-03-01,1980,27.0,180.0,True,multi_source_verified,166.4,CATEGORY_AMBIGUOUS,"Leg-spin all-rounder; batted at 5 so classified BAT; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",odi-2007,ODI,2007,3,13.599999999999994,South Asian
 s-malik-1,Shoaib Malik,PAK,BAT,6,1982-02-01,1982,25.1,180.0,True,ESPN_verified,166.6,,Off-spin all-rounder; batted middle order,odi-2007,ODI,2007,3,13.400000000000006,South Asian
 k-akmal-1,Kamran Akmal,PAK,WK,7,1982-01-13,1982,25.1,175.0,True,ESPN_verified,166.6,,Wicketkeeper,odi-2007,ODI,2007,3,8.400000000000006,South Asian
 a-razzaq-1,Abdul Razzaq,PAK,FAST,8,1979-12-02,1979,27.2,180.0,False,ESPN_estimated,166.4,HEIGHT_ESTIMATED,Right-arm fast-medium all-rounder; height estimated,odi-2007,ODI,2007,3,13.599999999999994,South Asian
 m-asif-1,Mohammad Asif,PAK,FAST,9,1982-12-20,1982,24.2,188.0,True,ESPN_verified,166.6,,Right-arm fast-medium,odi-2007,ODI,2007,3,21.400000000000006,South Asian
 u-gul-1,Umar Gul,PAK,FAST,10,1984-04-14,1984,22.9,183.0,True,ESPN_verified,166.8,,Right-arm fast,odi-2007,ODI,2007,3,16.19999999999999,South Asian
 m-sami-1,Mohammad Sami,PAK,FAST,11,1981-02-24,1981,26.1,185.0,True,ESPN_verified,166.5,,Right-arm fast,odi-2007,ODI,2007,3,18.5,South Asian
-c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,27.5,191.0,True,ESPN_verified,173.0,,Left-hand opener,odi-2007,ODI,2007,3,18.0,Caribbean
+c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,27.5,188.0,True,multi_source_verified,173.0,,"Left-hand opener; VERIFIED: Corrected from 191; sources: Wikipedia 188cm, BodySize 188cm (6'2"")",odi-2007,ODI,2007,3,15.0,Caribbean
 d-smith-1,Devon Smith,WI,BAT,2,1981-10-21,1981,25.4,168.0,False,ESPN_estimated,173.2,HEIGHT_ESTIMATED,Left-hand opener; height estimated from photos,odi-2007,ODI,2007,3,-5.199999999999989,Caribbean
-b-lara-1,Brian Lara,WI,BAT,3,1969-05-02,1969,37.9,175.0,True,ESPN_verified,172.2,,Captain; final World Cup,odi-2007,ODI,2007,3,2.8000000000000114,Caribbean
+b-lara-1,Brian Lara,WI,BAT,3,1969-05-02,1969,37.9,173.0,True,multi_source_verified,172.2,,"Captain; final World Cup; VERIFIED: Corrected from 175 (some entries); sources: Wikipedia 173cm, CelebHeights 173cm (5'8"")",odi-2007,ODI,2007,3,0.8000000000000114,Caribbean
 s-chanderpaul-1,Shivnarine Chanderpaul,WI,BAT,4,1974-08-16,1974,32.6,170.0,True,ESPN_verified,172.4,,,odi-2007,ODI,2007,3,-2.4000000000000057,Caribbean
 r-sarwan-1,Ramnaresh Sarwan,WI,BAT,5,1980-06-23,1980,26.8,175.0,True,ESPN_verified,173.1,,,odi-2007,ODI,2007,3,1.9000000000000057,Caribbean
 d-bravo-1,Dwayne Bravo,WI,BAT,6,1983-10-07,1983,23.4,175.0,True,ESPN_verified,173.4,CATEGORY_AMBIGUOUS,All-rounder; right-arm medium-fast. Batted 6 so classified BAT,odi-2007,ODI,2007,3,1.5999999999999943,Caribbean
@@ -732,9 +732,9 @@ d-jayawardene-1,Mahela Jayawardene,SL,BAT,4,1977-05-27,1977,29.9,175.0,True,ESPN
 l-silva-1,Chamara Silva,SL,BAT,5,1979-12-12,1979,27.2,170.0,False,ESPN_estimated,165.1,HEIGHT_ESTIMATED,Height estimated from photos,odi-2007,ODI,2007,3,4.900000000000006,South Asian
 t-dilshan-1,Tillakaratne Dilshan,SL,BAT,6,1976-10-14,1976,30.4,175.0,True,ESPN_verified,164.8,,,odi-2007,ODI,2007,3,10.199999999999989,South Asian
 p-jayawardene-1,Prasanna Jayawardene,SL,WK,7,1979-01-11,1979,28.2,168.0,False,ESPN_estimated,165.1,HEIGHT_ESTIMATED,Wicketkeeper; height estimated from photos,odi-2007,ODI,2007,3,2.9000000000000057,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,8,1972-04-17,1972,34.9,175.0,True,ESPN_verified,164.5,,Off-spin,odi-2007,ODI,2007,3,10.5,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,8,1972-04-17,1972,34.9,170.0,True,multi_source_verified,164.5,HEIGHT_CONFLICTING,"Off-spin; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",odi-2007,ODI,2007,3,5.5,South Asian
 w-vaas-1,Chaminda Vaas,SL,FAST,9,1974-01-27,1974,33.1,180.0,True,ESPN_verified,164.7,,Left-arm fast-medium,odi-2007,ODI,2007,3,15.300000000000011,South Asian
-l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,23.6,175.0,True,ESPN_verified,165.3,,Right-arm fast; sling action. 4 wickets in 4 balls vs SA,odi-2007,ODI,2007,3,9.699999999999989,South Asian
+l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,23.6,173.0,True,multi_source_verified,165.3,,"Right-arm fast; sling action. 4 wickets in 4 balls vs SA; VERIFIED: Corrected from 175; sources: Wikipedia 170-173cm, consensus 173cm (5'8"")",odi-2007,ODI,2007,3,7.699999999999989,South Asian
 d-fernando-1,Dilhara Fernando,SL,FAST,11,1979-07-19,1979,27.6,185.0,False,ESPN_estimated,165.1,HEIGHT_ESTIMATED,Right-arm fast; height estimated,odi-2007,ODI,2007,3,19.900000000000006,South Asian
 g-smith-1,Graeme Smith,RSA,BAT,1,1981-02-01,1981,26.1,193.0,True,ESPN_verified,170.5,,Captain; left-hand opener,odi-2007,ODI,2007,3,22.5,African
 a-dplessis-1,AB de Villiers,RSA,BAT,2,1984-02-17,1984,23.1,180.0,True,ESPN_verified,170.7,,Young talent; batted various positions,odi-2007,ODI,2007,3,9.300000000000011,African
@@ -787,7 +787,7 @@ m-yousuf-1,Mohammad Yousuf,PAK,BAT,4,1974-08-27,1974,36.5,178.0,True,ESPN_verifi
 m-ul-haq-1,Misbah-ul-Haq,PAK,BAT,5,1974-05-28,1974,36.7,180.0,True,ESPN_verified,166.2,,Captain,odi-2011,ODI,2011,3,13.800000000000011,South Asian
 u-akmal-1,Umar Akmal,PAK,BAT,6,1990-05-26,1990,20.7,170.0,True,ESPN_verified,166.9,,,odi-2011,ODI,2011,3,3.0999999999999943,South Asian
 k-akmal-1,Kamran Akmal,PAK,WK,7,1982-01-13,1982,29.1,175.0,True,ESPN_verified,166.6,,Wicketkeeper,odi-2011,ODI,2011,3,8.400000000000006,South Asian
-s-afridi-1,Shahid Afridi,PAK,SPIN,8,1980-03-01,1980,30.9,183.0,True,ESPN_verified,166.4,CATEGORY_AMBIGUOUS,Leg-spin all-rounder; batted lower order in this tournament. Classified as SPIN,odi-2011,ODI,2011,3,16.599999999999994,South Asian
+s-afridi-1,Shahid Afridi,PAK,SPIN,8,1980-03-01,1980,30.9,180.0,True,multi_source_verified,166.4,CATEGORY_AMBIGUOUS,"Leg-spin all-rounder; batted lower order in this tournament. Classified as SPIN; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",odi-2011,ODI,2011,3,13.599999999999994,South Asian
 u-gul-1,Umar Gul,PAK,FAST,9,1984-04-14,1984,26.8,183.0,True,ESPN_verified,166.8,,Right-arm fast,odi-2011,ODI,2011,3,16.19999999999999,South Asian
 w-riaz-1,Wahab Riaz,PAK,FAST,10,1985-06-28,1985,25.6,185.0,True,ESPN_verified,166.9,,Left-arm fast,odi-2011,ODI,2011,3,18.099999999999994,South Asian
 s-ajmal-1,Saeed Ajmal,PAK,SPIN,11,1977-10-14,1977,33.3,180.0,False,ESPN_estimated,166.3,HEIGHT_ESTIMATED,Off-spin; doosra specialist. Height estimated,odi-2011,ODI,2011,3,13.699999999999989,South Asian
@@ -798,11 +798,11 @@ d-jayawardene-1,Mahela Jayawardene,SL,BAT,4,1977-05-27,1977,33.7,175.0,True,ESPN
 t-samaraweera-1,Thilan Samaraweera,SL,BAT,5,1976-09-22,1976,34.4,175.0,False,ESPN_estimated,164.8,HEIGHT_ESTIMATED,Height estimated from photos,odi-2011,ODI,2011,3,10.199999999999989,South Asian
 c-kapugedera-1,Chamara Kapugedera,SL,BAT,6,1987-02-24,1987,23.9,175.0,False,ESPN_estimated,165.6,HEIGHT_ESTIMATED,Height estimated from photos,odi-2011,ODI,2011,3,9.400000000000006,South Asian
 a-mathews-1,Angelo Mathews,SL,FAST,7,1987-06-02,1987,23.7,183.0,True,ESPN_verified,165.6,CATEGORY_AMBIGUOUS,All-rounder; right-arm fast-medium. Batted 7 so classified FAST,odi-2011,ODI,2011,3,17.400000000000006,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,8,1972-04-17,1972,38.8,175.0,True,ESPN_verified,164.5,,Off-spin; final World Cup,odi-2011,ODI,2011,3,10.5,South Asian
-l-malinga-1,Lasith Malinga,SL,FAST,9,1983-08-28,1983,27.5,175.0,True,ESPN_verified,165.3,,Right-arm fast; sling action,odi-2011,ODI,2011,3,9.699999999999989,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,8,1972-04-17,1972,38.8,170.0,True,multi_source_verified,164.5,HEIGHT_CONFLICTING,"Off-spin; final World Cup; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",odi-2011,ODI,2011,3,5.5,South Asian
+l-malinga-1,Lasith Malinga,SL,FAST,9,1983-08-28,1983,27.5,173.0,True,multi_source_verified,165.3,,"Right-arm fast; sling action; VERIFIED: Corrected from 175; sources: Wikipedia 170-173cm, consensus 173cm (5'8"")",odi-2011,ODI,2011,3,7.699999999999989,South Asian
 n-kulasekara-1,Nuwan Kulasekara,SL,FAST,10,1982-07-22,1982,28.6,178.0,True,ESPN_verified,165.2,,Right-arm fast-medium,odi-2011,ODI,2011,3,12.800000000000011,South Asian
 s-randiv-1,Suraj Randiv,SL,SPIN,11,1985-01-30,1985,26.1,183.0,False,ESPN_estimated,165.4,HEIGHT_ESTIMATED,Off-spin; height estimated. Ajantha Mendis also featured in some matches,odi-2011,ODI,2011,3,17.599999999999994,South Asian
-c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,31.4,191.0,True,ESPN_verified,173.0,,Captain; left-hand opener,odi-2011,ODI,2011,3,18.0,Caribbean
+c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,31.4,188.0,True,multi_source_verified,173.0,,"Captain; left-hand opener; VERIFIED: Corrected from 191; sources: Wikipedia 188cm, BodySize 188cm (6'2"")",odi-2011,ODI,2011,3,15.0,Caribbean
 d-smith-1,Devon Smith,WI,BAT,2,1981-10-21,1981,29.3,168.0,False,ESPN_estimated,173.2,HEIGHT_ESTIMATED,Left-hand opener; height estimated,odi-2011,ODI,2011,3,-5.199999999999989,Caribbean
 d-bravo-1,Darren Bravo,WI,BAT,3,1989-02-06,1989,22.0,183.0,True,ESPN_verified,173.8,,Left-hand bat; Brian Lara's protege,odi-2011,ODI,2011,3,9.199999999999989,Caribbean
 s-chanderpaul-1,Shivnarine Chanderpaul,WI,BAT,4,1974-08-16,1974,36.5,170.0,True,ESPN_verified,172.4,,Veteran,odi-2011,ODI,2011,3,-2.4000000000000057,Caribbean
@@ -840,7 +840,7 @@ d-warner-1,David Warner,AUS,BAT,2,1986-10-27,1986,28.3,170.0,True,ESPN_verified,
 s-smith-1,Steve Smith,AUS,BAT,3,1989-06-02,1989,25.7,176.0,True,ESPN_verified,178.3,,Key middle-order batsman; scored heavily throughout,odi-2015,ODI,2015,4,-2.3000000000000114,Oceanian
 m-clarke-1,Michael Clarke,AUS,BAT,4,1981-04-02,1981,33.9,175.0,True,ESPN_verified,177.8,,Captain; final international tournament; played through injury,odi-2015,ODI,2015,4,-2.8000000000000114,Oceanian
 g-bailey-1,George Bailey,AUS,BAT,5,1982-09-07,1982,32.4,178.0,True,ESPN_verified,177.9,,Middle-order stabilizer,odi-2015,ODI,2015,4,0.09999999999999432,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,6,1988-10-14,1988,26.3,180.0,True,ESPN_verified,178.3,CATEGORY_AMBIGUOUS,All-rounder; bats #6 so classified as BAT; also bowls off-spin,odi-2015,ODI,2015,4,1.6999999999999886,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,6,1988-10-14,1988,26.3,182.0,True,multi_source_verified,178.3,CATEGORY_AMBIGUOUS,"All-rounder; bats #6 so classified as BAT; also bowls off-spin; VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",odi-2015,ODI,2015,4,3.6999999999999886,Oceanian
 b-haddin-1,Brad Haddin,AUS,WK,7,1977-10-23,1977,37.3,175.0,True,ESPN_verified,177.4,,Experienced keeper; final World Cup,odi-2015,ODI,2015,4,-2.4000000000000057,Oceanian
 m-johnson-1,Mitchell Johnson,AUS,FAST,8,1981-11-02,1981,33.3,186.0,True,ESPN_verified,177.8,,Left-arm fast; devastating with pace and bounce,odi-2015,ODI,2015,4,8.199999999999989,Oceanian
 m-starc-1,Mitchell Starc,AUS,FAST,9,1990-01-30,1990,25.0,196.0,True,ESPN_verified,178.4,,Player of the Tournament; leading wicket-taker with 22 wickets,odi-2015,ODI,2015,4,17.599999999999994,Oceanian
@@ -857,7 +857,7 @@ s-broad-1,Stuart Broad,ENG,FAST,8,1986-06-24,1986,28.6,196.0,True,ESPN_verified,
 s-finn-1,Steven Finn,ENG,FAST,9,1989-04-04,1989,25.9,198.0,True,ESPN_verified,176.6,,Very tall fast bowler; good bounce,odi-2015,ODI,2015,4,21.400000000000006,European
 j-anderson-1,James Anderson,ENG,FAST,10,1982-07-30,1982,32.5,188.0,True,ESPN_verified,176.1,,England's leading wicket-taker; swing specialist,odi-2015,ODI,2015,4,11.900000000000006,European
 j-tredwell-1,James Tredwell,ENG,SPIN,11,1982-02-27,1982,32.9,183.0,False,estimated,176.1,HEIGHT_ESTIMATED,Off-spinner; height estimated from team photos and limited sources,odi-2015,ODI,2015,4,6.900000000000006,European
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,27.8,177.0,True,ESPN_verified,166.8,,Opener; consistent tournament performer,odi-2015,ODI,2015,4,10.199999999999989,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,27.8,175.0,True,multi_source_verified,166.8,,"Opener; consistent tournament performer; VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",odi-2015,ODI,2015,4,8.199999999999989,South Asian
 s-dhawan-1,Shikhar Dhawan,IND,BAT,2,1985-12-05,1985,29.2,175.0,True,ESPN_verified,166.6,,Left-handed opener; strong tournament performer,odi-2015,ODI,2015,4,8.400000000000006,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,3,1988-11-05,1988,26.2,175.0,True,ESPN_verified,166.9,,Star batsman; scored crucial 107 vs Pakistan,odi-2015,ODI,2015,4,8.099999999999994,South Asian
 a-rahane-1,Ajinkya Rahane,IND,BAT,4,1988-06-06,1988,26.7,170.0,True,ESPN_verified,166.9,,Middle-order batsman,odi-2015,ODI,2015,4,3.0999999999999943,South Asian
@@ -865,7 +865,7 @@ s-raina-1,Suresh Raina,IND,BAT,5,1986-11-27,1986,28.2,178.0,True,ESPN_verified,1
 ms-dhoni-1,MS Dhoni,IND,WK,6,1981-07-07,1981,33.6,175.0,True,ESPN_verified,166.2,,Captain; wicketkeeper; led India to semi-final,odi-2015,ODI,2015,4,8.800000000000011,South Asian
 r-jadeja-1,Ravindra Jadeja,IND,SPIN,7,1988-12-06,1988,26.1,173.0,True,ESPN_verified,166.9,CATEGORY_AMBIGUOUS,All-rounder; bats #7 so classified as SPIN (left-arm orthodox); capable lower-order bat,odi-2015,ODI,2015,4,6.099999999999994,South Asian
 r-ashwin-1,Ravichandran Ashwin,IND,SPIN,8,1986-09-17,1986,28.4,183.0,True,ESPN_verified,166.7,,Off-spinner; primary spin bowler,odi-2015,ODI,2015,4,16.30000000000001,South Asian
-m-shami-1,Mohammed Shami,IND,FAST,9,1990-09-03,1990,24.4,180.0,True,ESPN_verified,167.0,,Right-arm fast; seam and swing,odi-2015,ODI,2015,4,13.0,South Asian
+m-shami-1,Mohammed Shami,IND,FAST,9,1990-09-03,1990,24.4,173.0,True,multi_source_verified,167.0,HEIGHT_CONFLICTING,"Right-arm fast; seam and swing; VERIFIED: Corrected from 180; sources: Wikipedia 173cm, ESPN 173cm, all sources unanimous (5'8"")",odi-2015,ODI,2015,4,6.0,South Asian
 u-yadav-1,Umesh Yadav,IND,FAST,10,1987-10-25,1987,27.3,180.0,True,ESPN_verified,166.8,,Right-arm fast; express pace,odi-2015,ODI,2015,4,13.199999999999989,South Asian
 b-kumar-1,Bhuvneshwar Kumar,IND,FAST,11,1990-02-05,1990,24.9,178.0,True,ESPN_verified,167.0,,Right-arm fast-medium; swing specialist,odi-2015,ODI,2015,4,11.0,South Asian
 a-ali-1,Ahmed Shehzad,PAK,BAT,1,1991-11-23,1991,23.2,175.0,False,estimated,167.5,HEIGHT_ESTIMATED,Height estimated from photos; opening batsman,odi-2015,ODI,2015,4,7.5,South Asian
@@ -874,12 +874,12 @@ h-sohail-1,Haris Sohail,PAK,BAT,3,1989-01-09,1989,26.1,180.0,False,estimated,167
 m-hafeez-1,Mohammad Hafeez,PAK,BAT,4,1980-10-17,1980,34.3,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,"All-rounder; bats in top order, bowls off-spin; classified as BAT",odi-2015,ODI,2015,4,16.0,South Asian
 m-yousuf-2,Misbah-ul-Haq,PAK,BAT,5,1974-05-28,1974,40.7,180.0,True,ESPN_verified,166.5,,Captain; oldest player in tournament at 40; anchor batsman,odi-2015,ODI,2015,4,13.5,South Asian
 u-akmal-1,Umar Akmal,PAK,BAT,6,1990-05-26,1990,24.7,170.0,False,estimated,167.4,HEIGHT_ESTIMATED,Right-handed batsman; height estimated,odi-2015,ODI,2015,4,2.5999999999999943,South Asian
-s-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,34.9,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,Leg-spin all-rounder; classified as SPIN as bowling role primary in later career,odi-2015,ODI,2015,4,16.0,South Asian
+s-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,34.9,180.0,True,multi_source_verified,167.0,CATEGORY_AMBIGUOUS,"Leg-spin all-rounder; classified as SPIN as bowling role primary in later career; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",odi-2015,ODI,2015,4,13.0,South Asian
 w-riaz-1,Wahab Riaz,PAK,FAST,8,1985-06-28,1985,29.6,185.0,True,ESPN_verified,167.1,,Left-arm fast; famous spell vs Australia in QF,odi-2015,ODI,2015,4,17.900000000000006,South Asian
 s-ajmal-1,Sohail Khan,PAK,FAST,9,1984-03-06,1984,30.9,185.0,False,estimated,167.0,HEIGHT_ESTIMATED,Right-arm fast; took 5/55 vs India; height estimated,odi-2015,ODI,2015,4,18.0,South Asian
 m-irfan-1,Mohammad Irfan,PAK,FAST,10,1982-06-06,1982,32.7,216.0,True,ESPN_verified,167.0,,Tallest cricketer ever at 7ft 1in (216 cm); left-arm fast,odi-2015,ODI,2015,4,49.0,South Asian
 e-adil-1,Ehsan Adil,PAK,FAST,11,1993-03-15,1993,21.9,183.0,False,estimated,167.5,HEIGHT_ESTIMATED,Right-arm fast-medium; height estimated from photos,odi-2015,ODI,2015,4,15.5,South Asian
-c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,35.4,191.0,True,ESPN_verified,173.2,,Massive double century (215) vs Zimbabwe in pool stage,odi-2015,ODI,2015,4,17.80000000000001,Caribbean
+c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,35.4,188.0,True,multi_source_verified,173.2,,"Massive double century (215) vs Zimbabwe in pool stage; VERIFIED: Corrected from 191; sources: Wikipedia 188cm, BodySize 188cm (6'2"")",odi-2015,ODI,2015,4,14.800000000000011,Caribbean
 d-smith-1,Dwayne Smith,WI,BAT,2,1983-04-12,1983,31.8,175.0,False,estimated,173.4,HEIGHT_ESTIMATED,Opening batsman; height estimated from photos,odi-2015,ODI,2015,4,1.5999999999999943,Caribbean
 m-samuels-1,Marlon Samuels,WI,BAT,3,1981-02-05,1981,34.0,183.0,True,ESPN_verified,173.3,,Right-handed middle-order batsman,odi-2015,ODI,2015,4,9.699999999999989,Caribbean
 d-bravo-1,Darren Bravo,WI,BAT,4,1989-02-06,1989,26.0,178.0,False,estimated,173.6,HEIGHT_ESTIMATED,Left-handed batsman; Brian Lara's protege; height estimated,odi-2015,ODI,2015,4,4.400000000000006,Caribbean
@@ -892,14 +892,14 @@ k-roach-1,Kemar Roach,WI,FAST,10,1988-06-30,1988,26.6,183.0,True,ESPN_verified,1
 j-taylor-2,Jerome Taylor,WI,FAST,11,1984-06-22,1984,30.6,188.0,True,ESPN_verified,173.5,,Right-arm fast bowler; experienced campaigner,odi-2015,ODI,2015,4,14.5,Caribbean
 m-guptill-1,Martin Guptill,NZL,BAT,1,1986-09-30,1986,28.3,188.0,True,ESPN_verified,177.6,,Scored record 237* vs WI in quarter-final,odi-2015,ODI,2015,4,10.400000000000006,Oceanian
 b-mccullum-1,Brendon McCullum,NZL,BAT,2,1981-09-27,1981,33.4,175.0,True,ESPN_verified,177.3,,Captain; aggressive opener; led NZ to first final,odi-2015,ODI,2015,4,-2.3000000000000114,Oceanian
-k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,24.5,176.0,True,ESPN_verified,177.7,,Key batsman; led NZ batting after McCullum departures,odi-2015,ODI,2015,4,-1.6999999999999886,Oceanian
+k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,24.5,173.0,True,multi_source_verified,177.7,,"Key batsman; led NZ batting after McCullum departures; VERIFIED: Corrected from 176/180; sources: Wikipedia 173cm, IPL 173cm (5'8"")",odi-2015,ODI,2015,4,-4.699999999999989,Oceanian
 r-taylor-1,Ross Taylor,NZL,BAT,4,1984-03-08,1984,30.9,183.0,True,ESPN_verified,177.5,,Experienced middle-order batsman; NZ's leading run-scorer,odi-2015,ODI,2015,4,5.5,Oceanian
 g-elliott-1,Grant Elliott,NZL,BAT,5,1979-03-21,1979,35.9,185.0,False,estimated,177.2,HEIGHT_ESTIMATED,South Africa-born; semi-final hero with match-winning six; height estimated,odi-2015,ODI,2015,4,7.800000000000011,Oceanian
 c-anderson-1,Corey Anderson,NZL,BAT,6,1990-12-13,1990,24.1,188.0,True,ESPN_verified,177.7,CATEGORY_AMBIGUOUS,All-rounder; bats #6 so classified as BAT; also bowls left-arm medium,odi-2015,ODI,2015,4,10.300000000000011,Oceanian
 l-ronchi-1,Luke Ronchi,NZL,WK,7,1981-04-23,1981,33.8,178.0,False,estimated,177.3,HEIGHT_ESTIMATED,Wicketkeeper-batsman; Australia-born; height estimated,odi-2015,ODI,2015,4,0.6999999999999886,Oceanian
 d-vettori-1,Daniel Vettori,NZL,SPIN,8,1979-01-27,1979,36.0,188.0,True,ESPN_verified,177.2,,Left-arm orthodox spinner; veteran of 5 World Cups; final tournament,odi-2015,ODI,2015,4,10.800000000000011,Oceanian
 t-southee-1,Tim Southee,NZL,FAST,9,1988-12-11,1988,26.1,188.0,True,ESPN_verified,177.7,,Right-arm fast; opening bowler,odi-2015,ODI,2015,4,10.300000000000011,Oceanian
-t-boult-1,Trent Boult,NZL,FAST,10,1989-07-22,1989,25.5,183.0,True,ESPN_verified,177.7,,Left-arm fast; potent new-ball partnership with Southee,odi-2015,ODI,2015,4,5.300000000000011,Oceanian
+t-boult-1,Trent Boult,NZL,FAST,10,1989-07-22,1989,25.5,180.0,True,multi_source_verified,177.7,,"Left-arm fast; potent new-ball partnership with Southee; VERIFIED: Corrected from 183; sources: Wikipedia 180cm, StarsUnfolded 180cm (5'11"")",odi-2015,ODI,2015,4,2.3000000000000114,Oceanian
 a-milne-1,Adam Milne,NZL,FAST,11,1992-04-13,1992,22.8,183.0,True,ESPN_verified,177.8,,Right-arm fast; express pace,odi-2015,ODI,2015,4,5.199999999999989,Oceanian
 t-dilshan-1,Tillakaratne Dilshan,SL,BAT,1,1976-10-14,1976,38.3,173.0,True,ESPN_verified,165.5,,Veteran opener; inventor of 'Dilscoop',odi-2015,ODI,2015,4,7.5,South Asian
 k-sangakkara-1,Kumar Sangakkara,SL,BAT,2,1977-10-27,1977,37.3,178.0,True,ESPN_verified,165.6,,Scored 4 consecutive centuries in WC; final tournament,odi-2015,ODI,2015,4,12.400000000000006,South Asian
@@ -910,7 +910,7 @@ d-chandimal-1,Dinesh Chandimal,SL,WK,6,1989-11-18,1989,25.2,170.0,True,ESPN_veri
 s-senanayake-1,Sachithra Senanayake,SL,SPIN,7,1985-02-09,1985,30.0,175.0,False,estimated,165.9,HEIGHT_ESTIMATED,Off-spinner; height estimated from photos,odi-2015,ODI,2015,4,9.099999999999994,South Asian
 r-herath-1,Rangana Herath,SL,SPIN,8,1978-03-19,1978,36.9,175.0,True,ESPN_verified,165.7,,Left-arm orthodox spinner; veteran,odi-2015,ODI,2015,4,9.300000000000011,South Asian
 s-lakmal-1,Suranga Lakmal,SL,FAST,9,1987-03-10,1987,28.0,185.0,True,ESPN_verified,166.1,,Right-arm fast-medium; leader of pace attack,odi-2015,ODI,2015,4,18.900000000000006,South Asian
-l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,31.4,175.0,True,ESPN_verified,165.8,,Slingy action; yorker specialist; most wickets in WC history (at time),odi-2015,ODI,2015,4,9.199999999999989,South Asian
+l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,31.4,173.0,True,multi_source_verified,165.8,,"Slingy action; yorker specialist; most wickets in WC history (at time); VERIFIED: Corrected from 175; sources: Wikipedia 170-173cm, consensus 173cm (5'8"")",odi-2015,ODI,2015,4,7.199999999999989,South Asian
 n-kulasekara-1,Nuwan Kulasekara,SL,FAST,11,1982-07-22,1982,32.5,178.0,True,ESPN_verified,165.7,,Right-arm fast-medium; swing bowler,odi-2015,ODI,2015,4,12.300000000000011,South Asian
 h-amla-1,Hashim Amla,RSA,BAT,1,1983-03-31,1983,31.9,183.0,True,ESPN_verified,171.5,,Elegant opening batsman,odi-2015,ODI,2015,4,11.5,African
 q-dekock-1,Quinton de Kock,RSA,WK,2,1992-12-17,1992,22.1,170.0,True,ESPN_verified,171.8,,Wicketkeeper-batsman; aggressive opener,odi-2015,ODI,2015,4,-1.8000000000000114,African
@@ -927,7 +927,7 @@ a-finch-1,Aaron Finch,AUS,BAT,1,1986-11-17,1986,32.6,178.0,True,ESPN_verified,17
 d-warner-1,David Warner,AUS,BAT,2,1986-10-27,1986,32.6,170.0,True,ESPN_verified,178.2,,Returned from 1-year ban; tournament top scorer with 647 runs,odi-2019,ODI,2019,4,-8.199999999999989,Oceanian
 s-smith-1,Steve Smith,AUS,BAT,3,1989-06-02,1989,30.0,176.0,True,ESPN_verified,178.3,,Returned from 1-year ban; key middle-order batsman,odi-2019,ODI,2019,4,-2.3000000000000114,Oceanian
 u-khawaja-1,Usman Khawaja,AUS,BAT,4,1986-12-18,1986,32.5,178.0,True,ESPN_verified,178.2,,Pakistan-born; left-handed middle-order batsman,odi-2019,ODI,2019,4,-0.19999999999998863,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,5,1988-10-14,1988,30.6,180.0,True,ESPN_verified,178.3,CATEGORY_AMBIGUOUS,All-rounder; bats #5 so classified as BAT; also bowls off-spin,odi-2019,ODI,2019,4,1.6999999999999886,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,5,1988-10-14,1988,30.6,182.0,True,multi_source_verified,178.3,CATEGORY_AMBIGUOUS,"All-rounder; bats #5 so classified as BAT; also bowls off-spin; VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",odi-2019,ODI,2019,4,3.6999999999999886,Oceanian
 a-carey-1,Alex Carey,AUS,WK,6,1991-08-27,1991,27.8,178.0,True,ESPN_verified,178.4,,Wicketkeeper-batsman; played crucial semi-final innings,odi-2019,ODI,2019,4,-0.4000000000000057,Oceanian
 m-stoinis-1,Marcus Stoinis,AUS,FAST,7,1989-08-16,1989,29.8,188.0,True,ESPN_verified,178.3,CATEGORY_AMBIGUOUS,"All-rounder; bats #7, bowls medium-fast; classified as FAST",odi-2019,ODI,2019,4,9.699999999999989,Oceanian
 p-cummins-1,Pat Cummins,AUS,FAST,8,1993-05-08,1993,26.1,192.0,True,ESPN_verified,178.5,,Right-arm fast; world-class pace bowler,odi-2019,ODI,2019,4,13.5,Oceanian
@@ -945,7 +945,7 @@ l-plunkett-1,Liam Plunkett,ENG,FAST,8,1985-04-06,1985,34.2,185.0,True,ESPN_verif
 j-archer-1,Jofra Archer,ENG,FAST,9,1995-04-01,1995,24.2,183.0,True,ESPN_verified,176.8,,Barbados-born; bowled Super Over in final; right-arm fast,odi-2019,ODI,2019,4,6.199999999999989,European
 a-rashid-1,Adil Rashid,ENG,SPIN,10,1988-02-17,1988,31.3,175.0,True,ESPN_verified,176.5,,Leg-spinner; primary spin option,odi-2019,ODI,2019,4,-1.5,European
 m-wood-1,Mark Wood,ENG,FAST,11,1990-01-11,1990,29.4,183.0,True,ESPN_verified,176.6,,Right-arm fast; express pace; 95mph+,odi-2019,ODI,2019,4,6.400000000000006,European
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,32.1,177.0,True,ESPN_verified,166.8,,Record 5 centuries in single World Cup,odi-2019,ODI,2019,4,10.199999999999989,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,32.1,175.0,True,multi_source_verified,166.8,,"Record 5 centuries in single World Cup; VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",odi-2019,ODI,2019,4,8.199999999999989,South Asian
 kl-rahul-1,KL Rahul,IND,BAT,2,1992-04-18,1992,27.1,180.0,True,ESPN_verified,167.1,,Opened after Dhawan injury; flexible top-order bat,odi-2019,ODI,2019,4,12.900000000000006,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,3,1988-11-05,1988,30.6,175.0,True,ESPN_verified,166.9,,Captain; consistent run-scorer throughout tournament,odi-2019,ODI,2019,4,8.099999999999994,South Asian
 r-pant-1,Rishabh Pant,IND,BAT,4,1997-10-04,1997,21.7,170.0,True,ESPN_verified,167.4,,Young left-handed batsman; played in middle overs,odi-2019,ODI,2019,4,2.5999999999999943,South Asian
@@ -954,7 +954,7 @@ h-pandya-1,Hardik Pandya,IND,BAT,6,1993-10-11,1993,25.7,183.0,True,ESPN_verified
 r-jadeja-1,Ravindra Jadeja,IND,SPIN,7,1988-12-06,1988,30.5,173.0,True,ESPN_verified,166.9,CATEGORY_AMBIGUOUS,"All-rounder; bats #7, bowls left-arm orthodox; classified as SPIN; 77 in semi-final",odi-2019,ODI,2019,4,6.099999999999994,South Asian
 k-yadav-1,Kuldeep Yadav,IND,SPIN,8,1994-12-14,1994,24.5,168.0,True,ESPN_verified,167.2,,Left-arm chinaman; wrist spinner,odi-2019,ODI,2019,4,0.8000000000000114,South Asian
 b-kumar-1,Bhuvneshwar Kumar,IND,FAST,9,1990-02-05,1990,29.3,178.0,True,ESPN_verified,167.0,,Right-arm fast-medium; swing bowling specialist,odi-2019,ODI,2019,4,11.0,South Asian
-j-bumrah-1,Jasprit Bumrah,IND,FAST,10,1993-12-06,1993,25.5,175.0,True,ESPN_verified,167.2,,Right-arm fast; unorthodox slingy action; death-overs specialist,odi-2019,ODI,2019,4,7.800000000000011,South Asian
+j-bumrah-1,Jasprit Bumrah,IND,FAST,10,1993-12-06,1993,25.5,178.0,True,multi_source_verified,167.2,,"Right-arm fast; unorthodox slingy action; death-overs specialist; VERIFIED: Corrected from 175; sources: Wikipedia 178cm, ESPN 178cm, BCCI 178cm (5'10"")",odi-2019,ODI,2019,4,10.800000000000011,South Asian
 y-chahal-1,Yuzvendra Chahal,IND,SPIN,11,1990-07-23,1990,28.9,165.0,True,ESPN_verified,167.0,,Leg-spinner; wrist spin partner to Kuldeep,odi-2019,ODI,2019,4,-2.0,South Asian
 i-ul-haq-1,Imam-ul-Haq,PAK,BAT,1,1995-12-12,1995,23.5,175.0,False,estimated,167.6,HEIGHT_ESTIMATED,Left-handed opener; nephew of Inzamam; height estimated,odi-2019,ODI,2019,4,7.400000000000006,South Asian
 f-zaman-1,Fakhar Zaman,PAK,BAT,2,1990-04-10,1990,29.2,180.0,False,estimated,167.4,HEIGHT_ESTIMATED,Left-handed aggressive opener; height estimated,odi-2019,ODI,2019,4,12.599999999999994,South Asian
@@ -963,11 +963,11 @@ m-hafeez-1,Mohammad Hafeez,PAK,BAT,4,1980-10-17,1980,38.6,183.0,True,ESPN_verifi
 h-sohail-1,Haris Sohail,PAK,BAT,5,1989-01-09,1989,30.4,180.0,False,estimated,167.3,HEIGHT_ESTIMATED,Left-handed middle-order batsman; height estimated,odi-2019,ODI,2019,4,12.699999999999989,South Asian
 s-ahmed-1,Sarfaraz Ahmed,PAK,WK,6,1987-05-22,1987,32.1,170.0,False,estimated,167.2,HEIGHT_ESTIMATED,Captain; wicketkeeper; height estimated,odi-2019,ODI,2019,4,2.8000000000000114,South Asian
 s-malik-1,Shoaib Malik,PAK,SPIN,7,1982-02-01,1982,37.3,175.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,"All-rounder; bats #7, bowls off-spin; classified as SPIN; veteran campaigner",odi-2019,ODI,2019,4,8.0,South Asian
-s-afridi-2,Shaheen Shah Afridi,PAK,FAST,8,2000-04-06,2000,19.2,196.0,True,ESPN_verified,167.7,,Youngest player; tall left-arm fast; 6/35 vs Bangladesh,odi-2019,ODI,2019,4,28.30000000000001,South Asian
+s-afridi-2,Shaheen Shah Afridi,PAK,FAST,8,2000-04-06,2000,19.2,198.0,True,multi_source_verified,167.7,,"Youngest player; tall left-arm fast; 6/35 vs Bangladesh; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, StarsUnfolded 198cm (6'6"")",odi-2019,ODI,2019,4,30.30000000000001,South Asian
 w-riaz-1,Wahab Riaz,PAK,FAST,9,1985-06-28,1985,33.9,185.0,True,ESPN_verified,167.1,,Left-arm fast; experienced campaigner,odi-2019,ODI,2019,4,17.900000000000006,South Asian
 h-ali-1,Hasan Ali,PAK,FAST,10,1994-02-07,1994,25.3,183.0,False,estimated,167.5,HEIGHT_ESTIMATED,Right-arm fast-medium; height estimated,odi-2019,ODI,2019,4,15.5,South Asian
 s-khan-2,Shadab Khan,PAK,SPIN,11,1998-10-04,1998,20.7,178.0,False,estimated,167.7,HEIGHT_ESTIMATED,Leg-spinner all-rounder; young talent; height estimated,odi-2019,ODI,2019,4,10.300000000000011,South Asian
-c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,39.7,191.0,True,ESPN_verified,173.2,,Final World Cup; highest individual score in WC history at time,odi-2019,ODI,2019,4,17.80000000000001,Caribbean
+c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,39.7,188.0,True,multi_source_verified,173.2,,"Final World Cup; highest individual score in WC history at time; VERIFIED: Corrected from 191; sources: Wikipedia 188cm, BodySize 188cm (6'2"")",odi-2019,ODI,2019,4,14.800000000000011,Caribbean
 s-hope-1,Shai Hope,WI,WK,2,1993-11-10,1993,25.6,175.0,False,estimated,173.8,HEIGHT_ESTIMATED,Right-handed opener; Barbados-born; height estimated,odi-2019,ODI,2019,4,1.1999999999999886,Caribbean
 d-bravo-2,Darren Bravo,WI,BAT,3,1989-02-06,1989,30.3,178.0,False,estimated,173.6,HEIGHT_ESTIMATED,Left-handed batsman; height estimated,odi-2019,ODI,2019,4,4.400000000000006,Caribbean
 n-pooran-1,Nicholas Pooran,WI,BAT,4,1995-10-02,1995,23.7,175.0,False,estimated,173.9,HEIGHT_ESTIMATED,Left-handed; explosive middle-order bat; height estimated,odi-2019,ODI,2019,4,1.0999999999999943,Caribbean
@@ -980,7 +980,7 @@ o-thomas-1,Oshane Thomas,WI,FAST,10,1997-02-18,1997,22.3,188.0,False,estimated,1
 s-gabriel-1,Shannon Gabriel,WI,FAST,11,1988-04-28,1988,31.1,188.0,True,ESPN_verified,173.6,,Trinidad-born; right-arm fast; express pace,odi-2019,ODI,2019,4,14.400000000000006,Caribbean
 m-guptill-1,Martin Guptill,NZL,BAT,1,1986-09-30,1986,32.7,188.0,True,ESPN_verified,177.6,,Opening batsman; experienced campaigner,odi-2019,ODI,2019,4,10.400000000000006,Oceanian
 h-nicholls-1,Henry Nicholls,NZL,BAT,2,1991-11-15,1991,27.6,175.0,False,estimated,177.8,HEIGHT_ESTIMATED,Left-handed opener; height estimated,odi-2019,ODI,2019,4,-2.8000000000000114,Oceanian
-k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,28.8,176.0,True,ESPN_verified,177.7,,Captain; Player of Tournament; 578 runs; century in final,odi-2019,ODI,2019,4,-1.6999999999999886,Oceanian
+k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,28.8,173.0,True,multi_source_verified,177.7,,"Captain; Player of Tournament; 578 runs; century in final; VERIFIED: Corrected from 176/180; sources: Wikipedia 173cm, IPL 173cm (5'8"")",odi-2019,ODI,2019,4,-4.699999999999989,Oceanian
 r-taylor-1,Ross Taylor,NZL,BAT,4,1984-03-08,1984,35.2,183.0,True,ESPN_verified,177.5,,Veteran middle-order batsman; strong in final,odi-2019,ODI,2019,4,5.5,Oceanian
 t-latham-1,Tom Latham,NZL,WK,5,1992-04-02,1992,27.2,180.0,True,ESPN_verified,177.8,,Wicketkeeper-batsman; left-handed,odi-2019,ODI,2019,4,2.1999999999999886,Oceanian
 j-neesham-1,Jimmy Neesham,NZL,BAT,6,1990-09-17,1990,28.7,183.0,True,ESPN_verified,177.7,CATEGORY_AMBIGUOUS,All-rounder; bats #6 so classified as BAT; also bowls medium-fast; hit Super Over six,odi-2019,ODI,2019,4,5.300000000000011,Oceanian
@@ -988,7 +988,7 @@ c-degrandhomme-1,Colin de Grandhomme,NZL,FAST,7,1986-07-22,1986,32.9,188.0,True,
 m-santner-1,Mitchell Santner,NZL,SPIN,8,1992-02-05,1992,27.3,180.0,True,ESPN_verified,177.8,,Left-arm orthodox spinner,odi-2019,ODI,2019,4,2.1999999999999886,Oceanian
 t-southee-1,Tim Southee,NZL,FAST,9,1988-12-11,1988,30.5,188.0,True,ESPN_verified,177.7,,Right-arm fast; experienced new-ball bowler,odi-2019,ODI,2019,4,10.300000000000011,Oceanian
 l-ferguson-1,Lockie Ferguson,NZL,FAST,10,1991-06-13,1991,27.9,183.0,True,ESPN_verified,177.8,,Right-arm fast; genuine pace; 21 wickets in tournament,odi-2019,ODI,2019,4,5.199999999999989,Oceanian
-t-boult-1,Trent Boult,NZL,FAST,11,1989-07-22,1989,29.9,183.0,True,ESPN_verified,177.7,,Left-arm fast; stunning catch in final then stepped on boundary,odi-2019,ODI,2019,4,5.300000000000011,Oceanian
+t-boult-1,Trent Boult,NZL,FAST,11,1989-07-22,1989,29.9,180.0,True,multi_source_verified,177.7,,"Left-arm fast; stunning catch in final then stepped on boundary; VERIFIED: Corrected from 183; sources: Wikipedia 180cm, StarsUnfolded 180cm (5'11"")",odi-2019,ODI,2019,4,2.3000000000000114,Oceanian
 d-karunaratne-1,Dimuth Karunaratne,SL,BAT,1,1988-04-21,1988,31.1,175.0,True,ESPN_verified,166.3,,Captain; surprise choice to lead in WC; primarily Test player,odi-2019,ODI,2019,4,8.699999999999989,South Asian
 k-perera-1,Kusal Perera,SL,WK,2,1990-08-17,1990,28.8,168.0,True,ESPN_verified,166.5,,Wicketkeeper-batsman; left-handed aggressive opener,odi-2019,ODI,2019,4,1.5,South Asian
 k-mendis-1,Kusal Mendis,SL,BAT,3,1995-02-02,1995,24.3,170.0,False,estimated,166.8,HEIGHT_ESTIMATED,Right-handed batsman; height estimated,odi-2019,ODI,2019,4,3.1999999999999886,South Asian
@@ -998,7 +998,7 @@ a-fernando-1,Avishka Fernando,SL,BAT,6,1998-04-05,1998,21.2,178.0,False,estimate
 d-desilva-1,Dhananjaya de Silva,SL,SPIN,7,1991-09-06,1991,27.7,175.0,False,estimated,166.6,HEIGHT_ESTIMATED,Off-spin all-rounder; height estimated,odi-2019,ODI,2019,4,8.400000000000006,South Asian
 t-perera-1,Thisara Perera,SL,FAST,8,1989-04-03,1989,30.1,185.0,True,ESPN_verified,166.4,CATEGORY_AMBIGUOUS,"All-rounder; bats #8, bowls medium-fast; classified as FAST",odi-2019,ODI,2019,4,18.599999999999994,South Asian
 i-udana-1,Isuru Udana,SL,FAST,9,1988-02-17,1988,31.3,178.0,False,estimated,166.3,HEIGHT_ESTIMATED,Left-arm fast-medium; height estimated,odi-2019,ODI,2019,4,11.699999999999989,South Asian
-l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,35.8,175.0,True,ESPN_verified,165.8,,Slingy action; yorker king; final World Cup,odi-2019,ODI,2019,4,9.199999999999989,South Asian
+l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,35.8,173.0,True,multi_source_verified,165.8,,"Slingy action; yorker king; final World Cup; VERIFIED: Corrected from 175; sources: Wikipedia 170-173cm, consensus 173cm (5'8"")",odi-2019,ODI,2019,4,7.199999999999989,South Asian
 n-pradeep-1,Nuwan Pradeep,SL,FAST,11,1986-10-02,1986,32.7,183.0,False,estimated,166.0,HEIGHT_ESTIMATED,Right-arm fast; height estimated,odi-2019,ODI,2019,4,17.0,South Asian
 h-amla-1,Hashim Amla,RSA,BAT,1,1983-03-31,1983,36.2,183.0,True,ESPN_verified,171.5,,Elegant opener; final World Cup,odi-2019,ODI,2019,4,11.5,African
 q-dekock-1,Quinton de Kock,RSA,WK,2,1992-12-17,1992,26.5,170.0,True,ESPN_verified,171.8,,Wicketkeeper-batsman; aggressive left-hander,odi-2019,ODI,2019,4,-1.8000000000000114,African
@@ -1011,24 +1011,24 @@ c-morris-1,Chris Morris,RSA,FAST,8,1987-04-30,1987,32.1,196.0,True,ESPN_verified
 k-rabada-1,Kagiso Rabada,RSA,FAST,9,1995-05-25,1995,24.0,185.0,True,ESPN_verified,172.0,,Right-arm fast; one of best fast bowlers in the world,odi-2019,ODI,2019,4,13.0,African
 l-ngidi-1,Lungi Ngidi,RSA,FAST,10,1996-03-29,1996,23.2,193.0,True,ESPN_verified,172.0,,Tall right-arm fast; good bounce,odi-2019,ODI,2019,4,21.0,African
 i-tahir-1,Imran Tahir,RSA,SPIN,11,1979-03-27,1979,40.2,175.0,True,ESPN_verified,171.2,,Pakistan-born leg-spinner; final ODI; iconic celebration,odi-2019,ODI,2019,4,3.8000000000000114,African
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,36.5,177.0,True,ESPN_verified,166.8,CAPTAIN,Captain; led India to final,odi-2023,ODI,2023,4,10.199999999999989,South Asian
-s-gill-1,Shubman Gill,IND,BAT,2,1999-09-08,1999,24.1,175.0,True,ESPN_verified,167.5,,,odi-2023,ODI,2023,4,7.5,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,36.5,175.0,True,multi_source_verified,166.8,CAPTAIN,"Captain; led India to final; VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",odi-2023,ODI,2023,4,8.199999999999989,South Asian
+s-gill-1,Shubman Gill,IND,BAT,2,1999-09-08,1999,24.1,178.0,True,multi_source_verified,167.5,,"VERIFIED: Corrected from 175; sources: Wikipedia 178cm, ESPN 178cm, multiple cricket sites (5'10"")",odi-2023,ODI,2023,4,10.5,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,3,1988-11-05,1988,34.9,175.0,True,ESPN_verified,166.9,,Tournament top scorer; record 50th ODI century,odi-2023,ODI,2023,4,8.099999999999994,South Asian
 s-iyer-1,Shreyas Iyer,IND,BAT,4,1994-12-06,1994,28.9,176.0,True,ESPN_verified,167.2,,,odi-2023,ODI,2023,4,8.800000000000011,South Asian
 kl-rahul-1,KL Rahul,IND,WK,5,1992-04-18,1992,31.5,180.0,True,ESPN_verified,167.1,,Primary wicketkeeper for tournament,odi-2023,ODI,2023,4,12.900000000000006,South Asian
 r-jadeja-1,Ravindra Jadeja,IND,BAT,6,1988-12-06,1988,34.9,173.0,True,ESPN_verified,166.9,CATEGORY_AMBIGUOUS,"All-rounder; bats #6 so classified as BAT, but bowls left-arm spin regularly",odi-2023,ODI,2023,4,6.099999999999994,South Asian
 s-yadav-1,Suryakumar Yadav,IND,BAT,7,1990-09-14,1990,33.1,175.0,True,ESPN_verified,167.0,,Batted #7 in some matches due to team balance,odi-2023,ODI,2023,4,8.0,South Asian
-j-bumrah-1,Jasprit Bumrah,IND,FAST,8,1993-12-06,1993,29.8,175.0,True,ESPN_verified,167.1,,Lead fast bowler; unorthodox slingy action,odi-2023,ODI,2023,4,7.900000000000006,South Asian
+j-bumrah-1,Jasprit Bumrah,IND,FAST,8,1993-12-06,1993,29.8,178.0,True,multi_source_verified,167.1,,"Lead fast bowler; unorthodox slingy action; VERIFIED: Corrected from 175; sources: Wikipedia 178cm, ESPN 178cm, BCCI 178cm (5'10"")",odi-2023,ODI,2023,4,10.900000000000006,South Asian
 k-yadav-1,Kuldeep Yadav,IND,SPIN,9,1994-12-14,1994,28.8,168.0,True,ESPN_verified,167.2,,Left-arm chinaman; primary spinner,odi-2023,ODI,2023,4,0.8000000000000114,South Asian
-m-shami-1,Mohammed Shami,IND,FAST,10,1990-09-03,1990,33.1,180.0,True,ESPN_verified,167.0,,Tournament leading wicket-taker; 7-wicket haul vs NZ,odi-2023,ODI,2023,4,13.0,South Asian
+m-shami-1,Mohammed Shami,IND,FAST,10,1990-09-03,1990,33.1,173.0,True,multi_source_verified,167.0,HEIGHT_CONFLICTING,"Tournament leading wicket-taker; 7-wicket haul vs NZ; VERIFIED: Corrected from 180; sources: Wikipedia 173cm, ESPN 173cm, all sources unanimous (5'8"")",odi-2023,ODI,2023,4,6.0,South Asian
 m-siraj-1,Mohammed Siraj,IND,FAST,11,1994-03-13,1994,29.6,180.0,True,ESPN_verified,167.2,,,odi-2023,ODI,2023,4,12.800000000000011,South Asian
 d-warner-1,David Warner,AUS,BAT,1,1986-10-27,1986,37.0,170.0,True,ESPN_verified,178.2,,Final ODI World Cup; aggressive opener,odi-2023,ODI,2023,4,-8.199999999999989,Oceanian
-t-head-1,Travis Head,AUS,BAT,2,1993-12-29,1993,29.8,182.0,True,ESPN_verified,178.5,,Player of Final; century in final,odi-2023,ODI,2023,4,3.5,Oceanian
-m-labuschagne-1,Marnus Labuschagne,AUS,BAT,3,1994-06-22,1994,29.4,177.0,True,ESPN_verified,178.5,,,odi-2023,ODI,2023,4,-1.5,Oceanian
+t-head-1,Travis Head,AUS,BAT,2,1993-12-29,1993,29.8,179.0,True,multi_source_verified,178.5,,"Player of Final; century in final; VERIFIED: Corrected from 182; sources: cricket.com.au 179cm, SportsUnfold 179cm (5'10"")",odi-2023,ODI,2023,4,0.5,Oceanian
+m-labuschagne-1,Marnus Labuschagne,AUS,BAT,3,1994-06-22,1994,29.4,180.0,True,multi_source_verified,178.5,,"VERIFIED: Corrected from 177; sources: Wikipedia 180cm, CelebsAgeWiki 180cm (5'11"")",odi-2023,ODI,2023,4,1.5,Oceanian
 s-smith-1,Steve Smith,AUS,BAT,4,1989-06-02,1989,34.4,176.0,True,ESPN_verified,178.3,,Former captain; unconventional technique,odi-2023,ODI,2023,4,-2.3000000000000114,Oceanian
 j-inglis-1,Josh Inglis,AUS,WK,5,1995-03-04,1995,28.6,175.0,True,ESPN_verified,178.5,,Primary keeper for tournament,odi-2023,ODI,2023,4,-3.5,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,6,1988-10-14,1988,35.0,180.0,True,ESPN_verified,178.3,,201* vs Afghanistan; greatest ODI innings ever,odi-2023,ODI,2023,4,1.6999999999999886,Oceanian
-m-marsh-1,Mitchell Marsh,AUS,FAST,7,1991-10-20,1991,32.0,195.0,True,ESPN_verified,178.4,CATEGORY_AMBIGUOUS,"All-rounder; bats #7, bowls medium-fast; classified as FAST due to bowling role",odi-2023,ODI,2023,4,16.599999999999994,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,6,1988-10-14,1988,35.0,182.0,True,multi_source_verified,178.3,,"201* vs Afghanistan; greatest ODI innings ever; VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",odi-2023,ODI,2023,4,3.6999999999999886,Oceanian
+m-marsh-1,Mitchell Marsh,AUS,FAST,7,1991-10-20,1991,32.0,193.0,True,multi_source_verified,178.4,CATEGORY_AMBIGUOUS,"All-rounder; bats #7, bowls medium-fast; classified as FAST due to bowling role; VERIFIED: Corrected from 195; sources: Wikipedia 193cm, SportsYaari 193cm (6'4"")",odi-2023,ODI,2023,4,14.599999999999994,Oceanian
 p-cummins-1,Pat Cummins,AUS,FAST,8,1993-05-08,1993,30.4,192.0,True,ESPN_verified,178.5,CAPTAIN,Captain; led Australia to 6th World Cup title,odi-2023,ODI,2023,4,13.5,Oceanian
 m-starc-1,Mitchell Starc,AUS,FAST,9,1990-01-30,1990,33.7,196.0,True,ESPN_verified,178.4,,All-time leading ODI World Cup wicket-taker,odi-2023,ODI,2023,4,17.599999999999994,Oceanian
 a-zampa-1,Adam Zampa,AUS,SPIN,10,1992-03-31,1992,31.6,180.0,True,ESPN_verified,178.4,,Leg-spinner; primary spin option,odi-2023,ODI,2023,4,1.5999999999999943,Oceanian
@@ -1050,20 +1050,20 @@ b-azam-1,Babar Azam,PAK,BAT,3,1994-10-15,1994,29.0,180.0,True,ESPN_verified,167.
 m-rizwan-1,Mohammad Rizwan,PAK,WK,4,1992-06-01,1992,31.4,170.0,False,estimated,167.4,HEIGHT_ESTIMATED,Wicketkeeper-batsman; batted #4 in most matches; height estimated,odi-2023,ODI,2023,4,2.5999999999999943,South Asian
 s-ahmed-2,Saud Shakeel,PAK,BAT,5,1995-09-05,1995,28.1,175.0,False,estimated,167.6,HEIGHT_ESTIMATED,Left-handed middle-order batsman; height estimated,odi-2023,ODI,2023,4,7.400000000000006,South Asian
 i-wasim-1,Iftikhar Ahmed,PAK,BAT,6,1990-09-03,1990,33.1,183.0,False,estimated,167.4,HEIGHT_ESTIMATED,"All-rounder; bats #6, bowls off-spin; classified as BAT; height estimated",odi-2023,ODI,2023,4,15.599999999999994,South Asian
-s-afridi-2,Shaheen Shah Afridi,PAK,FAST,7,2000-04-06,2000,23.5,196.0,True,ESPN_verified,167.7,,Tall left-arm fast; Pakistan's pace spearhead,odi-2023,ODI,2023,4,28.30000000000001,South Asian
+s-afridi-2,Shaheen Shah Afridi,PAK,FAST,7,2000-04-06,2000,23.5,198.0,True,multi_source_verified,167.7,,"Tall left-arm fast; Pakistan's pace spearhead; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, StarsUnfolded 198cm (6'6"")",odi-2023,ODI,2023,4,30.30000000000001,South Asian
 h-rauf-1,Haris Rauf,PAK,FAST,8,1993-11-07,1993,29.9,188.0,False,estimated,167.5,HEIGHT_ESTIMATED,Right-arm fast; express pace; height estimated,odi-2023,ODI,2023,4,20.5,South Asian
 s-khan-2,Shadab Khan,PAK,SPIN,9,1998-10-04,1998,25.0,178.0,False,estimated,167.7,HEIGHT_ESTIMATED,Leg-spinner all-rounder; height estimated,odi-2023,ODI,2023,4,10.300000000000011,South Asian
 m-wasim-1,Mohammad Wasim Jr,PAK,FAST,10,2001-08-25,2001,22.1,183.0,False,estimated,167.8,HEIGHT_ESTIMATED,Right-arm fast; young pacer; height estimated,odi-2023,ODI,2023,4,15.199999999999989,South Asian
 u-qadir-1,Usama Mir,PAK,SPIN,11,1995-10-23,1995,28.0,175.0,False,estimated,167.6,HEIGHT_ESTIMATED,Leg-spinner; height estimated,odi-2023,ODI,2023,4,7.400000000000006,South Asian
 d-conway-1,Devon Conway,NZL,BAT,1,1991-07-08,1991,32.3,178.0,False,estimated,177.8,HEIGHT_ESTIMATED,South Africa-born; left-handed opener; height estimated,odi-2023,ODI,2023,4,0.19999999999998863,Oceanian
 w-young-1,Will Young,NZL,BAT,2,1992-11-22,1992,30.9,183.0,False,estimated,177.8,HEIGHT_ESTIMATED,Right-handed batsman; height estimated,odi-2023,ODI,2023,4,5.199999999999989,Oceanian
-k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,33.1,176.0,True,ESPN_verified,177.7,,Captain; class batsman; experienced leader,odi-2023,ODI,2023,4,-1.6999999999999886,Oceanian
+k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,33.1,173.0,True,multi_source_verified,177.7,,"Captain; class batsman; experienced leader; VERIFIED: Corrected from 176/180; sources: Wikipedia 173cm, IPL 173cm (5'8"")",odi-2023,ODI,2023,4,-4.699999999999989,Oceanian
 d-mitchell-1,Daryl Mitchell,NZL,BAT,4,1991-05-20,1991,32.4,180.0,False,estimated,177.8,HEIGHT_ESTIMATED,All-rounder; middle-order batsman; height estimated,odi-2023,ODI,2023,4,2.1999999999999886,Oceanian
 t-latham-1,Tom Latham,NZL,WK,5,1992-04-02,1992,31.5,180.0,True,ESPN_verified,177.8,,Wicketkeeper-batsman; left-handed; vice-captain,odi-2023,ODI,2023,4,2.1999999999999886,Oceanian
 g-phillips-1,Glenn Phillips,NZL,BAT,6,1996-12-06,1996,26.9,178.0,False,estimated,178.0,HEIGHT_ESTIMATED,Right-handed batsman; power hitter; height estimated,odi-2023,ODI,2023,4,0.0,Oceanian
 m-santner-1,Mitchell Santner,NZL,SPIN,7,1992-02-05,1992,31.7,180.0,True,ESPN_verified,177.8,,Left-arm orthodox spinner; all-rounder,odi-2023,ODI,2023,4,2.1999999999999886,Oceanian
 t-southee-1,Tim Southee,NZL,FAST,8,1988-12-11,1988,34.8,188.0,True,ESPN_verified,177.7,,Right-arm fast; veteran seamer; experienced campaigner,odi-2023,ODI,2023,4,10.300000000000011,Oceanian
-t-boult-1,Trent Boult,NZL,FAST,9,1989-07-22,1989,34.2,183.0,True,ESPN_verified,177.7,,Left-arm fast; swing specialist,odi-2023,ODI,2023,4,5.300000000000011,Oceanian
+t-boult-1,Trent Boult,NZL,FAST,9,1989-07-22,1989,34.2,180.0,True,multi_source_verified,177.7,,"Left-arm fast; swing specialist; VERIFIED: Corrected from 183; sources: Wikipedia 180cm, StarsUnfolded 180cm (5'11"")",odi-2023,ODI,2023,4,2.3000000000000114,Oceanian
 l-ferguson-1,Lockie Ferguson,NZL,FAST,10,1991-06-13,1991,32.3,183.0,True,ESPN_verified,177.8,,Right-arm fast; express pace; 150kph+,odi-2023,ODI,2023,4,5.199999999999989,Oceanian
 m-henry-1,Matt Henry,NZL,FAST,11,1991-12-14,1991,31.8,185.0,False,estimated,177.8,HEIGHT_ESTIMATED,Right-arm fast-medium; excellent with new ball; height estimated,odi-2023,ODI,2023,4,7.199999999999989,Oceanian
 j-charles-1,Johnson Charles,WI,BAT,1,1989-01-14,1989,34.8,178.0,False,estimated,173.6,HEIGHT_ESTIMATED,Right-handed opener; St Lucia-born; height estimated,odi-2023,ODI,2023,4,4.400000000000006,Caribbean
@@ -1104,7 +1104,7 @@ v-sehwag-1,Virender Sehwag,IND,BAT,2,1978-10-20,1978,28.9,175.0,True,ESPN_verifi
 rp-singh-1,Robin Uthappa,IND,BAT,3,1985-11-11,1985,21.9,178.0,False,ESPN_estimated,166.5,HEIGHT_ESTIMATED,Height estimated from photos; played key role in group stage,t20-2007,T20,2007,3,11.5,South Asian
 y-singh-1,Yuvraj Singh,IND,BAT,4,1981-12-12,1981,25.7,183.0,True,ESPN_verified,166.2,,Hit 6 sixes in an over off Stuart Broad; Player of the Tournament,t20-2007,T20,2007,3,16.80000000000001,South Asian
 ms-dhoni-1,MS Dhoni,IND,WK,5,1981-07-07,1981,26.2,175.0,True,ESPN_verified,166.2,,Captain; led India to inaugural T20 WC title,t20-2007,T20,2007,3,8.800000000000011,South Asian
-r-sharma-1,Rohit Sharma,IND,BAT,6,1987-04-30,1987,20.4,177.0,True,ESPN_verified,166.7,,Young middle-order batsman in first World Cup,t20-2007,T20,2007,3,10.300000000000011,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,6,1987-04-30,1987,20.4,175.0,True,multi_source_verified,166.7,,"Young middle-order batsman in first World Cup; VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2007,T20,2007,3,8.300000000000011,South Asian
 i-pathan-1,Irfan Pathan,IND,FAST,7,1984-10-27,1984,22.9,183.0,True,ESPN_verified,166.4,,Bowling all-rounder; bowled crucial spells,t20-2007,T20,2007,3,16.599999999999994,South Asian
 h-singh-1,Harbhajan Singh,IND,SPIN,8,1980-07-03,1980,27.2,183.0,True,ESPN_verified,166.0,,Lead spinner,t20-2007,T20,2007,3,17.0,South Asian
 j-sharma-1,Joginder Sharma,IND,FAST,9,1983-10-23,1983,23.9,180.0,False,ESPN_estimated,166.3,HEIGHT_ESTIMATED,Bowled the famous final over; height estimated from photos,t20-2007,T20,2007,3,13.699999999999989,South Asian
@@ -1126,7 +1126,7 @@ i-nazir-1,Imran Nazir,PAK,BAT,2,1981-12-16,1981,25.7,170.0,False,ESPN_estimated,
 y-khan-1,Younis Khan,PAK,BAT,3,1977-11-29,1977,29.8,180.0,True,ESPN_verified,166.7,,,t20-2007,T20,2007,3,13.300000000000011,South Asian
 s-malik-1,Shoaib Malik,PAK,BAT,4,1982-02-01,1982,25.6,180.0,True,ESPN_verified,167.2,,Captain,t20-2007,T20,2007,3,12.800000000000011,South Asian
 misbah-ul-haq-1,Misbah-ul-Haq,PAK,BAT,5,1974-05-28,1974,33.3,180.0,True,ESPN_verified,166.4,,Played the famous scoop shot in the final,t20-2007,T20,2007,3,13.599999999999994,South Asian
-shahid-afridi-1,Shahid Afridi,PAK,BAT,6,1980-03-01,1980,27.6,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,"All-rounder; batted at 6, bowled leg-spin; classified BAT based on batting position",t20-2007,T20,2007,3,16.0,South Asian
+shahid-afridi-1,Shahid Afridi,PAK,BAT,6,1980-03-01,1980,27.6,180.0,True,multi_source_verified,167.0,CATEGORY_AMBIGUOUS,"All-rounder; batted at 6, bowled leg-spin; classified BAT based on batting position; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",t20-2007,T20,2007,3,13.0,South Asian
 k-akmal-1,Kamran Akmal,PAK,WK,7,1982-01-13,1982,25.7,173.0,True,ESPN_verified,167.2,,Wicketkeeper; batted in lower middle order in T20s,t20-2007,T20,2007,3,5.800000000000011,South Asian
 s-tanvir-1,Sohail Tanvir,PAK,FAST,8,1984-12-12,1984,22.7,183.0,True,ESPN_verified,167.4,,Left-arm fast; leading wicket-taker of tournament,t20-2007,T20,2007,3,15.599999999999994,South Asian
 u-gul-1,Umar Gul,PAK,FAST,9,1984-04-14,1984,23.4,183.0,True,ESPN_verified,167.4,,,t20-2007,T20,2007,3,15.599999999999994,South Asian
@@ -1184,11 +1184,11 @@ lpc-silva-1,Chamara Silva,SL,BAT,5,1979-12-14,1979,27.7,173.0,False,ESPN_estimat
 tm-dilshan-1,Tillakaratne Dilshan,SL,BAT,6,1976-10-14,1976,30.9,175.0,True,ESPN_verified,164.6,,,t20-2007,T20,2007,3,10.400000000000006,South Asian
 wpujc-vaas-1,Chaminda Vaas,SL,FAST,7,1974-01-27,1974,33.6,175.0,True,ESPN_verified,164.4,,Left-arm fast-medium,t20-2007,T20,2007,3,10.599999999999994,South Asian
 had-prasanna-1,Prasanna Jayawardene,SL,WK,8,1979-05-27,1979,28.3,170.0,False,ESPN_estimated,164.9,HEIGHT_ESTIMATED,Wicketkeeper; height estimated from photos,t20-2007,T20,2007,3,5.099999999999994,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,9,1972-04-17,1972,35.4,175.0,True,ESPN_verified,164.2,,Greatest wicket-taker in cricket history,t20-2007,T20,2007,3,10.800000000000011,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,9,1972-04-17,1972,35.4,170.0,True,multi_source_verified,164.2,HEIGHT_CONFLICTING,"Greatest wicket-taker in cricket history; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",t20-2007,T20,2007,3,5.800000000000011,South Asian
 sl-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,24.0,175.0,True,ESPN_verified,165.3,,Sling-arm fast bowler,t20-2007,T20,2007,3,9.699999999999989,South Asian
 cms-bandara-1,Farveez Maharoof,SL,FAST,11,1984-09-07,1984,23.0,180.0,True,ESPN_verified,165.4,,Medium-fast bowling all-rounder,t20-2007,T20,2007,3,14.599999999999994,South Asian
 k-akmal-1,Kamran Akmal,PAK,WK,1,1982-01-13,1982,27.4,173.0,True,ESPN_verified,167.2,,Wicketkeeper; promoted to opener in T20s,t20-2009,T20,2009,3,5.800000000000011,South Asian
-shahid-afridi-1,Shahid Afridi,PAK,BAT,2,1980-03-01,1980,29.3,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,All-rounder; opened batting in T20s so classified BAT; also bowled leg-spin; Man of the Match in final,t20-2009,T20,2009,3,16.0,South Asian
+shahid-afridi-1,Shahid Afridi,PAK,BAT,2,1980-03-01,1980,29.3,180.0,True,multi_source_verified,167.0,CATEGORY_AMBIGUOUS,"All-rounder; opened batting in T20s so classified BAT; also bowled leg-spin; Man of the Match in final; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",t20-2009,T20,2009,3,13.0,South Asian
 s-malik-1,Shoaib Malik,PAK,BAT,3,1982-02-01,1982,27.3,180.0,True,ESPN_verified,167.2,,,t20-2009,T20,2009,3,12.800000000000011,South Asian
 y-khan-1,Younis Khan,PAK,BAT,4,1977-11-29,1977,31.6,180.0,True,ESPN_verified,166.7,,Captain,t20-2009,T20,2009,3,13.300000000000011,South Asian
 misbah-ul-haq-1,Misbah-ul-Haq,PAK,BAT,5,1974-05-28,1974,35.1,180.0,True,ESPN_verified,166.4,,,t20-2009,T20,2009,3,13.599999999999994,South Asian
@@ -1206,7 +1206,7 @@ ad-mathews-1,Angelo Mathews,SL,BAT,5,1987-06-02,1987,22.0,180.0,True,ESPN_verifi
 cj-kapugedera-1,Chamara Kapugedera,SL,BAT,6,1987-02-24,1987,22.3,175.0,False,ESPN_estimated,165.7,HEIGHT_ESTIMATED,Height estimated from photos,t20-2009,T20,2009,3,9.300000000000011,South Asian
 i-udana-1,Isuru Udana,SL,FAST,7,1988-05-17,1988,21.1,178.0,False,ESPN_estimated,165.8,HEIGHT_ESTIMATED,Left-arm fast-medium; height estimated from photos,t20-2009,T20,2009,3,12.199999999999989,South Asian
 sl-malinga-1,Lasith Malinga,SL,FAST,8,1983-08-28,1983,25.8,175.0,True,ESPN_verified,165.3,,Sling-arm fast bowler,t20-2009,T20,2009,3,9.699999999999989,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,9,1972-04-17,1972,37.2,175.0,True,ESPN_verified,164.2,,,t20-2009,T20,2009,3,10.800000000000011,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,9,1972-04-17,1972,37.2,170.0,True,multi_source_verified,164.2,HEIGHT_CONFLICTING,"VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",t20-2009,T20,2009,3,5.800000000000011,South Asian
 aj-mendis-1,Ajantha Mendis,SL,SPIN,10,1985-03-11,1985,24.3,175.0,False,ESPN_estimated,165.5,HEIGHT_ESTIMATED,Mystery spinner; height estimated from photos,t20-2009,T20,2009,3,9.5,South Asian
 nu-kulasekara-1,Nuwan Kulasekara,SL,FAST,11,1982-07-22,1982,26.9,178.0,True,ESPN_verified,165.2,,Right-arm fast-medium,t20-2009,T20,2009,3,12.800000000000011,South Asian
 g-gambhir-1,Gautam Gambhir,IND,BAT,1,1981-10-14,1981,27.7,170.0,True,ESPN_verified,166.2,,,t20-2009,T20,2009,3,3.8000000000000114,South Asian
@@ -1214,7 +1214,7 @@ v-sehwag-1,Virender Sehwag,IND,BAT,2,1978-10-20,1978,30.7,175.0,True,ESPN_verifi
 sk-raina-1,Suresh Raina,IND,BAT,3,1986-11-27,1986,22.6,178.0,True,ESPN_verified,166.6,,,t20-2009,T20,2009,3,11.400000000000006,South Asian
 y-singh-1,Yuvraj Singh,IND,BAT,4,1981-12-12,1981,27.5,183.0,True,ESPN_verified,166.2,,,t20-2009,T20,2009,3,16.80000000000001,South Asian
 ms-dhoni-1,MS Dhoni,IND,WK,5,1981-07-07,1981,28.0,175.0,True,ESPN_verified,166.2,,Captain; wicketkeeper,t20-2009,T20,2009,3,8.800000000000011,South Asian
-r-sharma-1,Rohit Sharma,IND,BAT,6,1987-04-30,1987,22.2,177.0,True,ESPN_verified,166.7,,,t20-2009,T20,2009,3,10.300000000000011,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,6,1987-04-30,1987,22.2,175.0,True,multi_source_verified,166.7,,"VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2009,T20,2009,3,8.300000000000011,South Asian
 i-pathan-1,Irfan Pathan,IND,FAST,7,1984-10-27,1984,24.7,183.0,True,ESPN_verified,166.4,,Bowling all-rounder,t20-2009,T20,2009,3,16.599999999999994,South Asian
 h-singh-1,Harbhajan Singh,IND,SPIN,8,1980-07-03,1980,28.9,183.0,True,ESPN_verified,166.0,,Off-spinner,t20-2009,T20,2009,3,17.0,South Asian
 p-kumar-1,Praveen Kumar,IND,FAST,9,1986-10-02,1986,22.7,180.0,False,ESPN_estimated,166.6,HEIGHT_ESTIMATED,Height estimated from photos; medium-fast swing bowler,t20-2009,T20,2009,3,13.400000000000006,South Asian
@@ -1302,14 +1302,14 @@ g-gambhir-1,Gautam Gambhir,IND,BAT,2,1981-10-14,1981,28.6,170.0,True,ESPN_verifi
 sk-raina-1,Suresh Raina,IND,BAT,3,1986-11-27,1986,23.5,178.0,True,ESPN_verified,166.6,,,t20-2010,T20,2010,3,11.400000000000006,South Asian
 y-singh-1,Yuvraj Singh,IND,BAT,4,1981-12-12,1981,28.4,183.0,True,ESPN_verified,166.2,,,t20-2010,T20,2010,3,16.80000000000001,South Asian
 ms-dhoni-1,MS Dhoni,IND,WK,5,1981-07-07,1981,28.9,175.0,True,ESPN_verified,166.2,,Captain; wicketkeeper,t20-2010,T20,2010,3,8.800000000000011,South Asian
-r-sharma-1,Rohit Sharma,IND,BAT,6,1987-04-30,1987,23.1,177.0,True,ESPN_verified,166.7,,,t20-2010,T20,2010,3,10.300000000000011,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,6,1987-04-30,1987,23.1,175.0,True,multi_source_verified,166.7,,"VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2010,T20,2010,3,8.300000000000011,South Asian
 ra-jadeja-1,Ravindra Jadeja,IND,SPIN,7,1988-12-06,1988,21.4,173.0,True,ESPN_verified,166.8,,Left-arm orthodox spinner; all-rounder,t20-2010,T20,2010,3,6.199999999999989,South Asian
 h-singh-1,Harbhajan Singh,IND,SPIN,8,1980-07-03,1980,29.8,183.0,True,ESPN_verified,166.0,,Off-spinner,t20-2010,T20,2010,3,17.0,South Asian
 z-khan-1,Zaheer Khan,IND,FAST,9,1978-10-07,1978,31.6,183.0,True,ESPN_verified,165.8,,Left-arm fast,t20-2010,T20,2010,3,17.19999999999999,South Asian
 a-nehra-1,Ashish Nehra,IND,FAST,10,1979-04-29,1979,31.0,183.0,True,ESPN_verified,165.9,,Left-arm fast-medium,t20-2010,T20,2010,3,17.099999999999994,South Asian
 mm-patel-1,Munaf Patel,IND,FAST,11,1983-07-12,1983,26.9,185.0,False,ESPN_estimated,166.3,HEIGHT_ESTIMATED,Height estimated from photos; right-arm fast-medium,t20-2010,T20,2010,3,18.69999999999999,South Asian
 k-akmal-1,Kamran Akmal,PAK,WK,1,1982-01-13,1982,28.3,173.0,True,ESPN_verified,167.2,,Wicketkeeper; opening batsman in T20s,t20-2010,T20,2010,3,5.800000000000011,South Asian
-shahid-afridi-1,Shahid Afridi,PAK,BAT,2,1980-03-01,1980,30.2,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,Captain; all-rounder; batted at 2 so classified BAT; bowled leg-spin,t20-2010,T20,2010,3,16.0,South Asian
+shahid-afridi-1,Shahid Afridi,PAK,BAT,2,1980-03-01,1980,30.2,180.0,True,multi_source_verified,167.0,CATEGORY_AMBIGUOUS,"Captain; all-rounder; batted at 2 so classified BAT; bowled leg-spin; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",t20-2010,T20,2010,3,13.0,South Asian
 s-malik-1,Shoaib Malik,PAK,BAT,3,1982-02-01,1982,28.3,180.0,True,ESPN_verified,167.2,,,t20-2010,T20,2010,3,12.800000000000011,South Asian
 misbah-ul-haq-1,Misbah-ul-Haq,PAK,BAT,4,1974-05-28,1974,36.0,180.0,True,ESPN_verified,166.4,,,t20-2010,T20,2010,3,13.599999999999994,South Asian
 u-akmal-1,Umar Akmal,PAK,BAT,5,1990-05-26,1990,19.9,170.0,True,ESPN_verified,167.7,,,t20-2010,T20,2010,3,2.3000000000000114,South Asian
@@ -1361,7 +1361,7 @@ jmrk-bandara-1,Jehan Mubarak,SL,BAT,6,1981-01-10,1981,29.3,178.0,False,ESPN_esti
 sl-malinga-1,Lasith Malinga,SL,FAST,7,1983-08-28,1983,26.8,175.0,True,ESPN_verified,165.3,,Sling-arm fast bowler,t20-2010,T20,2010,3,9.699999999999989,South Asian
 nu-kulasekara-1,Nuwan Kulasekara,SL,FAST,8,1982-07-22,1982,27.8,178.0,True,ESPN_verified,165.2,,,t20-2010,T20,2010,3,12.800000000000011,South Asian
 aj-mendis-1,Ajantha Mendis,SL,SPIN,9,1985-03-11,1985,25.2,175.0,False,ESPN_estimated,165.5,HEIGHT_ESTIMATED,Mystery spinner; height estimated from photos,t20-2010,T20,2010,3,9.5,South Asian
-m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,10,1972-04-17,1972,38.0,175.0,True,ESPN_verified,164.2,,Final T20 WC appearance,t20-2010,T20,2010,3,10.800000000000011,South Asian
+m-muralitharan-1,Muttiah Muralitharan,SL,SPIN,10,1972-04-17,1972,38.0,170.0,True,multi_source_verified,164.2,HEIGHT_CONFLICTING,"Final T20 WC appearance; VERIFIED: Corrected from 175; sources: Wikipedia 170cm, ESPN 170cm (5'7"")",t20-2010,T20,2010,3,5.800000000000011,South Asian
 cms-bandara-2,Farveez Maharoof,SL,FAST,11,1984-09-07,1984,25.8,180.0,True,ESPN_verified,165.4,,Medium-fast all-rounder,t20-2010,T20,2010,3,14.599999999999994,South Asian
 ch-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,33.0,191.0,True,ESPN_verified,173.2,,,t20-2012,T20,2012,3,17.80000000000001,Caribbean
 j-charles-1,Johnson Charles,WI,BAT,2,1989-01-14,1989,23.8,178.0,False,ESPN_estimated,173.8,HEIGHT_ESTIMATED,Height estimated from photos,t20-2012,T20,2012,3,4.199999999999989,Caribbean
@@ -1400,7 +1400,7 @@ g-gambhir-1,Gautam Gambhir,IND,BAT,1,1981-10-14,1981,30.9,170.0,True,ESPN_verifi
 v-kohli-1,Virat Kohli,IND,BAT,2,1988-11-05,1988,23.9,175.0,True,ESPN_verified,166.9,,Emerging star,t20-2012,T20,2012,3,8.099999999999994,South Asian
 sk-raina-1,Suresh Raina,IND,BAT,3,1986-11-27,1986,25.9,178.0,True,ESPN_verified,166.6,,,t20-2012,T20,2012,3,11.400000000000006,South Asian
 y-singh-1,Yuvraj Singh,IND,BAT,4,1981-12-12,1981,30.8,183.0,True,ESPN_verified,166.2,,Returning after cancer treatment,t20-2012,T20,2012,3,16.80000000000001,South Asian
-r-sharma-1,Rohit Sharma,IND,BAT,5,1987-04-30,1987,25.4,177.0,True,ESPN_verified,166.7,,,t20-2012,T20,2012,3,10.300000000000011,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,5,1987-04-30,1987,25.4,175.0,True,multi_source_verified,166.7,,"VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2012,T20,2012,3,8.300000000000011,South Asian
 ms-dhoni-1,MS Dhoni,IND,WK,6,1981-07-07,1981,31.2,175.0,True,ESPN_verified,166.2,,Captain; wicketkeeper,t20-2012,T20,2012,3,8.800000000000011,South Asian
 i-pathan-1,Irfan Pathan,IND,FAST,7,1984-10-27,1984,27.9,183.0,True,ESPN_verified,166.4,,Bowling all-rounder,t20-2012,T20,2012,3,16.599999999999994,South Asian
 h-singh-1,Harbhajan Singh,IND,SPIN,8,1980-07-03,1980,32.2,183.0,True,ESPN_verified,166.0,,Off-spinner,t20-2012,T20,2012,3,17.0,South Asian
@@ -1413,7 +1413,7 @@ n-jamshed-1,Nasir Jamshed,PAK,BAT,3,1989-12-06,1989,22.8,180.0,False,ESPN_estima
 u-akmal-1,Umar Akmal,PAK,BAT,4,1990-05-26,1990,22.3,170.0,True,ESPN_verified,167.7,,,t20-2012,T20,2012,3,2.3000000000000114,South Asian
 s-malik-1,Shoaib Malik,PAK,BAT,5,1982-02-01,1982,30.7,180.0,True,ESPN_verified,167.2,,,t20-2012,T20,2012,3,12.800000000000011,South Asian
 k-akmal-1,Kamran Akmal,PAK,WK,6,1982-01-13,1982,30.7,173.0,True,ESPN_verified,167.2,,Wicketkeeper,t20-2012,T20,2012,3,5.800000000000011,South Asian
-shahid-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,32.6,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,All-rounder; batted at 7 so classified SPIN (leg-spin bowler); also a power hitter,t20-2012,T20,2012,3,16.0,South Asian
+shahid-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,32.6,180.0,True,multi_source_verified,167.0,CATEGORY_AMBIGUOUS,"All-rounder; batted at 7 so classified SPIN (leg-spin bowler); also a power hitter; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",t20-2012,T20,2012,3,13.0,South Asian
 u-gul-1,Umar Gul,PAK,FAST,8,1984-04-14,1984,28.4,183.0,True,ESPN_verified,167.4,,,t20-2012,T20,2012,3,15.599999999999994,South Asian
 saeed-ajmal-1,Saeed Ajmal,PAK,SPIN,9,1977-10-14,1977,34.9,180.0,True,ESPN_verified,166.7,,Off-spinner,t20-2012,T20,2012,3,13.300000000000011,South Asian
 s-tanvir-1,Sohail Tanvir,PAK,FAST,10,1984-12-12,1984,27.8,183.0,True,ESPN_verified,167.4,,Left-arm fast,t20-2012,T20,2012,3,15.599999999999994,South Asian
@@ -1462,7 +1462,7 @@ nu-kulasekara-1,Nuwan Kulasekara,SL,FAST,8,1982-07-22,1982,31.7,178.0,True,ESPN_
 sl-malinga-1,Lasith Malinga,SL,FAST,9,1983-08-28,1983,30.6,175.0,True,ESPN_verified,165.3,,Slingy fast bowler; yorker specialist,t20-2014,T20,2014,4,9.699999999999989,South Asian
 sj-senanayake-1,Sachithra Senanayake,SL,SPIN,10,1985-02-09,1985,29.1,173.0,False,ESPN_estimated,165.5,HEIGHT_ESTIMATED,Off-spinner; height estimated from photos,t20-2014,T20,2014,4,7.5,South Asian
 rangs-herath-1,Rangana Herath,SL,SPIN,11,1978-03-19,1978,36.0,170.0,True,ESPN_verified,164.8,,Left-arm orthodox spinner; veteran,t20-2014,T20,2014,4,5.199999999999989,South Asian
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,26.9,177.0,True,ESPN_verified,166.7,,Opening batsman,t20-2014,T20,2014,4,10.300000000000011,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,26.9,175.0,True,multi_source_verified,166.7,,"Opening batsman; VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2014,T20,2014,4,8.300000000000011,South Asian
 s-dhawan-1,Shikhar Dhawan,IND,BAT,2,1985-12-05,1985,28.3,175.0,True,ESPN_verified,166.6,,Left-handed opener,t20-2014,T20,2014,4,8.400000000000006,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,3,1988-11-05,1988,25.4,175.0,True,ESPN_verified,166.9,,Player of the Tournament; scored 319 runs at 106.33 avg,t20-2014,T20,2014,4,8.099999999999994,South Asian
 y-singh-1,Yuvraj Singh,IND,BAT,4,1981-12-12,1981,32.3,183.0,True,ESPN_verified,166.2,,Left-handed power hitter,t20-2014,T20,2014,4,16.80000000000001,South Asian
@@ -1471,7 +1471,7 @@ ms-dhoni-1,MS Dhoni,IND,WK,6,1981-07-07,1981,32.7,175.0,True,ESPN_verified,166.2
 r-jadeja-1,Ravindra Jadeja,IND,SPIN,7,1988-12-06,1988,25.3,173.0,True,ESPN_verified,166.9,,Left-arm orthodox spin all-rounder,t20-2014,T20,2014,4,6.099999999999994,South Asian
 r-ashwin-1,Ravichandran Ashwin,IND,SPIN,8,1986-09-17,1986,27.5,183.0,True,ESPN_verified,166.6,,Off-spinner,t20-2014,T20,2014,4,16.400000000000006,South Asian
 b-kumar-1,Bhuvneshwar Kumar,IND,FAST,9,1990-02-05,1990,24.1,178.0,True,ESPN_verified,167.0,,Right-arm fast-medium; swing specialist,t20-2014,T20,2014,4,11.0,South Asian
-m-shami-1,Mohammed Shami,IND,FAST,10,1990-09-03,1990,23.5,180.0,True,ESPN_verified,167.0,,Right-arm fast; seam bowler,t20-2014,T20,2014,4,13.0,South Asian
+m-shami-1,Mohammed Shami,IND,FAST,10,1990-09-03,1990,23.5,173.0,True,multi_source_verified,167.0,HEIGHT_CONFLICTING,"Right-arm fast; seam bowler; VERIFIED: Corrected from 180; sources: Wikipedia 173cm, ESPN 173cm, all sources unanimous (5'8"")",t20-2014,T20,2014,4,6.0,South Asian
 a-mishra-1,Amit Mishra,IND,SPIN,11,1982-11-24,1982,31.4,175.0,False,ESPN_estimated,166.2,HEIGHT_ESTIMATED,Leg-spinner; height estimated from photos,t20-2014,T20,2014,4,8.800000000000011,South Asian
 ch-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,34.5,191.0,True,ESPN_verified,173.2,,Universe Boss; power hitter,t20-2014,T20,2014,4,17.80000000000001,Caribbean
 dj-smith-1,Dwayne Smith,WI,BAT,2,1983-04-12,1983,30.9,175.0,False,ESPN_estimated,173.5,HEIGHT_ESTIMATED,Opening batsman; height estimated from photos,t20-2014,T20,2014,4,1.5,Caribbean
@@ -1487,7 +1487,7 @@ r-rampaul-1,Ravi Rampaul,WI,FAST,11,1984-10-15,1984,29.4,178.0,False,ESPN_estima
 a-finch-1,Aaron Finch,AUS,BAT,1,1986-11-17,1986,27.4,177.0,True,ESPN_verified,177.5,,Opening batsman; T20I record holder at the time,t20-2014,T20,2014,4,-0.5,Oceanian
 da-warner-1,David Warner,AUS,BAT,2,1986-10-27,1986,27.4,170.0,True,ESPN_verified,177.5,,Aggressive left-handed opener,t20-2014,T20,2014,4,-7.5,Oceanian
 s-smith-1,Steve Smith,AUS,BAT,3,1989-06-02,1989,24.8,176.0,True,ESPN_verified,177.7,,Rising star; middle-order,t20-2014,T20,2014,4,-1.6999999999999886,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,25.4,180.0,True,ESPN_verified,177.6,,The Big Show; power hitter and part-time off-spinner,t20-2014,T20,2014,4,2.4000000000000057,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,25.4,182.0,True,multi_source_verified,177.6,,"The Big Show; power hitter and part-time off-spinner; VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",t20-2014,T20,2014,4,4.400000000000006,Oceanian
 mej-bailey-1,George Bailey,AUS,BAT,5,1982-09-07,1982,31.5,180.0,False,ESPN_estimated,177.4,HEIGHT_ESTIMATED,Captain; height estimated from photos,t20-2014,T20,2014,4,2.5999999999999943,Oceanian
 cd-white-1,Cameron White,AUS,BAT,6,1983-08-18,1983,30.6,183.0,False,ESPN_estimated,177.5,HEIGHT_ESTIMATED,Height estimated from photos; middle-order batsman,t20-2014,T20,2014,4,5.5,Oceanian
 br-haddin-1,Brad Haddin,AUS,WK,7,1977-10-23,1977,36.4,175.0,True,ESPN_verified,177.1,,Wicketkeeper; veteran,t20-2014,T20,2014,4,-2.0999999999999943,Oceanian
@@ -1501,7 +1501,7 @@ u-akmal-1,Umar Akmal,PAK,BAT,3,1990-05-26,1990,23.8,170.0,True,ESPN_verified,167
 s-malik-1,Shoaib Malik,PAK,BAT,4,1982-02-01,1982,32.1,180.0,True,ESPN_verified,167.2,,Experienced middle-order batsman,t20-2014,T20,2014,4,12.800000000000011,South Asian
 sohaib-maqsood-1,Sohaib Maqsood,PAK,BAT,5,1987-04-15,1987,26.9,183.0,False,ESPN_estimated,167.3,HEIGHT_ESTIMATED,Height estimated from photos; power hitter,t20-2014,T20,2014,4,15.699999999999989,South Asian
 k-akmal-1,Kamran Akmal,PAK,WK,6,1982-01-13,1982,32.2,173.0,True,ESPN_verified,167.2,,Wicketkeeper,t20-2014,T20,2014,4,5.800000000000011,South Asian
-shahid-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,34.0,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,All-rounder; batted at 7 so classified SPIN (leg-spin bowler); also a power hitter,t20-2014,T20,2014,4,16.0,South Asian
+shahid-afridi-1,Shahid Afridi,PAK,SPIN,7,1980-03-01,1980,34.0,180.0,True,multi_source_verified,167.0,CATEGORY_AMBIGUOUS,"All-rounder; batted at 7 so classified SPIN (leg-spin bowler); also a power hitter; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",t20-2014,T20,2014,4,13.0,South Asian
 u-gul-1,Umar Gul,PAK,FAST,8,1984-04-14,1984,29.9,183.0,True,ESPN_verified,167.4,,Right-arm fast; T20 specialist,t20-2014,T20,2014,4,15.599999999999994,South Asian
 saeed-ajmal-1,Saeed Ajmal,PAK,SPIN,9,1977-10-14,1977,36.4,180.0,True,ESPN_verified,166.7,,Off-spinner; doosra specialist,t20-2014,T20,2014,4,13.300000000000011,South Asian
 m-irfan-1,Mohammad Irfan,PAK,FAST,10,1982-06-06,1982,31.8,216.0,True,ESPN_verified,167.2,,Tallest cricketer in history at 7ft 1in; left-arm fast,t20-2014,T20,2014,4,48.80000000000001,South Asian
@@ -1539,7 +1539,7 @@ nj-mccullum-1,Nathan McCullum,NZL,SPIN,8,1980-09-01,1980,33.5,183.0,False,ESPN_e
 tjg-southee-1,Tim Southee,NZL,FAST,9,1988-12-11,1988,25.3,188.0,True,ESPN_verified,177.6,,Right-arm fast-medium; swing bowler,t20-2014,T20,2014,4,10.400000000000006,Oceanian
 ta-boult-1,Trent Boult,NZL,FAST,10,1989-07-22,1989,24.7,183.0,True,ESPN_verified,177.7,,Left-arm fast; swing bowler,t20-2014,T20,2014,4,5.300000000000011,Oceanian
 dl-vettori-1,Daniel Vettori,NZL,SPIN,11,1979-01-27,1979,35.1,188.0,True,ESPN_verified,176.9,,Left-arm orthodox spinner; veteran,t20-2014,T20,2014,4,11.099999999999994,Oceanian
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,28.9,177.0,True,ESPN_verified,166.8,,,t20-2016,T20,2016,4,10.199999999999989,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,28.9,175.0,True,multi_source_verified,166.8,,"VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2016,T20,2016,4,8.199999999999989,South Asian
 s-dhawan-1,Shikhar Dhawan,IND,BAT,2,1985-12-05,1985,30.3,175.0,True,ESPN_verified,166.7,,,t20-2016,T20,2016,4,8.300000000000011,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,3,1988-11-05,1988,27.4,175.0,True,ESPN_verified,166.9,,Tournament top scorer; 82* vs AUS in Mohali,t20-2016,T20,2016,4,8.099999999999994,South Asian
 a-rahane-1,Ajinkya Rahane,IND,BAT,4,1988-06-06,1988,27.8,173.0,True,ESPN_verified,166.9,,,t20-2016,T20,2016,4,6.099999999999994,South Asian
@@ -1548,13 +1548,13 @@ s-raina-1,Suresh Raina,IND,BAT,6,1986-11-27,1986,29.3,178.0,True,ESPN_verified,1
 h-pandya-1,Hardik Pandya,IND,FAST,7,1993-10-11,1993,22.4,183.0,True,ESPN_verified,167.1,CATEGORY_AMBIGUOUS,All-rounder; bowls medium-fast; bats lower order in T20s so classified FAST,t20-2016,T20,2016,4,15.900000000000006,South Asian
 r-ashwin-1,Ravichandran Ashwin,IND,SPIN,8,1986-09-17,1986,29.5,183.0,True,ESPN_verified,166.8,,Off-spinner,t20-2016,T20,2016,4,16.19999999999999,South Asian
 r-jadeja-1,Ravindra Jadeja,IND,SPIN,9,1988-12-06,1988,27.3,173.0,True,ESPN_verified,166.9,,Left-arm orthodox spin,t20-2016,T20,2016,4,6.099999999999994,South Asian
-j-bumrah-1,Jasprit Bumrah,IND,FAST,10,1993-12-06,1993,22.3,175.0,True,ESPN_verified,167.1,,Fast bowler; yorker specialist,t20-2016,T20,2016,4,7.900000000000006,South Asian
+j-bumrah-1,Jasprit Bumrah,IND,FAST,10,1993-12-06,1993,22.3,178.0,True,multi_source_verified,167.1,,"Fast bowler; yorker specialist; VERIFIED: Corrected from 175; sources: Wikipedia 178cm, ESPN 178cm, BCCI 178cm (5'10"")",t20-2016,T20,2016,4,10.900000000000006,South Asian
 a-nehra-1,Ashish Nehra,IND,FAST,11,1979-04-29,1979,36.9,183.0,True,ESPN_verified,166.1,,Left-arm fast-medium; veteran recall,t20-2016,T20,2016,4,16.900000000000006,South Asian
 a-finch-1,Aaron Finch,AUS,BAT,1,1986-11-17,1986,29.3,177.0,True,ESPN_verified,178.2,,,t20-2016,T20,2016,4,-1.1999999999999886,Oceanian
 u-khawaja-1,Usman Khawaja,AUS,BAT,2,1986-12-18,1986,29.2,178.0,True,ESPN_verified,178.2,,,t20-2016,T20,2016,4,-0.19999999999998863,Oceanian
 s-smith-1,Steve Smith,AUS,BAT,3,1989-06-02,1989,26.8,176.0,True,ESPN_verified,178.3,,Captain,t20-2016,T20,2016,4,-2.3000000000000114,Oceanian
 d-warner-1,David Warner,AUS,BAT,4,1986-10-27,1986,29.4,170.0,True,ESPN_verified,178.2,,Vice-captain; aggressive power hitter,t20-2016,T20,2016,4,-8.199999999999989,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,5,1988-10-14,1988,27.4,180.0,True,ESPN_verified,178.3,,,t20-2016,T20,2016,4,1.6999999999999886,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,5,1988-10-14,1988,27.4,182.0,True,multi_source_verified,178.3,,"VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",t20-2016,T20,2016,4,3.6999999999999886,Oceanian
 s-marsh-1,Shaun Marsh,AUS,BAT,6,1983-07-09,1983,32.7,185.0,True,ESPN_verified,178.0,,,t20-2016,T20,2016,4,7.0,Oceanian
 m-wade-1,Matthew Wade,AUS,WK,7,1987-12-26,1987,28.2,170.0,True,ESPN_verified,178.2,,Wicketkeeper,t20-2016,T20,2016,4,-8.199999999999989,Oceanian
 j-faulkner-1,James Faulkner,AUS,FAST,8,1990-04-29,1990,25.9,183.0,True,ESPN_verified,178.4,,Left-arm medium-fast; lower-order hitter,t20-2016,T20,2016,4,4.599999999999994,Oceanian
@@ -1576,14 +1576,14 @@ a-shehzad-1,Ahmed Shehzad,PAK,BAT,1,1991-11-23,1991,24.3,175.0,True,ESPN_verifie
 s-hafeez-1,Mohammad Hafeez,PAK,BAT,2,1980-10-17,1980,35.4,180.0,True,ESPN_verified,167.0,,Opening bat; part-time off-spin,t20-2016,T20,2016,4,13.0,South Asian
 k-akmal-1,Khalid Latif,PAK,BAT,3,1985-11-04,1985,30.3,175.0,False,estimated,167.3,HEIGHT_ESTIMATED,Height estimated from photos; limited sources,t20-2016,T20,2016,4,7.699999999999989,South Asian
 s-malik-1,Shoaib Malik,PAK,BAT,4,1982-02-01,1982,34.1,180.0,True,ESPN_verified,167.1,,,t20-2016,T20,2016,4,12.900000000000006,South Asian
-s-afridi-1,Shahid Afridi,PAK,BAT,5,1980-03-01,1980,36.0,183.0,True,ESPN_verified,167.0,CATEGORY_AMBIGUOUS,Captain; leg-spin all-rounder; bats #5 so classified BAT,t20-2016,T20,2016,4,16.0,South Asian
+s-afridi-1,Shahid Afridi,PAK,BAT,5,1980-03-01,1980,36.0,180.0,True,multi_source_verified,167.0,CATEGORY_AMBIGUOUS,"Captain; leg-spin all-rounder; bats #5 so classified BAT; VERIFIED: Corrected from 183; sources: Wikipedia 180cm (5'11"") - Shahid Afridi",t20-2016,T20,2016,4,13.0,South Asian
 u-akmal-1,Umar Akmal,PAK,BAT,6,1990-05-26,1990,25.8,170.0,True,ESPN_verified,167.5,,,t20-2016,T20,2016,4,2.5,South Asian
 s-sarfraz-1,Sarfraz Ahmed,PAK,WK,7,1987-05-22,1987,28.8,170.0,True,ESPN_verified,167.3,,Wicketkeeper,t20-2016,T20,2016,4,2.6999999999999886,South Asian
 m-nawaz-1,Mohammad Nawaz,PAK,SPIN,8,1994-03-21,1994,22.0,180.0,True,ESPN_verified,167.6,,Left-arm orthodox spin,t20-2016,T20,2016,4,12.400000000000006,South Asian
 w-riaz-1,Wahab Riaz,PAK,FAST,9,1985-06-28,1985,30.7,185.0,True,ESPN_verified,167.3,,Left-arm fast bowler,t20-2016,T20,2016,4,17.69999999999999,South Asian
 m-amir-1,Mohammad Amir,PAK,FAST,10,1992-04-13,1992,23.9,188.0,True,ESPN_verified,167.5,,Left-arm fast; comeback after ban,t20-2016,T20,2016,4,20.5,South Asian
 m-irfan-1,Mohammad Irfan,PAK,FAST,11,1982-06-06,1982,33.8,216.0,True,ESPN_verified,167.1,,Tallest cricketer in history at 7ft 1in,t20-2016,T20,2016,4,48.900000000000006,South Asian
-c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,36.5,191.0,True,ESPN_verified,173.5,,Power hitter; Universe Boss,t20-2016,T20,2016,4,17.5,Caribbean
+c-gayle-1,Chris Gayle,WI,BAT,1,1979-09-21,1979,36.5,188.0,True,multi_source_verified,173.5,,"Power hitter; Universe Boss; VERIFIED: Corrected from 191; sources: Wikipedia 188cm, BodySize 188cm (6'2"")",t20-2016,T20,2016,4,14.5,Caribbean
 j-charles-1,Johnson Charles,WI,BAT,2,1989-01-04,1989,27.2,175.0,False,estimated,174.0,HEIGHT_ESTIMATED,Height estimated from photos and match footage,t20-2016,T20,2016,4,1.0,Caribbean
 m-samuels-1,Marlon Samuels,WI,BAT,3,1981-02-05,1981,35.1,185.0,True,ESPN_verified,173.5,,85* in the final; Man of the Match,t20-2016,T20,2016,4,11.5,Caribbean
 l-simmons-1,Lendl Simmons,WI,BAT,4,1985-01-25,1985,31.1,178.0,True,ESPN_verified,173.8,,,t20-2016,T20,2016,4,4.199999999999989,Caribbean
@@ -1595,7 +1595,7 @@ s-badree-1,Samuel Badree,WI,SPIN,9,1981-03-08,1981,35.0,178.0,False,estimated,17
 d-sammy-1,Darren Sammy,WI,FAST,10,1983-12-20,1983,32.2,188.0,True,ESPN_verified,173.7,,Captain; right-arm medium-fast,t20-2016,T20,2016,4,14.300000000000011,Caribbean
 s-benn-1,Sulieman Benn,WI,SPIN,11,1981-07-22,1981,34.7,201.0,True,ESPN_verified,173.5,,Left-arm orthodox spinner; tallest spinner in cricket at 6ft 7in,t20-2016,T20,2016,4,27.5,Caribbean
 m-guptill-1,Martin Guptill,NZL,BAT,1,1986-09-30,1986,29.5,188.0,True,ESPN_verified,177.5,,,t20-2016,T20,2016,4,10.5,Oceanian
-k-williamson-1,Kane Williamson,NZL,BAT,2,1990-08-08,1990,25.6,180.0,True,ESPN_verified,177.7,,Captain,t20-2016,T20,2016,4,2.3000000000000114,Oceanian
+k-williamson-1,Kane Williamson,NZL,BAT,2,1990-08-08,1990,25.6,173.0,True,multi_source_verified,177.7,HEIGHT_CONFLICTING,"Captain; VERIFIED: Corrected from 176/180; sources: Wikipedia 173cm, IPL 173cm (5'8"")",t20-2016,T20,2016,4,-4.699999999999989,Oceanian
 c-munro-1,Colin Munro,NZL,BAT,3,1987-03-11,1987,29.0,185.0,True,ESPN_verified,177.5,,,t20-2016,T20,2016,4,7.5,Oceanian
 r-taylor-1,Ross Taylor,NZL,BAT,4,1984-03-08,1984,31.9,183.0,True,ESPN_verified,177.4,,,t20-2016,T20,2016,4,5.599999999999994,Oceanian
 c-anderson-1,Corey Anderson,NZL,BAT,5,1990-12-13,1990,25.2,188.0,True,ESPN_verified,177.7,CATEGORY_AMBIGUOUS,All-rounder; bowls left-arm medium-fast; bats #5 so classified BAT,t20-2016,T20,2016,4,10.300000000000011,Oceanian
@@ -1614,7 +1614,7 @@ c-kapugedera-1,Chamara Kapugedera,SL,BAT,6,1987-02-24,1987,29.0,178.0,False,esti
 d-desilva-1,Dhananjaya de Silva,SL,WK,7,1991-09-06,1991,24.5,175.0,True,ESPN_verified,166.4,CATEGORY_AMBIGUOUS,Actually an all-rounder who kept wicket in some matches; classified as WK for squad role,t20-2016,T20,2016,4,8.599999999999994,South Asian
 t-perera-1,Thisara Perera,SL,FAST,8,1989-04-03,1989,26.9,185.0,True,ESPN_verified,166.2,CATEGORY_AMBIGUOUS,All-rounder; bowls right-arm fast-medium; bats lower order so classified FAST,t20-2016,T20,2016,4,18.80000000000001,South Asian
 r-herath-1,Rangana Herath,SL,SPIN,9,1978-03-19,1978,38.0,173.0,True,ESPN_verified,165.7,,Left-arm orthodox spin; veteran,t20-2016,T20,2016,4,7.300000000000011,South Asian
-l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,32.6,175.0,True,ESPN_verified,165.8,,Slingy fast bowler; yorker specialist,t20-2016,T20,2016,4,9.199999999999989,South Asian
+l-malinga-1,Lasith Malinga,SL,FAST,10,1983-08-28,1983,32.6,173.0,True,multi_source_verified,165.8,,"Slingy fast bowler; yorker specialist; VERIFIED: Corrected from 175; sources: Wikipedia 170-173cm, consensus 173cm (5'8"")",t20-2016,T20,2016,4,7.199999999999989,South Asian
 n-kulasekara-1,Nuwan Kulasekara,SL,FAST,11,1982-07-22,1982,33.7,180.0,True,ESPN_verified,165.8,,Right-arm fast-medium; swing bowler,t20-2016,T20,2016,4,14.199999999999989,South Asian
 h-amla-1,Hashim Amla,RSA,BAT,1,1983-03-31,1983,32.9,183.0,True,ESPN_verified,171.8,,,t20-2016,T20,2016,4,11.199999999999989,African
 q-dekock-1,Quinton de Kock,RSA,WK,2,1992-12-17,1992,23.2,170.0,True,ESPN_verified,172.2,,Wicketkeeper; aggressive opener,t20-2016,T20,2016,4,-2.1999999999999886,African
@@ -1629,9 +1629,9 @@ d-steyn-1,Dale Steyn,RSA,FAST,10,1983-06-27,1983,32.7,180.0,True,ESPN_verified,1
 i-tahir-1,Imran Tahir,RSA,SPIN,11,1979-03-27,1979,36.9,175.0,True,ESPN_verified,171.6,,"Leg-spinner; born in Pakistan, plays for RSA",t20-2016,T20,2016,4,3.4000000000000057,African
 d-warner-1,David Warner,AUS,BAT,1,1986-10-27,1986,35.0,170.0,True,ESPN_verified,178.2,,Player of the Tournament,t20-2021,T20,2021,4,-8.199999999999989,Oceanian
 a-finch-1,Aaron Finch,AUS,BAT,2,1986-11-17,1986,35.0,177.0,True,ESPN_verified,178.2,,Captain,t20-2021,T20,2021,4,-1.1999999999999886,Oceanian
-m-marsh-1,Mitchell Marsh,AUS,BAT,3,1991-10-20,1991,30.0,196.0,True,ESPN_verified,178.4,CATEGORY_AMBIGUOUS,"All-rounder; bowls medium-fast; batted #3 in this tournament, classified BAT",t20-2021,T20,2021,4,17.599999999999994,Oceanian
+m-marsh-1,Mitchell Marsh,AUS,BAT,3,1991-10-20,1991,30.0,193.0,True,multi_source_verified,178.4,CATEGORY_AMBIGUOUS,"All-rounder; bowls medium-fast; batted #3 in this tournament, classified BAT; VERIFIED: Corrected from 195; sources: Wikipedia 193cm, SportsYaari 193cm (6'4"")",t20-2021,T20,2021,4,14.599999999999994,Oceanian
 s-smith-1,Steve Smith,AUS,BAT,4,1989-06-02,1989,32.4,176.0,True,ESPN_verified,178.3,,,t20-2021,T20,2021,4,-2.3000000000000114,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,5,1988-10-14,1988,33.0,180.0,True,ESPN_verified,178.3,,,t20-2021,T20,2021,4,1.6999999999999886,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,5,1988-10-14,1988,33.0,182.0,True,multi_source_verified,178.3,,"VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",t20-2021,T20,2021,4,3.6999999999999886,Oceanian
 m-stoinis-1,Marcus Stoinis,AUS,BAT,6,1989-08-16,1989,32.2,188.0,True,ESPN_verified,178.3,CATEGORY_AMBIGUOUS,All-rounder; bowls medium-fast; bats #6 so classified BAT,t20-2021,T20,2021,4,9.699999999999989,Oceanian
 m-wade-1,Matthew Wade,AUS,WK,7,1987-12-26,1987,33.8,170.0,True,ESPN_verified,178.2,,Wicketkeeper; 3 sixes in semi-final vs PAK,t20-2021,T20,2021,4,-8.199999999999989,Oceanian
 p-cummins-1,Pat Cummins,AUS,FAST,8,1993-05-08,1993,28.5,192.0,True,ESPN_verified,178.5,,Right-arm fast bowler,t20-2021,T20,2021,4,13.5,Oceanian
@@ -1649,7 +1649,7 @@ c-woakes-1,Chris Woakes,ENG,FAST,8,1989-03-02,1989,32.6,191.0,True,ESPN_verified
 c-jordan-1,Chris Jordan,ENG,FAST,9,1988-10-04,1988,33.0,188.0,True,ESPN_verified,177.2,,Right-arm fast bowler; death overs specialist,t20-2021,T20,2021,4,10.800000000000011,European
 a-rashid-1,Adil Rashid,ENG,SPIN,10,1988-02-17,1988,33.7,175.0,True,ESPN_verified,177.2,,Leg-spinner,t20-2021,T20,2021,4,-2.1999999999999886,European
 m-wood-1,Mark Wood,ENG,FAST,11,1990-01-11,1990,31.8,183.0,True,ESPN_verified,177.3,,Right-arm fast bowler; express pace 150+ kph,t20-2021,T20,2021,4,5.699999999999989,European
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,34.5,177.0,True,ESPN_verified,166.8,,,t20-2021,T20,2021,4,10.199999999999989,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,34.5,175.0,True,multi_source_verified,166.8,,"VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2021,T20,2021,4,8.199999999999989,South Asian
 kl-rahul-1,KL Rahul,IND,BAT,2,1992-04-18,1992,29.5,180.0,True,ESPN_verified,167.1,,,t20-2021,T20,2021,4,12.900000000000006,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,3,1988-11-05,1988,33.0,175.0,True,ESPN_verified,166.9,,Captain,t20-2021,T20,2021,4,8.099999999999994,South Asian
 s-yadav-1,Suryakumar Yadav,IND,BAT,4,1990-09-14,1990,31.1,175.0,True,ESPN_verified,167.0,,,t20-2021,T20,2021,4,8.0,South Asian
@@ -1658,7 +1658,7 @@ h-pandya-1,Hardik Pandya,IND,BAT,6,1993-10-11,1993,28.0,183.0,True,ESPN_verified
 r-jadeja-1,Ravindra Jadeja,IND,SPIN,7,1988-12-06,1988,32.8,173.0,True,ESPN_verified,166.9,,Left-arm orthodox spin; bats #7,t20-2021,T20,2021,4,6.099999999999994,South Asian
 r-ashwin-1,Ravichandran Ashwin,IND,SPIN,8,1986-09-17,1986,35.1,183.0,True,ESPN_verified,166.8,,Off-spinner,t20-2021,T20,2021,4,16.19999999999999,South Asian
 s-thakur-1,Shardul Thakur,IND,FAST,9,1991-10-16,1991,30.0,168.0,True,ESPN_verified,167.0,,Right-arm fast-medium; handy lower-order bat,t20-2021,T20,2021,4,1.0,South Asian
-j-bumrah-1,Jasprit Bumrah,IND,FAST,10,1993-12-06,1993,27.8,175.0,True,ESPN_verified,167.1,,Lead fast bowler,t20-2021,T20,2021,4,7.900000000000006,South Asian
+j-bumrah-1,Jasprit Bumrah,IND,FAST,10,1993-12-06,1993,27.8,178.0,True,multi_source_verified,167.1,,"Lead fast bowler; VERIFIED: Corrected from 175; sources: Wikipedia 178cm, ESPN 178cm, BCCI 178cm (5'10"")",t20-2021,T20,2021,4,10.900000000000006,South Asian
 v-kumar-1,Varun Chakravarthy,IND,SPIN,11,1991-08-29,1991,30.2,183.0,False,estimated,167.0,HEIGHT_ESTIMATED,Mystery spinner; height estimated from photos,t20-2021,T20,2021,4,16.0,South Asian
 b-azam-1,Babar Azam,PAK,BAT,1,1994-10-15,1994,27.0,180.0,True,ESPN_verified,167.6,,Captain; leading run-scorer,t20-2021,T20,2021,4,12.400000000000006,South Asian
 m-rizwan-1,Mohammad Rizwan,PAK,WK,2,1992-06-01,1992,29.4,170.0,True,ESPN_verified,167.5,,Wicketkeeper; opened the batting with Babar,t20-2021,T20,2021,4,2.5,South Asian
@@ -1669,10 +1669,10 @@ a-shafique-1,Asif Ali,PAK,BAT,6,1991-10-01,1991,30.0,175.0,True,ESPN_verified,16
 s-nawaz-1,Shadab Khan,PAK,SPIN,7,1998-10-04,1998,23.0,175.0,True,ESPN_verified,167.8,CATEGORY_AMBIGUOUS,All-rounder; leg-spinner who bats #7; classified SPIN,t20-2021,T20,2021,4,7.199999999999989,South Asian
 i-wasim-1,Imad Wasim,PAK,SPIN,8,1988-12-18,1988,32.8,183.0,True,ESPN_verified,167.3,,Left-arm orthodox spin,t20-2021,T20,2021,4,15.699999999999989,South Asian
 h-rauf-1,Haris Rauf,PAK,FAST,9,1993-11-07,1993,28.0,185.0,True,ESPN_verified,167.6,,Right-arm fast bowler; express pace,t20-2021,T20,2021,4,17.400000000000006,South Asian
-s-afridi-2,Shaheen Shah Afridi,PAK,FAST,10,2000-04-06,2000,21.6,196.0,True,ESPN_verified,168.0,,Left-arm fast bowler; devastating with new ball,t20-2021,T20,2021,4,28.0,South Asian
+s-afridi-2,Shaheen Shah Afridi,PAK,FAST,10,2000-04-06,2000,21.6,198.0,True,multi_source_verified,168.0,,"Left-arm fast bowler; devastating with new ball; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, StarsUnfolded 198cm (6'6"")",t20-2021,T20,2021,4,30.0,South Asian
 h-ali-1,Hasan Ali,PAK,FAST,11,1994-02-07,1994,27.7,183.0,True,ESPN_verified,167.6,,Right-arm fast-medium; dropped catch in semi-final vs AUS,t20-2021,T20,2021,4,15.400000000000006,South Asian
 e-lewis-1,Evin Lewis,WI,BAT,1,1992-03-27,1992,29.6,173.0,True,ESPN_verified,174.1,,Left-handed opener; power hitter,t20-2021,T20,2021,4,-1.0999999999999943,Caribbean
-c-gayle-1,Chris Gayle,WI,BAT,2,1979-09-21,1979,42.1,191.0,True,ESPN_verified,173.5,,Universe Boss; final T20 WC,t20-2021,T20,2021,4,17.5,Caribbean
+c-gayle-1,Chris Gayle,WI,BAT,2,1979-09-21,1979,42.1,188.0,True,multi_source_verified,173.5,,"Universe Boss; final T20 WC; VERIFIED: Corrected from 191; sources: Wikipedia 188cm, BodySize 188cm (6'2"")",t20-2021,T20,2021,4,14.5,Caribbean
 r-pooran-1,Nicholas Pooran,WI,BAT,3,1995-11-02,1995,25.9,170.0,True,ESPN_verified,174.3,,Left-handed; explosive batting,t20-2021,T20,2021,4,-4.300000000000011,Caribbean
 s-hetmyer-1,Shimron Hetmyer,WI,BAT,4,1996-12-26,1996,24.8,175.0,True,ESPN_verified,174.4,,Left-handed; power hitter,t20-2021,T20,2021,4,0.5999999999999943,Caribbean
 k-pollard-1,Kieron Pollard,WI,BAT,5,1987-05-12,1987,34.5,191.0,True,ESPN_verified,173.9,,Captain; power hitter,t20-2021,T20,2021,4,17.099999999999994,Caribbean
@@ -1684,7 +1684,7 @@ r-chase-1,Roston Chase,WI,SPIN,10,1992-03-22,1992,29.6,185.0,True,ESPN_verified,
 r-mccoy-1,Obed McCoy,WI,FAST,11,1997-01-14,1997,24.8,185.0,False,estimated,174.5,HEIGHT_ESTIMATED,Left-arm fast bowler; height estimated from photos,t20-2021,T20,2021,4,10.5,Caribbean
 m-guptill-1,Martin Guptill,NZL,BAT,1,1986-09-30,1986,35.1,188.0,True,ESPN_verified,177.5,,,t20-2021,T20,2021,4,10.5,Oceanian
 d-mitchell-1,Daryl Mitchell,NZL,BAT,2,1991-05-20,1991,30.5,183.0,True,ESPN_verified,177.7,,Key performer in knockouts,t20-2021,T20,2021,4,5.300000000000011,Oceanian
-k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,31.2,180.0,True,ESPN_verified,177.7,,Captain; reached the final,t20-2021,T20,2021,4,2.3000000000000114,Oceanian
+k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,31.2,173.0,True,multi_source_verified,177.7,HEIGHT_CONFLICTING,"Captain; reached the final; VERIFIED: Corrected from 176/180; sources: Wikipedia 173cm, IPL 173cm (5'8"")",t20-2021,T20,2021,4,-4.699999999999989,Oceanian
 d-conway-1,Devon Conway,NZL,BAT,4,1991-07-08,1991,30.3,178.0,True,ESPN_verified,177.7,,Left-handed; born in South Africa,t20-2021,T20,2021,4,0.30000000000001137,Oceanian
 g-phillips-1,Glenn Phillips,NZL,BAT,5,1996-12-06,1996,24.8,180.0,True,ESPN_verified,177.8,,Power hitter; part-time off-spin,t20-2021,T20,2021,4,2.1999999999999886,Oceanian
 j-neesham-1,Jimmy Neesham,NZL,BAT,6,1990-09-17,1990,31.1,183.0,True,ESPN_verified,177.7,CATEGORY_AMBIGUOUS,All-rounder; bowls medium-fast; bats #6 so classified BAT,t20-2021,T20,2021,4,5.300000000000011,Oceanian
@@ -1692,7 +1692,7 @@ t-seifert-1,Tim Seifert,NZL,WK,7,1994-12-28,1994,26.8,178.0,True,ESPN_verified,1
 m-santner-1,Mitchell Santner,NZL,SPIN,8,1992-02-05,1992,29.7,180.0,True,ESPN_verified,177.7,,Left-arm orthodox spin,t20-2021,T20,2021,4,2.3000000000000114,Oceanian
 i-sodhi-1,Ish Sodhi,NZL,SPIN,9,1992-10-31,1992,29.0,178.0,True,ESPN_verified,177.7,,Leg-spinner,t20-2021,T20,2021,4,0.30000000000001137,Oceanian
 t-southee-1,Tim Southee,NZL,FAST,10,1988-12-11,1988,32.8,191.0,True,ESPN_verified,177.6,,Right-arm fast-medium,t20-2021,T20,2021,4,13.400000000000006,Oceanian
-t-boult-1,Trent Boult,NZL,FAST,11,1989-07-22,1989,32.3,183.0,True,ESPN_verified,177.6,,Left-arm fast bowler; new ball threat,t20-2021,T20,2021,4,5.400000000000006,Oceanian
+t-boult-1,Trent Boult,NZL,FAST,11,1989-07-22,1989,32.3,180.0,True,multi_source_verified,177.6,,"Left-arm fast bowler; new ball threat; VERIFIED: Corrected from 183; sources: Wikipedia 180cm, StarsUnfolded 180cm (5'11"")",t20-2021,T20,2021,4,2.4000000000000057,Oceanian
 p-nissanka-1,Pathum Nissanka,SL,BAT,1,1998-12-18,1998,22.8,173.0,True,ESPN_verified,166.8,,,t20-2021,T20,2021,4,6.199999999999989,South Asian
 k-mendis-1,Kusal Mendis,SL,BAT,2,1995-02-02,1995,26.7,175.0,True,ESPN_verified,166.5,,,t20-2021,T20,2021,4,8.5,South Asian
 c-asalanka-1,Charith Asalanka,SL,BAT,3,1997-06-29,1997,24.3,175.0,True,ESPN_verified,166.7,,Left-handed batsman,t20-2021,T20,2021,4,8.300000000000011,South Asian
@@ -1728,8 +1728,8 @@ a-rashid-1,Adil Rashid,ENG,SPIN,10,1988-02-17,1988,34.7,175.0,True,ESPN_verified
 m-wood-1,Mark Wood,ENG,FAST,11,1990-01-11,1990,32.8,183.0,True,ESPN_verified,177.3,,Right-arm fast; express pace 150+ kph,t20-2022,T20,2022,4,5.699999999999989,European
 d-warner-1,David Warner,AUS,BAT,1,1986-10-27,1986,36.0,170.0,True,ESPN_verified,178.2,,,t20-2022,T20,2022,4,-8.199999999999989,Oceanian
 a-finch-1,Aaron Finch,AUS,BAT,2,1986-11-17,1986,36.0,177.0,True,ESPN_verified,178.2,,Captain; final international tournament,t20-2022,T20,2022,4,-1.1999999999999886,Oceanian
-m-marsh-1,Mitchell Marsh,AUS,BAT,3,1991-10-20,1991,31.0,196.0,True,ESPN_verified,178.4,CATEGORY_AMBIGUOUS,All-rounder; bats #3 so classified BAT,t20-2022,T20,2022,4,17.599999999999994,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,34.0,180.0,True,ESPN_verified,178.3,,,t20-2022,T20,2022,4,1.6999999999999886,Oceanian
+m-marsh-1,Mitchell Marsh,AUS,BAT,3,1991-10-20,1991,31.0,193.0,True,multi_source_verified,178.4,CATEGORY_AMBIGUOUS,"All-rounder; bats #3 so classified BAT; VERIFIED: Corrected from 195; sources: Wikipedia 193cm, SportsYaari 193cm (6'4"")",t20-2022,T20,2022,4,14.599999999999994,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,34.0,182.0,True,multi_source_verified,178.3,,"VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",t20-2022,T20,2022,4,3.6999999999999886,Oceanian
 m-stoinis-1,Marcus Stoinis,AUS,BAT,5,1989-08-16,1989,33.2,188.0,True,ESPN_verified,178.3,CATEGORY_AMBIGUOUS,All-rounder; bowls medium-fast; bats #5 so classified BAT,t20-2022,T20,2022,4,9.699999999999989,Oceanian
 t-david-1,Tim David,AUS,BAT,6,1996-03-16,1996,26.7,196.0,True,ESPN_verified,178.5,,Power hitter; born in Singapore,t20-2022,T20,2022,4,17.5,Oceanian
 m-wade-1,Matthew Wade,AUS,WK,7,1987-12-26,1987,34.8,170.0,True,ESPN_verified,178.2,,Wicketkeeper,t20-2022,T20,2022,4,-8.199999999999989,Oceanian
@@ -1737,7 +1737,7 @@ p-cummins-1,Pat Cummins,AUS,FAST,8,1993-05-08,1993,29.5,192.0,True,ESPN_verified
 m-starc-1,Mitchell Starc,AUS,FAST,9,1990-01-30,1990,32.8,196.0,True,ESPN_verified,178.4,,Left-arm fast bowler,t20-2022,T20,2022,4,17.599999999999994,Oceanian
 a-zampa-1,Adam Zampa,AUS,SPIN,10,1992-03-31,1992,30.6,180.0,True,ESPN_verified,178.4,,Leg-spinner,t20-2022,T20,2022,4,1.5999999999999943,Oceanian
 j-hazlewood-1,Josh Hazlewood,AUS,FAST,11,1991-01-08,1991,31.8,196.0,True,ESPN_verified,178.4,,Right-arm fast bowler,t20-2022,T20,2022,4,17.599999999999994,Oceanian
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,35.5,177.0,True,ESPN_verified,166.8,,Captain,t20-2022,T20,2022,4,10.199999999999989,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,35.5,175.0,True,multi_source_verified,166.8,,"Captain; VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2022,T20,2022,4,8.199999999999989,South Asian
 kl-rahul-1,KL Rahul,IND,BAT,2,1992-04-18,1992,30.5,180.0,True,ESPN_verified,167.1,,,t20-2022,T20,2022,4,12.900000000000006,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,3,1988-11-05,1988,34.0,175.0,True,ESPN_verified,166.9,,82* vs PAK at MCG; defining T20I innings,t20-2022,T20,2022,4,8.099999999999994,South Asian
 s-yadav-1,Suryakumar Yadav,IND,BAT,4,1990-09-14,1990,32.1,175.0,True,ESPN_verified,167.0,,360-degree stroke-maker; No.1 T20I batsman,t20-2022,T20,2022,4,8.0,South Asian
@@ -1746,7 +1746,7 @@ r-pant-1,Rishabh Pant,IND,WK,6,1997-10-04,1997,25.0,170.0,True,ESPN_verified,167
 r-jadeja-1,Ravindra Jadeja,IND,SPIN,7,1988-12-06,1988,33.8,173.0,True,ESPN_verified,166.9,,Left-arm orthodox spin,t20-2022,T20,2022,4,6.099999999999994,South Asian
 a-patel-1,Axar Patel,IND,SPIN,8,1994-01-20,1994,28.8,183.0,True,ESPN_verified,167.2,,Left-arm orthodox spin; handy lower-order bat,t20-2022,T20,2022,4,15.800000000000011,South Asian
 b-kumar-1,Bhuvneshwar Kumar,IND,FAST,9,1990-02-05,1990,32.7,178.0,True,ESPN_verified,167.0,,Right-arm fast-medium; swing bowler,t20-2022,T20,2022,4,11.0,South Asian
-m-shami-1,Mohammed Shami,IND,FAST,10,1990-09-03,1990,32.1,180.0,True,ESPN_verified,167.0,,Right-arm fast bowler,t20-2022,T20,2022,4,13.0,South Asian
+m-shami-1,Mohammed Shami,IND,FAST,10,1990-09-03,1990,32.1,173.0,True,multi_source_verified,167.0,HEIGHT_CONFLICTING,"Right-arm fast bowler; VERIFIED: Corrected from 180; sources: Wikipedia 173cm, ESPN 173cm, all sources unanimous (5'8"")",t20-2022,T20,2022,4,6.0,South Asian
 a-singh-1,Arshdeep Singh,IND,FAST,11,1999-02-05,1999,23.7,188.0,True,ESPN_verified,167.5,,Left-arm fast-medium; death overs specialist,t20-2022,T20,2022,4,20.5,South Asian
 b-azam-1,Babar Azam,PAK,BAT,1,1994-10-15,1994,28.0,180.0,True,ESPN_verified,167.6,,Captain,t20-2022,T20,2022,4,12.400000000000006,South Asian
 m-rizwan-1,Mohammad Rizwan,PAK,WK,2,1992-06-01,1992,30.4,170.0,True,ESPN_verified,167.5,,Wicketkeeper; opened with Babar,t20-2022,T20,2022,4,2.5,South Asian
@@ -1757,7 +1757,7 @@ a-ali-1,Asif Ali,PAK,BAT,6,1991-10-01,1991,31.0,175.0,True,ESPN_verified,167.5,,
 s-khan-1,Shadab Khan,PAK,SPIN,7,1998-10-04,1998,24.0,175.0,True,ESPN_verified,167.8,CATEGORY_AMBIGUOUS,All-rounder; leg-spinner; bats #7 so classified SPIN,t20-2022,T20,2022,4,7.199999999999989,South Asian
 m-nawaz-1,Mohammad Nawaz,PAK,SPIN,8,1994-03-21,1994,28.6,180.0,True,ESPN_verified,167.6,,Left-arm orthodox spin,t20-2022,T20,2022,4,12.400000000000006,South Asian
 h-rauf-1,Haris Rauf,PAK,FAST,9,1993-11-07,1993,29.0,185.0,True,ESPN_verified,167.6,,Right-arm fast bowler; express pace,t20-2022,T20,2022,4,17.400000000000006,South Asian
-s-afridi-2,Shaheen Shah Afridi,PAK,FAST,10,2000-04-06,2000,22.6,196.0,True,ESPN_verified,168.0,,Left-arm fast; carried knee injury in final,t20-2022,T20,2022,4,28.0,South Asian
+s-afridi-2,Shaheen Shah Afridi,PAK,FAST,10,2000-04-06,2000,22.6,198.0,True,multi_source_verified,168.0,,"Left-arm fast; carried knee injury in final; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, StarsUnfolded 198cm (6'6"")",t20-2022,T20,2022,4,30.0,South Asian
 n-shah-1,Naseem Shah,PAK,FAST,11,2003-02-15,2003,19.7,188.0,True,ESPN_verified,168.0,,Young right-arm fast bowler; express pace,t20-2022,T20,2022,4,20.0,South Asian
 k-mayers-1,Kyle Mayers,WI,BAT,1,1992-09-08,1992,30.1,185.0,True,ESPN_verified,174.1,,Left-handed; all-rounder,t20-2022,T20,2022,4,10.900000000000006,Caribbean
 b-king-1,Brandon King,WI,BAT,2,1994-12-26,1994,27.8,175.0,False,estimated,174.2,HEIGHT_ESTIMATED,Height estimated from photos,t20-2022,T20,2022,4,0.8000000000000114,Caribbean
@@ -1772,14 +1772,14 @@ r-mccoy-1,Obed McCoy,WI,FAST,10,1997-01-14,1997,25.8,185.0,False,estimated,174.5
 s-cottrell-1,Sheldon Cottrell,WI,FAST,11,1989-08-19,1989,33.1,188.0,True,ESPN_verified,174.0,,Left-arm fast bowler; military salute celebration,t20-2022,T20,2022,4,14.0,Caribbean
 d-conway-1,Devon Conway,NZL,BAT,1,1991-07-08,1991,31.3,178.0,True,ESPN_verified,177.7,,Left-handed opener; born in South Africa,t20-2022,T20,2022,4,0.30000000000001137,Oceanian
 f-allen-1,Finn Allen,NZL,BAT,2,1999-04-14,1999,23.5,185.0,True,ESPN_verified,177.8,,Aggressive opener,t20-2022,T20,2022,4,7.199999999999989,Oceanian
-k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,32.2,180.0,True,ESPN_verified,177.7,,Captain,t20-2022,T20,2022,4,2.3000000000000114,Oceanian
+k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,32.2,173.0,True,multi_source_verified,177.7,HEIGHT_CONFLICTING,"Captain; VERIFIED: Corrected from 176/180; sources: Wikipedia 173cm, IPL 173cm (5'8"")",t20-2022,T20,2022,4,-4.699999999999989,Oceanian
 g-phillips-1,Glenn Phillips,NZL,BAT,4,1996-12-06,1996,25.8,180.0,True,ESPN_verified,177.8,,Power hitter; century vs SL,t20-2022,T20,2022,4,2.1999999999999886,Oceanian
 d-mitchell-1,Daryl Mitchell,NZL,BAT,5,1991-05-20,1991,31.5,183.0,True,ESPN_verified,177.7,,,t20-2022,T20,2022,4,5.300000000000011,Oceanian
 j-neesham-1,Jimmy Neesham,NZL,BAT,6,1990-09-17,1990,32.1,183.0,True,ESPN_verified,177.7,CATEGORY_AMBIGUOUS,All-rounder; bowls medium-fast; bats #6 so classified BAT,t20-2022,T20,2022,4,5.300000000000011,Oceanian
 d-phillips-1,Devon Conway,NZL,WK,7,1991-07-08,1991,31.3,178.0,True,ESPN_verified,177.7,,Wicketkeeper,t20-2022,T20,2022,4,0.30000000000001137,Oceanian
 m-santner-1,Mitchell Santner,NZL,SPIN,8,1992-02-05,1992,30.7,180.0,True,ESPN_verified,177.7,,Left-arm orthodox spin,t20-2022,T20,2022,4,2.3000000000000114,Oceanian
 t-southee-1,Tim Southee,NZL,FAST,9,1988-12-11,1988,33.8,191.0,True,ESPN_verified,177.6,,Right-arm fast-medium,t20-2022,T20,2022,4,13.400000000000006,Oceanian
-t-boult-1,Trent Boult,NZL,FAST,10,1989-07-22,1989,33.3,183.0,True,ESPN_verified,177.6,,Left-arm fast bowler,t20-2022,T20,2022,4,5.400000000000006,Oceanian
+t-boult-1,Trent Boult,NZL,FAST,10,1989-07-22,1989,33.3,180.0,True,multi_source_verified,177.6,,"Left-arm fast bowler; VERIFIED: Corrected from 183; sources: Wikipedia 180cm, StarsUnfolded 180cm (5'11"")",t20-2022,T20,2022,4,2.4000000000000057,Oceanian
 l-ferguson-1,Lockie Ferguson,NZL,FAST,11,1991-06-13,1991,31.4,183.0,True,ESPN_verified,177.7,,Right-arm fast bowler; express pace,t20-2022,T20,2022,4,5.300000000000011,Oceanian
 p-nissanka-1,Pathum Nissanka,SL,BAT,1,1998-12-18,1998,23.8,173.0,True,ESPN_verified,166.8,,,t20-2022,T20,2022,4,6.199999999999989,South Asian
 k-mendis-1,Kusal Mendis,SL,WK,2,1995-02-02,1995,27.7,175.0,True,ESPN_verified,166.5,,Wicketkeeper-batsman,t20-2022,T20,2022,4,8.5,South Asian
@@ -1803,7 +1803,7 @@ k-rabada-1,Kagiso Rabada,RSA,FAST,8,1995-05-25,1995,27.4,185.0,True,ESPN_verifie
 a-nortje-1,Anrich Nortje,RSA,FAST,9,1993-11-16,1993,28.9,185.0,True,ESPN_verified,172.3,,Right-arm fast; express pace,t20-2022,T20,2022,4,12.699999999999989,African
 l-ngidi-1,Lungi Ngidi,RSA,FAST,10,1996-03-29,1996,26.6,191.0,True,ESPN_verified,172.4,,Right-arm fast bowler; tall,t20-2022,T20,2022,4,18.599999999999994,African
 t-shamsi-1,Tabraiz Shamsi,RSA,SPIN,11,1990-02-18,1990,32.7,185.0,True,ESPN_verified,172.1,,Left-arm chinaman,t20-2022,T20,2022,4,12.900000000000006,African
-r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,37.1,177.0,True,ESPN_verified,166.8,,Captain; aggressive opener; retired from T20Is after winning the tournament,t20-2024,T20,2024,4,10.199999999999989,South Asian
+r-sharma-1,Rohit Sharma,IND,BAT,1,1987-04-30,1987,37.1,175.0,True,multi_source_verified,166.8,,"Captain; aggressive opener; retired from T20Is after winning the tournament; VERIFIED: Corrected from 177; sources: Wikipedia 174cm, ESPN 175cm, Sportskeeda 175cm (5'9"")",t20-2024,T20,2024,4,8.199999999999989,South Asian
 v-kohli-1,Virat Kohli,IND,BAT,2,1988-11-05,1988,35.6,175.0,True,ESPN_verified,166.9,,Player of the Match in final (76 off 59); retired from T20Is after tournament,t20-2024,T20,2024,4,8.099999999999994,South Asian
 r-pant-1,Rishabh Pant,IND,WK,3,1997-10-04,1997,26.7,170.0,True,ESPN_verified,167.4,,Wicketkeeper; left-handed; comeback after car accident,t20-2024,T20,2024,4,2.5999999999999943,South Asian
 s-yadav-1,Suryakumar Yadav,IND,BAT,4,1990-09-14,1990,33.7,175.0,True,ESPN_verified,167.0,,360-degree stroke-maker; iconic catch in final to dismiss David Miller,t20-2024,T20,2024,4,8.0,South Asian
@@ -1815,9 +1815,9 @@ k-yadav-1,Kuldeep Yadav,IND,SPIN,9,1994-12-14,1994,29.5,168.0,True,ESPN_verified
 a-singh-1,Arshdeep Singh,IND,FAST,10,1999-02-05,1999,25.3,188.0,True,ESPN_verified,167.5,,Left-arm fast-medium; leading wicket-taker for India in the tournament,t20-2024,T20,2024,4,20.5,South Asian
 j-bumrah-1,Jasprit Bumrah,IND,FAST,11,1993-12-06,1993,30.5,178.0,True,ESPN_verified,167.1,,Right-arm fast; Player of the Tournament; unorthodox action,t20-2024,T20,2024,4,10.900000000000006,South Asian
 d-warner-1,David Warner,AUS,BAT,1,1986-10-27,1986,37.6,170.0,True,ESPN_verified,178.2,,Final international tournament; aggressive opener,t20-2024,T20,2024,4,-8.199999999999989,Oceanian
-t-head-1,Travis Head,AUS,BAT,2,1993-12-29,1993,30.4,178.0,False,estimated,178.5,HEIGHT_CONFLICTING,Left-handed; sources report heights ranging from 173-183 cm; using 178 cm as median estimate,t20-2024,T20,2024,4,-0.5,Oceanian
-m-marsh-1,Mitchell Marsh,AUS,BAT,3,1991-10-20,1991,32.6,196.0,True,ESPN_verified,178.4,CATEGORY_AMBIGUOUS,Captain; all-rounder; bowls fast-medium; bats #3 so classified BAT,t20-2024,T20,2024,4,17.599999999999994,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,35.6,180.0,True,ESPN_verified,178.3,,Power hitter; part-time off-spin,t20-2024,T20,2024,4,1.6999999999999886,Oceanian
+t-head-1,Travis Head,AUS,BAT,2,1993-12-29,1993,30.4,179.0,False,multi_source_verified,178.5,HEIGHT_CONFLICTING,"Left-handed; sources report heights ranging from 173-183 cm; using 178 cm as median estimate; VERIFIED: Corrected from 182; sources: cricket.com.au 179cm, SportsUnfold 179cm (5'10"")",t20-2024,T20,2024,4,0.5,Oceanian
+m-marsh-1,Mitchell Marsh,AUS,BAT,3,1991-10-20,1991,32.6,193.0,True,multi_source_verified,178.4,CATEGORY_AMBIGUOUS,"Captain; all-rounder; bowls fast-medium; bats #3 so classified BAT; VERIFIED: Corrected from 195; sources: Wikipedia 193cm, SportsYaari 193cm (6'4"")",t20-2024,T20,2024,4,14.599999999999994,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,35.6,182.0,True,multi_source_verified,178.3,,"Power hitter; part-time off-spin; VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",t20-2024,T20,2024,4,3.6999999999999886,Oceanian
 m-stoinis-1,Marcus Stoinis,AUS,BAT,5,1989-08-16,1989,34.8,188.0,True,ESPN_verified,178.3,CATEGORY_AMBIGUOUS,All-rounder; bowls medium-fast; bats #5 so classified BAT,t20-2024,T20,2024,4,9.699999999999989,Oceanian
 t-david-1,Tim David,AUS,BAT,6,1996-03-16,1996,28.2,196.0,True,ESPN_verified,178.5,,Power hitter; born in Singapore,t20-2024,T20,2024,4,17.5,Oceanian
 j-inglis-1,Josh Inglis,AUS,WK,7,1995-03-04,1995,29.2,178.0,True,ESPN_verified,178.5,,Wicketkeeper; born in England; replaced Matthew Wade as first-choice keeper,t20-2024,T20,2024,4,-0.5,Oceanian
@@ -1842,7 +1842,7 @@ f-zaman-1,Fakhar Zaman,PAK,BAT,3,1990-04-10,1990,34.1,180.0,True,ESPN_verified,1
 s-khan-1,Shadab Khan,PAK,BAT,4,1998-10-04,1998,25.6,175.0,True,ESPN_verified,167.8,CATEGORY_AMBIGUOUS,All-rounder; leg-spinner; batted in top order (#4) in 2024 so classified BAT,t20-2024,T20,2024,4,7.199999999999989,South Asian
 i-ahmed-1,Iftikhar Ahmed,PAK,BAT,5,1990-09-03,1990,33.7,183.0,True,ESPN_verified,167.5,,Power hitter; part-time off-spin,t20-2024,T20,2024,4,15.5,South Asian
 i-wasim-1,Imad Wasim,PAK,BAT,6,1988-12-18,1988,35.5,185.0,True,ESPN_verified,167.4,CATEGORY_AMBIGUOUS,All-rounder; left-arm orthodox spin; bats #6 so classified BAT,t20-2024,T20,2024,4,17.599999999999994,South Asian
-s-afridi-2,Shaheen Shah Afridi,PAK,FAST,7,2000-04-06,2000,24.1,196.0,True,ESPN_verified,168.0,,Left-arm fast; tall strike bowler,t20-2024,T20,2024,4,28.0,South Asian
+s-afridi-2,Shaheen Shah Afridi,PAK,FAST,7,2000-04-06,2000,24.1,198.0,True,multi_source_verified,168.0,,"Left-arm fast; tall strike bowler; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, StarsUnfolded 198cm (6'6"")",t20-2024,T20,2024,4,30.0,South Asian
 n-shah-1,Naseem Shah,PAK,FAST,8,2003-02-15,2003,21.3,188.0,True,ESPN_verified,168.0,,Right-arm fast bowler; express pace,t20-2024,T20,2024,4,20.0,South Asian
 m-amir-1,Mohammad Amir,PAK,FAST,9,1992-04-13,1992,32.1,188.0,True,ESPN_verified,167.5,,Left-arm fast; recalled to squad after retirement reversal,t20-2024,T20,2024,4,20.5,South Asian
 h-rauf-1,Haris Rauf,PAK,FAST,10,1993-11-07,1993,30.5,185.0,True,ESPN_verified,167.6,,Right-arm fast bowler; express pace; returned from shoulder injury,t20-2024,T20,2024,4,17.400000000000006,South Asian
@@ -1860,14 +1860,14 @@ a-joseph-1,Alzarri Joseph,WI,FAST,10,1996-11-20,1996,27.5,191.0,True,ESPN_verifi
 g-motie-1,Gudakesh Motie,WI,SPIN,11,1996-04-20,1996,28.1,180.0,False,estimated,174.4,HEIGHT_ESTIMATED,Left-arm orthodox spin; height estimated from photos (sources vary 178-180 cm),t20-2024,T20,2024,4,5.599999999999994,Caribbean
 f-allen-1,Finn Allen,NZL,BAT,1,1999-04-14,1999,25.1,185.0,True,ESPN_verified,177.8,,Aggressive right-handed opener,t20-2024,T20,2024,4,7.199999999999989,Oceanian
 d-conway-1,Devon Conway,NZL,WK,2,1991-07-08,1991,32.9,178.0,True,ESPN_verified,177.7,,Wicketkeeper-batsman; left-handed; born in South Africa,t20-2024,T20,2024,4,0.30000000000001137,Oceanian
-k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,33.8,180.0,True,ESPN_verified,177.7,,Captain; sixth T20 World Cup,t20-2024,T20,2024,4,2.3000000000000114,Oceanian
+k-williamson-1,Kane Williamson,NZL,BAT,3,1990-08-08,1990,33.8,173.0,True,multi_source_verified,177.7,HEIGHT_CONFLICTING,"Captain; sixth T20 World Cup; VERIFIED: Corrected from 176/180; sources: Wikipedia 173cm, IPL 173cm (5'8"")",t20-2024,T20,2024,4,-4.699999999999989,Oceanian
 g-phillips-1,Glenn Phillips,NZL,BAT,4,1996-12-06,1996,27.5,180.0,True,ESPN_verified,177.8,,Power hitter; part-time off-spin,t20-2024,T20,2024,4,2.1999999999999886,Oceanian
 d-mitchell-1,Daryl Mitchell,NZL,BAT,5,1991-05-20,1991,33.0,183.0,True,ESPN_verified,177.7,,Right-handed batsman,t20-2024,T20,2024,4,5.300000000000011,Oceanian
 r-ravindra-1,Rachin Ravindra,NZL,BAT,6,1999-11-18,1999,24.5,178.0,True,ESPN_verified,177.8,CATEGORY_AMBIGUOUS,All-rounder; left-arm orthodox spin; bats #6 so classified BAT; T20 WC debut,t20-2024,T20,2024,4,0.19999999999998863,Oceanian
 m-santner-1,Mitchell Santner,NZL,SPIN,7,1992-02-05,1992,32.3,180.0,True,ESPN_verified,177.7,,Left-arm orthodox spin,t20-2024,T20,2024,4,2.3000000000000114,Oceanian
 m-bracewell-1,Michael Bracewell,NZL,SPIN,8,1990-12-25,1990,33.4,180.0,False,estimated,177.7,HEIGHT_CONFLICTING,Off-spin; all-rounder; sources report heights from 175-185 cm; using 180 cm as median,t20-2024,T20,2024,4,2.3000000000000114,Oceanian
 t-southee-1,Tim Southee,NZL,FAST,9,1988-12-11,1988,35.5,191.0,True,ESPN_verified,177.6,,Right-arm fast-medium,t20-2024,T20,2024,4,13.400000000000006,Oceanian
-t-boult-1,Trent Boult,NZL,FAST,10,1989-07-22,1989,34.9,183.0,True,ESPN_verified,177.6,,Left-arm fast bowler,t20-2024,T20,2024,4,5.400000000000006,Oceanian
+t-boult-1,Trent Boult,NZL,FAST,10,1989-07-22,1989,34.9,180.0,True,multi_source_verified,177.6,,"Left-arm fast bowler; VERIFIED: Corrected from 183; sources: Wikipedia 180cm, StarsUnfolded 180cm (5'11"")",t20-2024,T20,2024,4,2.4000000000000057,Oceanian
 l-ferguson-1,Lockie Ferguson,NZL,FAST,11,1991-06-13,1991,32.9,183.0,True,ESPN_verified,177.7,,Right-arm fast bowler; express pace,t20-2024,T20,2024,4,5.300000000000011,Oceanian
 p-nissanka-1,Pathum Nissanka,SL,BAT,1,1998-12-18,1998,25.4,173.0,True,ESPN_verified,166.8,,Right-handed opener,t20-2024,T20,2024,4,6.199999999999989,South Asian
 k-mendis-1,Kusal Mendis,SL,WK,2,1995-02-02,1995,29.3,175.0,True,ESPN_verified,166.5,,Wicketkeeper-batsman,t20-2024,T20,2024,4,8.5,South Asian
@@ -1905,8 +1905,8 @@ a-singh-1,Arshdeep Singh,IND,FAST,11,1999-02-05,1999,27.0,188.0,True,ESPN_verifi
 t-head-1,Travis Head,AUS,BAT,1,1993-12-29,1993,32.1,179.0,True,cricket.com.au,178.5,,PROJECTED; aggressive left-handed opener,t20-2026,T20,2026,4,0.5,Oceanian
 j-inglis-1,Josh Inglis,AUS,WK,2,1995-03-04,1995,30.9,175.0,False,estimated,178.5,HEIGHT_ESTIMATED,PROJECTED; wicketkeeper-batsman; born in England; height estimated ~175 cm,t20-2026,T20,2026,4,-3.5,Oceanian
 s-smith-1,Steve Smith,AUS,BAT,3,1989-06-02,1989,36.7,176.0,True,cricket.com.au,178.3,,PROJECTED; veteran; former captain; right-handed,t20-2026,T20,2026,4,-2.3000000000000114,Oceanian
-g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,37.3,180.0,True,ESPN_verified,178.3,,PROJECTED; explosive 360-degree batsman; part-time off-spin,t20-2026,T20,2026,4,1.6999999999999886,Oceanian
-m-marsh-1,Mitchell Marsh,AUS,BAT,5,1991-10-20,1991,34.3,196.0,True,ESPN_verified,178.4,CATEGORY_AMBIGUOUS,PROJECTED; captain; all-rounder; bowls medium-fast; bats top order so classified BAT,t20-2026,T20,2026,4,17.599999999999994,Oceanian
+g-maxwell-1,Glenn Maxwell,AUS,BAT,4,1988-10-14,1988,37.3,182.0,True,multi_source_verified,178.3,,"PROJECTED; explosive 360-degree batsman; part-time off-spin; VERIFIED: Corrected from 180; sources: Wikipedia 182cm, Sportskeeda 182cm (6'0"")",t20-2026,T20,2026,4,3.6999999999999886,Oceanian
+m-marsh-1,Mitchell Marsh,AUS,BAT,5,1991-10-20,1991,34.3,193.0,True,multi_source_verified,178.4,CATEGORY_AMBIGUOUS,"PROJECTED; captain; all-rounder; bowls medium-fast; bats top order so classified BAT; VERIFIED: Corrected from 195; sources: Wikipedia 193cm, SportsYaari 193cm (6'4"")",t20-2026,T20,2026,4,14.599999999999994,Oceanian
 m-stoinis-1,Marcus Stoinis,AUS,BAT,6,1989-08-16,1989,36.5,188.0,True,ESPN_verified,178.3,CATEGORY_AMBIGUOUS,PROJECTED; all-rounder; bowls medium-fast; bats #6 so classified BAT,t20-2026,T20,2026,4,9.699999999999989,Oceanian
 c-green-1,Cameron Green,AUS,FAST,7,1999-06-03,1999,26.7,198.0,True,cricket.com.au,178.6,CATEGORY_AMBIGUOUS,PROJECTED; all-rounder; bowls fast-medium; bats #7 so classified FAST,t20-2026,T20,2026,4,19.400000000000006,Oceanian
 a-zampa-1,Adam Zampa,AUS,SPIN,8,1992-03-31,1992,33.9,180.0,True,ESPN_verified,178.4,,PROJECTED; leg-spinner,t20-2026,T20,2026,4,1.5999999999999943,Oceanian
@@ -1932,7 +1932,7 @@ s-farhan-1,Sahibzada Farhan,PAK,BAT,5,1996-03-06,1996,29.9,178.0,True,ESPN_verif
 k-nafay-1,Khawaja Mohammad Nafay,PAK,WK,6,2002-02-13,2002,24.0,175.0,False,estimated,168.0,HEIGHT_ESTIMATED,PROJECTED; wicketkeeper-batsman; height estimated from photos; young keeper,t20-2026,T20,2026,4,7.0,South Asian
 s-khan-1,Shadab Khan,PAK,SPIN,7,1998-10-04,1998,27.3,175.0,True,ESPN_verified,167.8,CATEGORY_AMBIGUOUS,PROJECTED; all-rounder; leg-spinner; bats #7 so classified SPIN,t20-2026,T20,2026,4,7.199999999999989,South Asian
 m-nawaz-1,Mohammad Nawaz,PAK,SPIN,8,1994-03-21,1994,31.9,180.0,True,ESPN_verified,167.6,,PROJECTED; left-arm orthodox spin; handy lower-order bat,t20-2026,T20,2026,4,12.400000000000006,South Asian
-s-afridi-2,Shaheen Shah Afridi,PAK,FAST,9,2000-04-06,2000,25.8,196.0,True,ESPN_verified,168.0,,PROJECTED; left-arm fast; express pace; leading pacer,t20-2026,T20,2026,4,28.0,South Asian
+s-afridi-2,Shaheen Shah Afridi,PAK,FAST,9,2000-04-06,2000,25.8,198.0,True,multi_source_verified,168.0,,"PROJECTED; left-arm fast; express pace; leading pacer; VERIFIED: Corrected from 196; sources: Wikipedia 198cm, StarsUnfolded 198cm (6'6"")",t20-2026,T20,2026,4,30.0,South Asian
 n-shah-1,Naseem Shah,PAK,FAST,10,2003-02-15,2003,23.0,188.0,True,ESPN_verified,168.0,,PROJECTED; right-arm fast bowler; express pace,t20-2026,T20,2026,4,20.0,South Asian
 h-rauf-1,Haris Rauf,PAK,FAST,11,1993-11-07,1993,32.3,185.0,True,ESPN_verified,167.6,,PROJECTED; right-arm fast bowler; express pace; not in announced squad but projected as likely inclusion,t20-2026,T20,2026,4,17.400000000000006,South Asian
 j-charles-1,Johnson Charles,WI,BAT,1,1989-01-14,1989,37.1,179.0,True,ESPN_verified,174.0,,PROJECTED; explosive opener; veteran,t20-2026,T20,2026,4,5.0,Caribbean
